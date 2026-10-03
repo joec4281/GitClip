@@ -1,1 +1,49 @@
-zoom150.btm
+@SETLOCAL
+@ECHO OFF
+::    File: zoom150.btm
+:: Created: 2024-07-19
+::   _4ver: 32.10
+:: _winver: 10.0
+iff 1 eq 1 then
+	iff %_admin eq 1 then
+		iff %_elevated eq 1 then
+		:: NEXT SENTENCE
+	else
+		echo Note that this .BTM was tested on a 64-bit version of Windows,
+		echo as Administrator,
+		echo from an elevated process.
+		echo.
+		echo You are running the following;
+		echo      _x64: 1
+		echo    _admin: 1
+		echo _elevated: 1
+		pause
+		endiff
+	endiff
+endiff
+alias dly=`delay /m 62`
+start "test" msedge.exe
+::echo %_startpid
+delay 1
+::activate "New tab*"
+delay 5
+keystack "edge://settings/?search=zoom" enter
+delay 5
+
+:: Changed to 13 (was 15) on 2024-07-21
+:: Changed to 16 (was 13) on 2024-10-20
+do kount=1 to 16
+  gosub dlyTab
+enddo
+
+dly
+
+keystack down down down
+delay 1
+ENDLOCAL
+quit
+
+:dlyTab
+keystack tab
+dly
+Return
