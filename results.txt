@@ -1,5641 +1,8582 @@
-Please provide a data diagram of the 16-bit DOS dbase.exe 
-
-file dbase.exe
-dbase.exe: MS-DOS executable, MZ for MS-DOS
-
-dir /kvm dbase.exe dbase.ovl dbaseinl.ovl
-1987-05-11   8:27         133,632  DBASE.EXE
-1986-07-24  13:00         266,240  DBASE.OVL
-1986-07-29  13:00          27,648  DBASEINL.OVL
-
->r:\mzinfo.py dbase.exe
-bytes_in_last_block       0x00C7 (199)
-blocks_in_file            0x0105 (261)
-relocations               0x0AD5 (2773)
-header_paragraphs         0x02C0 (704)
-min_extra_paragraphs      0x0B0F (2831)
-max_extra_paragraphs      0xFFFF (65535)
-initial_SS                0x1D0F (7439)
-initial_SP                0x0055 (85)
-checksum                  0xC0DF (49375)
-initial_IP                0x02FA (762)
-initial_CS                0x1D7F (7551)
-relocation_offset         0x001C (28)
-overlay_number            0x0000 (0)
-
-Code/data start offset: 11264
-Relocation table: offset 28, 2773 entries
-
-Neither DBASE.OVL or DBASEINL.OVL do not contain MZ
-
-strings -a -n 3 dbase.exe
-
-< n
-M n
-l n
-8!n
-Y!n
-f!n
-N"n
-j#n
-q#n
-w#n
-0$n
-G$n
-L$n
-!%n
-.%n
-P%n
-}%n
-'&n
-=&n
-K&n
-\&n
-* /
-3 /
-> /
-F /
-Q /
-\ /
-g /
-l /
-~ /
-*!/
->!/
-:"/
-Q"/
-p"/
-|"/
-}#/
-H$/
-R$/
-W$/
-s$/
-)%/
-o%/
-1&/
-;&/
-X&/
-*(/
-<(/
-F(/
-K(/
-X(/
-](/
-h(/
-q(/
-\*/
-*,/
-/,/
-u,/
-z,/
-\-/
-&//
-u//
-90/
-C0/
-H0/
-T0/
-Y0/
-`0/
-j0/
-o0/
-'1/
-,1/
-C1/
-M1/
-R1/
-^1/
-h1/
-m1/
-%2/
-/2/
-42/
-J2/
-R2/
-W2/
-m2/
-w2/
-|2/
-f3/
-t3/
-.4/
-v4/
-B5/
-o7/
-?8/
-+9/
-59/
-:9/
-J9/
-O9/
-p9/
-c:/
-w:/
-|:/
-K;/
-% C
-@ C
-&!C
-<!C
-}#C
-8$C
-a$C
-{$C
-'%C
-5%C
-:%C
-R%C
-_%C
-w%C
-='C
-d(C
-;)C
-9*C
-J*C
-O*C
-u*C
-$+C
-<+C
-h+C
-},C
-Reggib  Egabrag aera
-.4j
-}$.
-*u,
-jO*
-jO*
-4j]
-<;r
-<Es
-<Ts
-<sr
-<xr
-j< s
-Pr%
->4j
-CGG
->4j
-it?
-4ju
-}t.
-tZ&
-jO*
-jO*
-.4j]
-u4P
-t&X
-X$w
-_PW
->4j
-ACGG
->4j
-6^y&
-YY#
-6`y
-6^y
-YYRP
-6Zy&
-6Zy&
-6Zy
-6Zy
-6Zy
-6Zy
-6Zy
-6Zy
-6Zy
-6Zy
-6Zy&
-dp;
-\yu8
-bp;
-Zyu.
-6Zy&
-6Zy&
-YY]
-6Zy&
-YY]
-Zy&
-6Zy&
-6Zy
-6Zy
-6Zy
-6Zy
-6Zy&
-6Zy&
-YY]
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-t.<.t**
-<:u
-}!<.t
-6\y
-6Zy
-6Zy
-6Zy
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-PS&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-RP&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6^y&
-<,u
-6^m
-`m#
-|HP
- u0
-6^y&
-< u
-6^y&
-<-u
-6^y&
-<+t
-6^y&
-t9+
-6^y
-^y&
->\m
-YY]
-< u
-<;u
-Y@u
-Zm+
-\mt
-6Vm
-@uc
-6^y&
-Zm]
-Xm]
-tP*
-<_u
-Tm]
-t8<*u
-<?t
-< t!*
-`y+
-YY;F
-< t;:F
-t6"
->em
->fm
-< t
-< t
-PPP
-YY@u
- t*
-im*
-im*
->Tj
-lm]
-Tj=
-pm]
-YY;F
-RP&
-u7P
-< r
-tI+
-SQRP
-tO&
-t<+
->Tj
-tm*
-&;G
-<A|8<[|
-<a|0<{s,, FA;N
-<0|
-<:|
-<A|
-<[|
-<a|
-<{s
-<_t
-Y[XPSQ=A
-Y[XPSQ=A
-Y[XPSQ=a
-Y[XPSQ=0
-Y[XPSQ=a
-Y[XPSQ=A
-HHP
-`y+
-YY+
-6^y&
-<*t
-6`y
-6^y
-6^y
-^y&
-6^y
-^y&
-6Zy&
-6Zy&
-\yu/
-Zyu&
-6Zy&
-6Zy&
-rz#
-6`y
-6^y
-6`y
-6^y
-rz#
-rz#
-rz#
-6^y&
-YY#
-6^y
-^y&
-<=u 
->\m
-rz#
-6^y&
-<*u
-6`y
-6^y
-?&u
-YY#
-^y+F
-6^y&
-<.u
-6^y
-`y+
->rz
-rz#
-t*;
-tzt
-rz#
-6^y&
-YY#
-rz#
-rz;
->tz
-QRP
-`y+
->rz
-6jm
-6hm
-tzt
-rzP
-6^y&:
-YY#
-6^y&
-<,uc
-rzYY#
-6rz
-6rz
-6^y&
-tzu
-6^y
-^y6
-6^y
-^y&
-6^y
-^y&
-nzRP
-lm#
-nmh
-lm<
-nmh
-hz 
-jz`
-t#&
-6^y
-^y&
-6^y+
-YY#
-6rz
-6^y&
-rz#
-H|"
-rz#
-tPQR
-YY#
->rz
-6^y&
-6rz
-tzt
->rz
-YY#
->rz
-rz=
-tzt
-hz 
-jz`
-lm#
-nmh
-lm<
-nmh
-rz#
-6nz
-6lz
-6jm
-6hm
-6nz
-6lz
-nzRP
-rzP
-rzR
-pzP
-rz#
-rz#
-YY+
-rz#
->dz
-6^y&
-<*u
-YY+
-|H}
-^y+
-YY@~-
-rz#
-YY#
-6^y&
-6^y&
-6`y
-6^y
-6^y&
-<Wu
-6^y
-6pz
-pz@
-6`y
-6^y
-6^y&
-<?u
-6^y&
-MuD
-6^y&
-@@&
-&+D
-v$&
-<@u
-Y=:
-6^y&
-6^y&
-6^y&
-<$uA
-6^y&
-6^y
-^y&
-@uK
-6^y
-6Zy&
-YY#
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6^y&
-<!u
-^y+
-6`y
-6^y
-HP+
-YY=
-6^y&
-6^y&
-YY#
-tDRP
-6^y&
->pm
->\m
-6^y&
-`y+
-6^y&
-<?u
-YY#
-YY+
-6^y&
-6^y&
-6^y&
-uQ+
-6^y&
-6`y
-6^y
-6^y&
-YY]
-6Zy
-rz#
-uk+
-6nz
-6lz
-6^y&
-6^y&
-6^y&
-6^y&
-6`y
-6^y
-\yu
-;6Zyt
-6Zy
-YY]
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6^y&
-6^y&
-6^y&
-tGRP
-6Zy&
-YY#
-6Zy&
-6Zy&
-6Zy&
-YY#
-6^y&
-6Zy&
-6Zy&
-6^y&
-6Zy&
-6Zy&
-6Zy&
-Nu 
-tJRP
-YY#
-6Zy&
-YY#
-6Zy&
-6^y&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-YY]
-YY#
-6^y&
-YY#
-6^y&
-6^y&
-tQ*
-6^y&
-6^y&
-tL&
-6^y&
-YY#
-6^y&
-YY#
-6^y&
-tQ*
-6^y&
-6^y&
-tX&
-uQ&
-rz|E
-6^y&
-YY#
-YY#
-6^y&
-6^y&
-YY#
-6^y&
-6^y&
-6`y
-6^y
-6^y
-^y&
-6^y&
-6^y&
-6^y&
-<?u
->ix
-6^y&
-Y<Ar
-6^y&
-<?u
-6Zy
-6^y&
-6^y&
-<?u
-6^y&
-<?u$
-YY#
-6^y&
-6Zy&
-~b=
-Zy&
-tM&
-6Zy&
-6`y
-6^y
-6^y&
-6`y
-6^y
-YY==
-6`y
-6^y
-6^y&
-<?u!
-6^y&
-6^y&
-<?u
-Ct+
-Nu3
-@~B
-6^y&
-6^y&
-6^y&
-6^y&
-6^y&
-&;@
-Y<Ar
-<Ks
-6Zy&
-<*u
-6Zy&
-6`y
-6^y
-6Zy&
-QRP
-6Zy&
-YY#
-YY#
-6^y
-K}]
-<:u
-<.u)&
-<.t
-6Zy&
-@~*
-6Zy&
-6Zy
-6Zy
-6Zy&
-@~G
-KtQ
-6Zy&
-6Zy&
-6Zy&
-Y=r
-Zy&
-6Zy
-6Zy
-6Zy
-Zy&
-6Zy&
-Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-YY#
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-YY#
-6Zy&
-6Zy
-6Zy&
-6Zy&
-6Zy&
-6Zy
-\y&
-6Zy&
-YY#
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-tM+
-Zy&
-&;G
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-tkRP
-6Zy&
-6Zy&
-6Zy&
-&;T
-&;D
-6Zy&
-6Zy&
-QRP
-6Zy&
-6Zy&
-6Zy&
-u*#
-6Zy&
-QRP
-6Zy&
-6Zy&
-tARP
-QRP
-6Zy&
-6Zy&
-6Zy&
-6^y
-6Zy&
-6Zy&
-&;T
-&;D
-6Zy&
-6Zy&
-6Zy&
-Zy&
-&;G
-Zy&
-Ct6
-Nu[
-Zy&
-PW&
-Zy&
-PW&
-Zy&
-6Zy&;T
-6Zy
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-Zy&
-&;G
-t(P
-6Zy&
-6^y
-Zy&
-6Zy
-6Zy&
-6Zy&
-\y+
-6Zy
-6Zy
-6Zy
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-Zy&
-6Zy&
-&;D
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-Zy&
-6Zy&
-6Zy&
-Zy&
-6Zy&
-Zy&
-6Zy&
-6Zy&
-@"&
-P$&
-@r&
-D &
-D ]
-6Zy&
-@p]
-6Zy&
-D #
-6Zy&
-6Zy&
-D &
-^y&
-?)u
-Nu2;
-t,3
--u=
-(t2
-6^y&
-<)u
-@)F
-@)F
-@)F
-@)F
-},3
-6^y&
-uS&
-6^y&
-u6+
-Lt"
-Mt%
-6^y&
-6^y&
-<.t
-6`y
-6^y
-6^y&
-6^y&
-6^y&
-<"t
-<'t
-<[t
-6^y&
-<[t
-6^y&
-^y&
-6^y&
-^y+
-6^y&
-<.t
-6^y&
-6^y
-^y&
-t=&
-6^y&
-u,&
-6^y&
-<<u.&
-6^y&
-6^y&
-<>u
-6^y&
-<*u
-6^y&
-<.u.
-6^y&
-^y+
-6^y&
-6^y
-^y&
-<?u
-6^y&
-<)t
-<,u@
-6^y&
-<)u
-8w(
-hw#
-<4uH
-u=;
-<4uW
-uL;
-NuY3
-6^y&
-<,u
-6^y&
-<)u
-6^y&
-6`y
-6^y
-6^y&
-<(u
-6^y&
-<-u
-<Mu
-YY#
-6^y&
-6`y
-6^y
-Ft&
-Nt!
-QRP
-2RP
-k2RP
-RmP
-;1RP
-< u
-@@P
-QRP
-RmS
-Mu:
-%`&x'0*
-*R+
-D,L
-%m"y"T
-,`&
-HH&
-6Zy&
-)RP
-6Zy&
-6Zy&
-6Zy&
-$RP
-~-;
-H|T
-6Zy&
-tI&
-6Zy&
-?Cus
-YY;F
-l RP
-< u
-6Zy&
-6Zy&
-?Ct
-CRP
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-YY@
-~,=
-~7;F
-}2P
-< u
-QRP
-6^y&
-3.y.
-/(0
-1t1
-0;1e2
-< t
-<;u
-@;F
-YY=
-HH&
-6-6
-6P6
-7U707
-707
-YY=
-YY#
-YY#
-<@u
-t3&
-rz| 
-rz&
-t2@P+
-<@t!&
-@P+
- P+
-rz}
-u"#
-}Z#
-YY#
-+6P
-tPRP
-+6P
-Etj
-< t
-< t
-< u
-<Nu0
-< u
-< u
-u$;6T
-< u
-< t
-< t
-;6P
-< u
-+6P
-t%:F
-(uS
-@uI
-EuB
-YYP
-<.t
-9w+
-Ltb
-Nt"
-YtX
-Y@~U
-.tK
-Nu>
-,u'
-+t)
--t$
-<@t
-< tn
-Su7
-CuH
-Nu<
-QRP
-QRP
-Nu^
- u0
-t5+
-QRP
- e"
-"G"
-<.u
-Nu%
-Mw 
-Et/
-Nu*+
-;6\
-;6P
-+6P
-r4;
-&:D
-+6P
-NuK
-.u?
-bzu
-6Zy&
-6Zy&
-PS+
-4&:
-HHP
-HH;F
-YY@
-H|$
-t RP+
-YYP+
-YYP+
-t1s
-"r;
-SQR
-t>UVWP
-ZY[
-X_^]PW
-7jY[
-ZY[
-X[YZ^_]
-9jP
-7jP
-VQ+
-< u
-6^y
-^y&
-VQRP
-VQRP
-t-*
-t"&
-&:T
-&:D
-PPPP
-$t/
-PPPP
-HHP
-<zw
-< u
-Vm+
-6Vm
-1r+*
-        Insert System Disk 2 and press ENTER, or press Ctrl-C to abort.      $U
-JJ;
-t&+
-F$<Nt
-<Ct
-<Dt
-<Lt
-<Mt
-<0u
-~$0u
-F$<0t
-4&:D
-F"u
-8 u
-BBR
->ix
-HHP
-JJR
-D"&
-HHP
-^yby
-HHP
-HHP
-YYP
-HHP
-@@P
-@@P
-}F@
-@~\
->ix
-8 u
-u!3
-D"&
-?[t
-QRP
-HP+
-HP+
-HHP
-HHP
-t,&
-YY#
-BBR
-t,&
-t,&
-tK+
-tV+
-D*&
-&;D
-D,&
-t*#
-_*&
-t,&
-D*&
-_*&
-<[u
-&+D
-PPPP
-HP+
-JJR
->rz
-PPPP
-QRP
-6Zy&;D
-6Zy&
-6Zy&
-6Zy&
-6Zy&+
-6Zy&
-6Zy&
-QRP
-HHP
-HHP
-YY]
-YY]
-t#+
-HHP
-'VR
-^y&
-??u*
-6Zy&
-YY#
-6^y&
-<?u!
-Fu"
-6^y&
-<?u4
-6^y&
-<?u4
-YYY]
-6^y&
-<?u
-6Zy&
-^yby
-6Zy&
-^yby
-6`y
-6^y
-6`y
-6^y
-6`y
-6^y
-6`y
-6^y
-6`y
-6^y
-6`y
-6^y
-6`y
-6^y
-6`y
-6^y
->ix
-t4&
-YY#
-YYP
-6^y
-< t
-6^y
-Y[XPSQ=0
-Y[XPSQ= 
-Y[XPSQ= 
-<0u
-UPSQR
-ZY[X]
->6j
-<a|
-<zw
-, &:
-FGA
-PPPPPPPPP
-<*u
-< t
-<9w\<1s5<+t
-<-t
-<.tT<0u
-<0u
-<9w-<1s
-<.t-
-<9w
-<0s
-<.u<
-!<et8
-<0u
-<9w
-<1s
-<9w
-<0s
-<+t
-<-t
-<0t
-<0t
-<9w
-<0r
-Pr!w
-At(2
-X%?
-_[^
-Pr&w
-tRw*
-Vj3
-Vj3
-v"&
-v&&
-!Ou
-wI&
-4@$E
-!Ou
-!Ou
-EN&
-r+tfE
-s>&
-N<Pw
-tN&
-<Pr#
-siG
-r3u"
-<0t)
-0 s
-!G&:
-9.u
-!Gu
-9.u
-.1GG3
-*OO&
-**&
-E+3
-00&
-!Ou
-!Gu
-s3u
-init
-TX+
-=NOuL&
-87uD&
-=u=PW
-!_X
-rY;
-&)D
-;60
-r)u
-t.;V
-u);F
-![r
-8=u
-mpyl
-UDIVL
-UMODL
-DIVL
-MODL
-REML
-@&;T
-&;D
-tA&
-&:D
-PSPS
-&:D
-&;O
-&+D
-&:G
-@~%
-C_INTS
-init_interrupts
-restore_interrupts
-< u
-\u"
-Cheap stack dump linked in => no dump.U
-compare
-&)D
-&+D
-&!D
-&#D
-?s3&
-?@r
-@~E
-H}+
-w rB;
-w0r
-tUL
-r&;.
-w rP;
-w>r
-r#u
-u.;F
-w!u
-@~N
-@~2
-H|5
-_mwdos_interface
-_mwzread
-_mwzwrite
-_mwztrunc
-fileclass
-CALLDOS
-Tj]
-Tj]
-MetaWare High C Run-time Library Copyright (C) 1983,1984,1985 Metaware Incorporated..
-DBASE.EXE
-DBASE.OVL
-DBASEINL.OVL
-At.&
-!X&
-HPQ
-[ZYXr
-Copyright (C) 1983 by Phoenix Software Associates Ltd.
-PSQRUVW
-_^]ZY[X
-VQP
-Y_A
-XY[
-==u
-< t
-<;t
-<;t
-< t
-           
-PATH
-
-strings -a -n 3 dbase.ovl
-
-f "
-f &
-f *
-f .
-f 2
-f 6
-f :
-f >
-f B
-f F
-f J
-f N
-f R
-f V
-f Z
-f ^
-f b
-f f
-f j
-f n
-f r
-f v
-f z
-f ~
-f "
-f &
-f *
-f .
-f 2
-f 6
-f :
-f >
-f B
-f F
-f J
-f N
-f R
-f V
-f Z
-f ^
-f b
-f x
-f h
-@u:
-6^y
-`y+
-e+0
-PP+
-b #
-6.F
-6,F
-6b+
-6>F
-6<F
-6b+
-PPP
-66F
-64F
-DPP
-3"#
-6b+
-62F
-60F
-F!#
-62F
-60F
-62F
-60F
-e+N
-6:F
-68F
-6b+
-PP+
-PP+
-6>F
-6<F
-6b+
-t+P
-PPP
-6>F
-6<F
-6b+
-62F
-60F
-6b+
-PPP
-6>F
-6<F
-6b+
-t-+
-PPP
-6>F
-6<F
-6b+
-JJR
-6^y
-<:t
-6^y
-6b+
-6^y
-`y&
-(>P
->`+
-6f+
->^+
-6f+
-6,?
-6b+
-6b+
-6^y
-`y&
->TF
->XF
-6^y
-`y&
-6^y
->\+
-6r+&:
-6f+
-6:?
-68?
-t(*
-YY;F
-4'&
-:@@P
-6|++
-6z+
-4&:
-HHP
-HHP
-PPPPPP
->~+
-6Zy&
-6Zy&
-YY=P
-6j+
-H;F
-6X+
->X+
-QSR
-4'&
-6^y
-6n+
-|++
-z+@PR
-6z+
-<#t
-<#u1&
-< t
-6x+
-6v+
-6b+P
-<]u
-H|)
-HHP
-6x+
-6v+
-@@P
-BBR
-6^y
-<:t
-6x+
-6v+
-6b+
-@@P
-6^y
-`y&
-CtI
-Dtd
-VRP
-<Dt
-<Cu
-Nu*P
-6x+
-6v+
-6b+
-6x+
-6v+
-6b+
-Nu0
-@@P
-t:Kt
-<:u
-0PP
-DPP
->d+Lt
-6Z+
-d+*
-6b+
-6VF
-6TF
-6FF
-6DF
-d+<Ct
-<Du
-6Z+
-d+*
-d+*
-6^y
-`y&
-d+<Ct
-<Du
-6Z+
-d+*
-d+*
-6^y
-`y&
-PPPPPP
-6b+
-6v+&
-d+&
-t<KuY
-<:u
-e+*
-PPPP
-6b+
-6JF
-6HF
-6NF
-6LF
-6f+
-6RF
-6PF
-@u"
-6f+
-6h+
-6f+
-6b+
-b++
-<.t
-<.t
-AY]
-6^F
-6\F
-HHP
-HHP
-USE
-SET FORMAT TO
-SET FILTER TO FILE
-SET CATALOG TO
-SET VIEW TO
-QUIT
-CREATE
-CREATE SCREEN
-CREATE VIEW
-CREATE QUERY
-CREATE REPORT
-CREATE LABEL
-APPEND
-EDIT
-DISPLAY
-BROWSE
-REPLACE
-DELETE
-RECALL
-PACK
-SEEK
-LOCATE
-CONTINUE
-SKIP
-GOTO
-LIST
-DISPLAY
-REPORT FORM
-LABEL FORM
-SUM
-AVERAGE
-COUNT
-INDEX ON
-SORT
-COPY TO
-MODIFY STRUCTURE
-MODIFY SCREEN
-MODIFY VIEW
-MODIFY QUERY
-MODIFY REPORT
-MODIFY LABEL
-SET DEFAULT TO
-COPY FILE
-DIR
-RENAME
-ERASE
-DISPLAY STRUCTURE
-IMPORT FROM
-EXPORT TO
-INDEX
-###########
-TO PRINT
-TO PRINT
-TO PRINT
-FIELDS
-TO PRINT
-TYPE PFS
-TYPE PFS
-.AND.
-.OR.
-CATALOG.CAT
-TOP
-BOTTOM
-RECORD
-9999999999
-PATH
-ALL
-NEXT
-9999999999
-RECORD
-9999999999
-REST
-FOR
-WHILE
-assist.hlp
-@S25
-####################
-99999999
-9999999999
-CTOD('
-WITH
-WITH
-Set Up
-Create
-Update
-Position
-Retrieve
-Organize
-Modify
-Tools
-Database file
-Format for Screen
-Query
-Catalog
-View
-Quit dBASE III PLUS
-Database file
-Format
-View
-Query
-Report
-Label
-Append
-Edit
-Display
-Browse
-Replace
-Delete
-Recall
-Pack
-Seek
-Locate
-Continue
-Skip
-Goto Record
-List
-Display
-Report
-Label
-Sum
-Average
-Count
-Index
-Sort
-Copy
-Database file
-Format
-View
-Query
-Report
-Label
-Set drive
-Copy file
-Directory
-Rename
-Erase
-List structure
-Import
-Export
-Select a database file.
-Select a screen design for updating with APPEND and EDIT.
-Select a query file to filter records in this database file.
-Select a catalog from which to choose files.
-Select a view to use.
-Finish this session of ASSIST and QUIT dBASE III PLUS.
-Create a database file structure.
-Create a screen design.
-Create a view file.
-Create a query to access specified records in this database file.
-Create a report layout.
-Create a label format.
-Add new records to the bottom of this database file.
-Edit the contents of this database file, one record at a time.
-Display the contents of this database file.
-Edit the contents of this database file, several records at a time.
-Update the individual fields of this database file.
-Mark specified records for deletion.
-Restore specified records marked for deletion.
-Permanently erase records marked for deletion.
-Search for an index key that matches the specified expression.
-Search for the first record meeting a specified condition.
-Search for next record meeting the LOCATE condition.
-Position the file pointer by skipping records.
-Move the file pointer to a specific record number.
-List the contents of this database file to the screen or printer.
-Display the contents of this database file.
-Display this database file using an existing report layout.
-Display this database file using an existing label format.
-Display the totals of the specified numeric fields.
-Display the averages of specified numeric fields.
-Display the record count of this database file.
-Create an index file to access records in a specified order.
-Create a sorted database file.
-Copy records from one database file to another.
-Change the structure of this database file.
-Change the structure of an existing screen design.
-Change the structure of an existing view file.
-Change the structure of an existing query file.
-Change the structure of an existing report layout.
-Change the structure of an existing label format.
-Change the default disk drive.
-Duplicate the contents of an existing file to create a new file.
-Display the contents of a disk directory.
-Rename an existing file.
-Remove an existing file from the disk directory.
-Display the structure of this database file.
-Import a PFS file into dBASE III PLUS.
-Export a dBASE III PLUS file to a PFS file.
-No more conditions
-Combine with .AND.
-Combine with .OR.
-.dbf
-.ndx
-.fmt
-.lbl
-.frm
-.txt
-.vue
-.qry
-.scr
-Database Files
-Index Files
-Format Files
-Label Files
-Report Files
-Text Files
-View Files
-Query Files
-Screen Files
-All Files
-Equal To
-Less Than or Equal To
-Less Than
-Greater Than
-Greater Than or Equal To
-Not Equal To
-Master
-TOP
-BOTTOM
-RECORD
-Position the file pointer to the top of the file.
-Position the file pointer to the bottom of the file.
-Position the file pointer to a specific record.
-Default scope
-ALL
-NEXT
-RECORD
-REST
-Process all records.
-Process a specified number of records beginning with the current record.
-Process a specific record.
-Process all records beginning with the current record.
-Process the default number of records.  Default for this operation is ALL.
-Process the default number of records.  Default for this operation is NEXT 1.
-Execute the command
-Specify scope
-Construct a field list
-Build a search condition
-Build a scope condition
-Perform the command displayed above the status bar.
-Select a range of records to process.
-Specify which fields to include in this retrieval.
-Specify the conditional limits of this command with a FOR clause.
-Specify the conditional limits of the scope with a WHILE clause.
-Is the file indexed? [Y/N]
-Direct the output to the printer? [Y/N]
-Do you want exclusive use of this file? [Y/N]
-Enter a numeric value:
-Enter a character string (without quotes):
-Enter a date value:
-Enter an index key expression:
-Enter an expression:
-Enter the name of the file:
-Enter a number or a numeric expression:
-Enter a date or a date expression:
-Enter a string or a character expression:
-Enter '.T.', '.F.', or a logical expression:
-Enter a new catalog name:
-Specify whether the database file is indexed or not.
-Specify whether the output is to be printed or not.
-Enter a constant for comparison.
-Create an index file to access records in a specified order.
-Specify a file name.
-Select a logical connector.
-Select a disk drive to search.
-Select a file type.
-Select a comparison operator.
-Select up to seven index files.  The first file selected is the master index.
-Select a logical operator for the FOR clause.
-Select a logical operator for the WHILE clause.
-Press any key to continue work in ASSIST.
-The HELP file is not available.
-Error in the HELP system.
-Command: 
-The index key can be any character, numeric, or
-date expression involving one or more fields in
-the database file.  It is usually a single field.
-Enter a file name (consisting of up to 8
-letters or digits) followed by a period and
-a file name extension (consisting of up to 3
-letters or digits.)
-6Zy&
-6Zy&
-6Zy&
-&;T
-&;D
-6Zy&
-<\t
-<:u
-6^y&
-QRP
-QRP
-6Zy
-&;D
-Zy&
-6Zy&
-6Zy&
-PPPP
-6Zy&
-6Zy&
-JJR
-t$+
-6Zy&
-6Zy&
-6Zy&
-HHP
-JJR
-6Zy&
-6Zy&
-6Zy&
-YY]
-HHP
-PPPP
-6Zy&
-6Zy&
-P,&
-X0*
-SQR
-6Zy&
-6Zy&
-6Zy&
-P,&
-X0*
-SQR
-6Zy&
-6Zy&
-QHPR
-HHP
-6Zy&;D
-HHP
-6Zy&
-6Zy&
-t.RP
-YY#
-6Zy&
-YY#
-}6+
-YY#
-6Zy&
-6Zy&
-tWRP
-YY#
-YY#
-6Zy&
-@Sxx
-Go to end of the file.
-Go to the beginning of the file.
-Enter number of fields on the left that are to remain stationary during a pan.
-Go to a specified record number in the file.
-Enter a single field name to edit.
-Enter a string to search for in the index file.
-Change number of columns to lock to: 
-Enter search string: 
-Enter new record number:
-Enter field name to freeze: 
-View and edit fields.
-Add new records.
-Find
- ===> Add new records? (Y/N) 
-&;D?u
-&;D=u
-&;DAu
-&;DCu
-&;DEu
-&;DGu
-@I"
-< t
-HHP
-@@P
-HHP
-&;D=
-D=H
-HHP
-8 u
-6`y
-YYP
-HHP
-HHP
-PPPPPPP
-HHP
-6^y&
-KtZ
-D?#
-err1
-Bad action
-Predefined size:
-Label width:
-Label height:
-Left margin:
-Lines between labels:
-Spaces between labels:
-Labels across page:
-Select a standard label size: (Width x Height by Number across).
-Enter the number of characters in the label width.
-Enter the number of lines in the label height.
-Enter the number of spaces for the left margin.
-Enter the number of blank lines between labels.
-Enter the number of blank spaces between labels.
-Enter the number of labels across the page.
-Label contents 1:
-Enter a field/expression list to be displayed on the indicated label line.
-Save
-Abandon
-Exit and save changes.
-Exit and do not save changes.
-Options
-Contents
-Exit
-Insufficient dynamic memory for contents window.  Press any key to continue.
-This must be a valid dBASE expression.  Press any key to continue.
-Warning -- label body is empty.
-Memo and logical fields are not allowed here.  Press any key to continue.
-Maximum print width of 250 characters exceeded.  Press any key to continue.
-3 1/2 x 15/16 by 1
-3 1/2 x 15/16 by 2
-3 1/2 x 15/16 by 3
-4 x 1 7/16 by 1
-3 2/10 x 11/12 by 3 (Cheshire)
-L!"
-L!&
-L!*
-L!.
-L!2
-L!6
-L!:
-L!>
-L!B
-L!F
-L!J
-L!N
-L!R
-L!V
-LuC
-<Tu
-< u
-Mt<
-@@P
-QRP
-A}1
-6Zy&
-6Zy&
-YY#
-|6&
-|6&
-|6&
-x6&;W
-t<&;
-u7&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&;D
-|6&
-|6&;D
-|6&
-|6&
-|6&
-|6&
-|6&
-6Zy&
-6Zy&
-MtP&
-tP&
-&;w
-RPQ
-6Zy&
-6^y&
-<@uL
-6^y&
-6`y
-6^y
-6Zy&
->bz
-&;w
-RPQ
-VRP
-Dx*
-Ty*
-Dz*
-6Zy&
-6^y&
-<@t
-~6&
-|6&
-|6&
-|6&
-x6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-|6&
-6^y&
-6`y
-6^y
-6Zy&
-6^y&
-6`y
-6^y
-6^y&
-^y&
-6Zy&
-6`y
-6^y
-6Zy&
-6Zy&
-@t>
-`y+
- t"
-6z:
-6x:
-6~:
-6|:
-6Zy&
-6z:
-6x:
- t]
-@tw
-6z:
-6x:
-6~:
-6|:
-Zy&
-6Zy&
- tK
-@tK
-6z:
-6x:
-t#+
-`y+
-6Zy&
-6Zy&
-6Zy&
-`y+
-`y+
-CuV
-< t
-< t@
-< u
-TABLE
-TUPLES
-VECTORS
-DATA
-BOT
-EOD
-LABEL
-COMMENT
-SIZE
-PERIODOCITY
-MAJORSTART
-MINORSTART
-TRUELENGTH
-UNITS
-DISPLAYUNITS
-ERROR
-TRUE
-FALSE
-0,1
-0,0
--1,0
-1,0
--1,0
-1,0
-0,1
-0,0
-ID;PDB3
-F;DG0G10
-B;Y
-TYPE 3
-TREAD
-READ
--1,0
-EOD
-W;N1;A1 1
-      0
- bytes copied
-May need to copy 
- to properly use 
-Enter destination file name for copy: 
-Enter file name to copy from: 
-Format files must be in row major order to be exported.
-Too many pages in format file.
-Too many @ commands on one page of format file.
-PFS does not allow row numbers higher than 20.
->d(
-:(u
->Z(
-u;#
-6F(
-6F(
-6F(
-6H(
->\(Y
-6J(
-6N(
->](Y
->^(Yt
-6L(
-6P(
-b(;
-Z(~
->(&
-b(;
-Z(~
->(&
-b(;
->(&
-b(;
-Z(~
->(&
-b(;
-Z(~
->(&
-h(u0
-HHP
-HHP
->\(Yu
-_($
-_($
-_($
-6H(
-}C+
-PPPP
-HHP
-HHP
->(&
-6H(+
-PPP
-6H(V
-\(3
-6J(
-6L(
-6N(
-6P(
->](Yu
->^(Yu
-6J(+
-PPP
-6L(+
-PPP
-6N(+
-PPP
-6P(+
-PPP
-6N(V
-6J(V
-6P(V
-6L(V
-6b(
-YYP
-b(}"
->(&
-n(t
-b(;
-b(;
-j(t
-R(+
-V(+
->(&+
-b(;
-Z(~
-}G+
-PPPP
-HHP
-HHP
-b(;
-j(u$
->(&
-Z(@;
-b(u
-6h5&
-6>(
-6b(
-b(}
->(&
-n(t
->f(
-b(;
-Z(~
-6>(
->f(
-6>(
-6b(
->f(
-b(;
-b(|
->(&
->f(
->b(
-HHP
-b(}
->(&
-n(t
-YYP
-HHP
-JJR
-PPPPP
-HHP
-HHP
-$tX
-B(&
-}6<;u
->f(
->l(
->f(
->J(
->L(
-6:5&
-6:5&
-6:5&
-6:5&
-6:5&
-6:5&
-6h5&
-b(;
-B(&
-VRP
-6h5&
-6h5&
-t([+
-u(;
-Z(u!
-t(&
-Z(H
-6Z(
-t(&
-Z(}Z=
->(&
-B(&
-u)3
-< t
-B(&
-B(&
-6B(&
-6B(&
-B(&
-<;u
-6>(
-6Z(
-6n(
-6^y&
-6F(
-6F(
-6F(
-PPP
-PPP
-B(&
-B(&
-B(&
-@p;F
-&)@p
-6B(&
-R(+
-X(R
-6R(+
-6V(+
-6X(
-tL<;tH
-(m)
-(w)w)w)w)w)w)w)&)r)3(
-YYP
-YYP
-Not implemented.
-Not implemented.
-Not implemented.
-NOT IMPLEMENTED.
-Int 3 error
-yyyymmdd
-Page title
-Page width (positions)
-Left margin
-Right margin
-Lines per page
-Double space report
-Page eject before printing
-Page eject after printing
-Plain page
-Enter up to four lines of text to be displayed at the top of each report page.
-Enter the number of characters in the report width.
-Enter the number of spaces for the left margin.
-Enter the number of spaces for the right margin.
-Enter the number of lines to display on each page.
-Choose whether or not to double space the report.
-Choose whether or not the printer will form-feed before the report is printed.
-Choose whether or not the printer will form-feed after the report is printed.
-Choose whether or not the report will contain page numbers and system date.
-Group on expression
-Group heading
-Summary report only
-Page eject after group
-Sub-group on expression
-Sub-group heading
-Enter a field or expression on which to break for the first level of subtotals.
-Enter text to display at the beginning of each group.
-Choose whether or not to omit detail lines.
-Choose whether or not the printer will form-feed after each group.
-Enter a field or expression on which to break for the second level of subtotals.
-Enter text to be displayed at the beginning of each sub-group.
-Contents
-Heading
-Width
-Decimal places
-Total this column
-Enter a field or expression to display in the indicated report column.
-Enter up to four lines of text to display above the indicated column.
-Enter the number of characters for the column width.
-Enter the number of decimal places to display for this column.
-Choose whether or not to total this column.
-Step to any column immediately by selecting the column expression.
-Save
-Abandon
-Exit and save changes.
-Exit and do not save changes.
-Options
-Groups
-Columns
-Locate
-Exit
-No columns defined.
-Report Format
-Exceeded report print width.  Press any key to continue.
-Invalid column number.  Press any key to continue.
-This field must contain a valid dBASE expression.  Press any key to continue.
-Can't have sub-groups without groups.  Press any key to continue.
-This string must not contain any semicolons.  Press any key to continue.
-Too many characters in REPORT.
-Excess header lines lost.
-Insert impossible.
-** WARNING ** Report form empty.
-Unknown SCEDIT() return code:  
-Can't go to a higher column.  Press any key to continue.
-Can't go to a lower column.  Press any key to continue.
-Page width too small or margins too large.  Press any key to continue.
-Report is too narrow for defined columns.  Press any key to continue.
-6^y&
-6^y&
-6^y
-^y&
-6^y&
-< t
-<:t
-6^y&
-.ta
-:t/
-6^y
-^y&
-6^y
-^y&
-6^y
-^y&
-6^y
-^y&
-t$6
->Tj
-YY+
-????????
-????????
-????????
-.DBF
-   ?
-Not a dBASE III PLUS file.
-not readable        
-dBASE 2.4 database  
- bytes remaining on drive.
- bytes in 
- files.
-Database Files    # Records    Last Update     Size
-6Zy
-<.t
-t!Hu
-6Zy
-6`y
-6^y
-6Zy&
-6~|
-6Zy&
-6Zy&
-YY+
-< t
-6^y
-`y&
-6Zy&
-6^y
-`y&
-5u@
-6^y&
-6Zy&
-QRP
-6^y
-`y&
-6~|
-QRP
->by
-6~|
-6~|
-6~|
-6Zy&
-YY#
-6Zy&
-6~|
-HHP
-YYP
-YYP
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-byY
-YY#
-DR;
-DP=
-BRP
-6Zy&
-6Zy&
->ix
-YY#
-6Zy&
-8:u
-}Y=
-8.u
-YY#
-`y+
-6\y
-6Zy
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-PS&
-t(*
-YY;F
-6`y
-6^y
-6`y
-6^y
-6^y
-`y&
-6~|
-YY#
-6~|
-6~|
-YY#
-RPP
-@;F
-< t
-CATALOG.CAT
-CATALOG.  
-PATH
-FILE_NAME
-ALIAS
-TYPE
-TITLE
-CODE
-TAG
-PATH
-Enter title for file 
-Item already exists in file catalog
-File not CATALOGed since SET CATALOG was OFF when the active database was USEd.
-Create new file catalog? (Y/N) 
-Select a REPORT form.
-Select a LABEL form.
-Select a DATABASE from the list.
-Select the Master INDEX that database order.
-Select FILE CATALOG file.
-Select FILE CATALOG file.
-Select a FORMAT file.
-Select a VIEW file.
-Select a file from the catalog.
-No report forms in catalog file for current database
-No label forms in catalog file for current database
-File catalog is empty
-No index files for current database in the file catalog
-No file catalogs in system catalog
- does not exist.  Deleted from catalog
-No format files in the catalog for the current database.
-No view files in the catalog for the current database.
-No files of the indicated type are in the catalog.
-File catalog selection menu
-Master
-Select index file(s) to be used with the chosen file.
-t2Hu
-6^y&
-6^y&
-^y&
-!uM
-u1+
-< u
-<`ul
-|B=
-QSRP
-< u
-JJR
-H;F
-_tv
-\u&
-/u 
-HHP
-< u
-< uD
-< u
-< t
-help.dbs
-Command not recognized!
-HELP text not found.  Press any key to continue.
-ENTER >
-6^y&
-<.t
-<.u
-<ar
-<jv
-<Ar
-<Jw
-`u;
-~Q)F
-D &
-D &
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-PS&
-YY]
-DJ&
-D &
-DJ&
-\ &
-t4&
-&;W
-&;G
-}I+
-D &
-&+T
-&+D
-YYY]
-&+T
-&+D
-YYY]
-D$&
-@=P
-DJ&
-DJ&
-D &
-w &
-QRP
-<:u
-< u
-<:u
-t&+
-< u
-D$&
-D$&
-QRP
-6Zy&
-6Zy&
-6Zy&
-&;D
-&;DF
-6Zy&
-6Zy&
-6Zy&
-HH&
-<~|g
-TYPE 3
-READ
- SAY 
- GET 
-FIELD
-6Zy&
-6^y&
-YY#
-YYP
-QRP
-6Zy
-\y&
-6^y&
-D?&
-DE&
-lG&
-DA&+DE
-&;D=}<
-&;D=}
-D=+
-&;D=}2
-D?&
-&;DGu
-&;D=|
-6^y&
-&;D=}:
-Label contents must be Character type.
-Total label width exceeds maximum allowable size.
-Syntax error in contents expression.
-Do you want more samples? (Y/N) 
-Y<.u
-6`y
-6^y
-<@u
-Nu]
-QRP
-priv  
-pub   
-(hidden)  
- variables defined,    
- bytes used
- variables available,  
- bytes available
-Mu=
-Mu2
-6Zy&
-6Zy&
-&+D
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-&:G
-Dt]
-Lt/
-QRP
-6Zy&
-<Mt
-<Du
-&:D
-&:D
-&:D
-C !
-E $
-E (
-E 0
-E 4
-E <
-E @
-N "
-N &
-N *
-N .
-N 2
-N 6
-N :
-N 8
-N v
-N "
-N &
-N *
-6^y&
-6|'
-6z'
-6|'
-6z'
-.u"
-<ar
-<jv-
-<Ar
-<Jv"
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy
-6Zy
-6^y
-`y&
-6Zy&
-%&:D
-6Zy&
-6Zy&
-<Mu
-6^y
-`y&
-YY#
-6^y&
-< t
-YY#
-%RP
-Nu#&
-YY#
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-PS&
-6Zy&
-6x'
-6v'
-HHP
-6Zy&
-6Zy&
-6p%
-6p%
-6p%
-6H'
-6F'+
-6j%
-PPPP
-PPPP
-PPPP
-PPPP
->r%
-YY#
-HHP
-6h%
-6h%
-HHP
-< uU
-t%H;
-p%u+
-p%#
-6f%
-Nt*
+!This program cannot be run in DOS mode.
+ukd
+tRich
+.text
+`.rdata
+@.data
+.pdata
+@.fptable
+.rsrc
+@.reloc
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+tYH
+t(H
+t(H
+t(H
+D$0
+D$0
+toH
+D$0
+t(H
+D$ 
+D$ 
+wJt@=
+t1=
 t"=
-!wK
-HHP
-YY<
-YY+
-t%HP+
-p%YY
-6X'
-6V'
-t%;
-p%~
->t%
->p%
-6p%
-l%#
-p%u
-p%;
-p%;
-t%t
-6p%
-n%H;
-p%u
-n%;
-p%=
->j%
-t%+
-p%;
-t%u
->j%
-6p%
-t<#
-YY#
-6L'
-6J'
-6P'
-6N'
-p%#
-6p%
-6l'
-6j'
-HHP
-6Zy&
->pm
-6Zy
->pm
-6Zy&
->pm
-6Zy
-6Zy&
-6Zy&
-6Zy&
-%&+G
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-QHPR
-HHP
-6&*
-6$*+
-x%IIQ
-6&*
-6$*+
-x%JJR
-6&*
-6$*
-x%JR
-x%HP
-n%}:;
-t%}4
-t%|
-QR@P
-$PS&
-6h%
-<Ct
-QRP
->t%
-p%~$
-6p%
-t%;
-p%t
-6p%
-p%@P
-6p%
-HHP
-p%;
-t%}T
-P0*
-t%;
-p%t
-6p%
->t%
-HHP
-< t
-6h%
-j%~
-6h%
-YY]
-6^y
-j%~
-6h%
-Nt#
-!PS
-6^y
->v%
-v%|
-t';
-p%t
-t%|
-t%=
->l%
-n%;
-t%t
-l%|
-n%}
-p%+
->l%
-p%;
-l%|
-p%3
-l%;F
-v%H
-n%]
-@! ANNNNNNNNN
-?   
-.DBT file cannot be opened.
-Empty structure will not be saved.
-Field type must be C, N, D, L or M.
-Field name is already in use.
-Illegal data length
-Illegal Character data length
-Illegal field type
-Illegal field name
-Illegal Decimal length
-Illegal Numeric data length
-Maximum number of fields already reached.
-Maximum record length exceeded.
-Bytes remaining:
-Database records will be APPENDED from backup fields of the same name only!!
-Database records will be COPIED from backup for all fields.
-Fields defined: 
-Enter field number: 
-Go to a specific field name in the file structure.
-Go to the last field in the file structure.
-Go to the first field in the file structure.
-Go to a specific field number in the file structure.
-Please wait ...
-Press SPACE to change the field type.
-Toggle cursor menu.
--- detected on field 
-Enter the name of the new file: 
-Enter the field name.
-Enter the field width.
-Enter the number of decimal places.
-Should data be COPIED from backup for all fields? (Y/N) 
-Field Name  Type     Width  Dec
-Field: 
-Field names begin with a letter and may contain letters, digits and underscores
-Types are Character, Numeric, Date, Logical or Memo.
-Decimal widths are 0 to 15 and must be at least 2 less than the field width.
-Character fields are 1 to 254 positions wide.
-Numeric fields are 1 to 19 digits wide, including the decimal point and sign.
-Character fields contain character information of a specified length.
-Date fields have the form mm/dd/yy unless otherwise specified.
-Logical fields have a value of either T or F.
-Memo fields contain character information of varying lengths.
-Numeric fields contain signed numbers that may be either integer or decimal.
-CharacterNumeric  Date     Logical  Memo     
-YY=
-\+&
-w/&
-6Y#
-3Y]
-6Zy&
-<<tW
-6Zy
-&;T;u
-&;D9t,
-t;&
-D=&
-t?&
-ua&
-DE&
-tU&
-DA&
-tI&
-tC&
-tG&
-YY]
-YY]
-t+3
-D5;F
-D7;F
-D+&
-HHP
-uD3
-NN3
-D+&
-D+&
-T-&
-t/&
-D+&
-D/&
-D/&
-T1&
-t+&
-D/&
-D=&
-t?&
-D9&
-T;#
-Y=S
-D9&
-D9&
-D9&
-t:*
-Y=S
-6Zy&
-6Zy&
-6Zy&
-t&&
-6Zy&
-6Zy&
->pm
-6Zy
->pm
-6Zy&
->pm
-6Zy
-6Zy&
-6Zy&
- &+G
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy
-<:t
-<\u
-t?*
-YY;F
-<0r
-<9w
-<[t2
-?[t
-R@@P
-?[t*
-6Zy&
-Zy&
-&:D
-&:D
-&:D
-YY]
-HHP
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-  FUNCTION 
-  PICTURE 
-  RANGE 
-CTOD('
-xxxxxxxx 
-FindFld Failure -- Field not in list
-Sxx
-<NewField>
-Enter screen file name:
-Character
-Numeric
-Date
-Logical
-Memo
-Width
-Decimal
-Type
-Field
-Screen field definition blackboard
-Set Up
-Modify
-Options
-Exit
-Select database, screen page, environmental options or load fields.
-Select database field or memory screen variable to edit.
-Specify screen generation options.
-Save screen file or quit without any save.
-Select a database file to use in defining screen format.
-Create a new database file while defining screen format.
-Select fields to load onto the blackboard.
-Toggle between Edit/GET and Display/SAY.
-Enter a field to place on the screen.
-Choose a data type for this field.
-Enter the width for this field.
-Enter the number of decimal places for this field.
-Enter a picture function for editing or displaying this field.
-Enter a picture template for editing or displaying this field.
-Enter the maximum and minimum values allowed for this field.
-Generate a text file image of the blackboard.
-Draw a single line window or line on the blackboard
-Draw a double line window or line on the blackboard
-Exit and save changes.
-Exit and do not save changes.
- Picture value:
- Function value:
-Enter name for new Database file:
-Enter name for new Database field:
-  Press any key to continue.
-Field name already in use.
-Maximum number of fields already reached.
-Do you wish to also delete field from database? [Y/N]
-No fields are available.
-Character Display Symbols
- A    Any character
- L    Any character
- N    Any character
- X    Any character
- Y    Any character
- #    Any character
- 9    Any character
- !    Convert to uppercase
-other Overwrite data unless
-      @R function is used
-Character Input Symbols
- A    Any alpha character
- L    Allow T, F, Y, or N
- N    Alpha and digits
- X    Any character
- Y    Allow Y, or N
- #    Allow digits, spaces,
-      signs, and periods
- 9    Allow digits and signs
- !    Convert to uppercase
-other Overwrite data unless
-      @R function is used
-Number Display Symbols
- 9    Any digits and signs
- #    Any digits, spaces,
-      and signs
- $    Display instead of
-      leading zero
- *    Display instead of
-      leading zero
- .    Specify decimal point
-      location
- ,    Display if number is
-      large enough
-other Inserted into display
-Number Input Symbols
- 9    Any digits and signs
- #    Any digits, spaces and
-      signs
- .    Specify decimal point
-      location
- ,    Display if number is
-      large enough
-other Inserted into display
-Logical Display Symbols
- L    Allow T, F, Y, or N
- Y    Allow Y, or N
-Logical Input Symbols
- L    Allow T, F, Y, or N
- Y    Allow Y, or N
-other Inserted into display
-Date Display Symbols
- A    Any character
- L    Any character
- X    Any character
- #    Any character
- 9    Any character
-Date Input Symbols
- None
-Character Input Functions
-!   convert to uppercase
-A   display only alpha chars
-D   American mm/dd/yy date
-E   European dd/mm/yy date
-S   horizontal scrolling
-R   insert <other> char
-    don't overwrite it
-Character Display Functions
-!   convert to uppercase
-A   display only alpha chars
-D   American mm/dd/yy date
-E   European dd/mm/yy date
-R   insert <other> char
-    don't overwrite it
-Number Input Functions
-B   left justify value
-D   American mm/dd/yy date
-E   European dd/mm/yy date
-Z   display no value for
-    a zero value
-Number Display Functions
-(   enclose negative value
-    in parentheses
-B   left justify value
-C   display after positive
-    numbers a CR
-D   American mm/dd/yy date
-E   European dd/mm/yy date
-X   display after negative
-    numbers a DB
-Z   display no value for
-    a zero value
-Logical Functions
-R   insert <other> char
-    don't overwrite it
-Date Functions
-D   American mm/dd/yy date
-E   European dd/mm/yy date
- Select Database File
- Create New Database File
- Load Fields
- Field Name 
- Action : Display/SAY
- Action : Edit/GET
- Type   : Character
- Type   : Numeric
- Type   : Date
- Type   : Logical
- Type   : Memo
-Screen Field Definition 
- Action:  Display/SAY
- Source:             
- Content:            
- Type:             
- Width:      
- Decimal:    
-Picture Function:
-Picture Template:
-Range:
-Generate text file image
-Draw a window or line
- Single bar
- Double bar
- Save
- Abandon
-Input Range
- Lower Limit:
- Upper Limit:
-Field definitions for Screen : 
-Page  Row  Col  Data Base    Field 
-     Type
-  Width  Dec
-Content of page 
-h!,
-h!4
-h!#
-h!U
-h!^
-h!K
-h!a
-h!}
-h!a
-h!K
-h!f
-h!=
-h!*
-h!5
-h!:
-h!O
-h!T
-h!o
-h!=
-h!B
-h!R
-h!e
-h!x
-h!}
-h!.
-h!I
-h!N
-h!p
-h!6
-h!w
-h!q
-h!,
-h!C
-h!]
-h!s
-h!Z
-h!,
-h!V
-h!i
-h!~
-h!H
-h!Z
-h!m
-h!6
-h!>
-h!D
-h!X
-h!)
-h!6
-h!Y
-h!7
-h!U
-h!L
-h!a
-h!o
-h!*
-h!X
-h!8 h!
- h!
-!h!
-"h!
-"h!l"h!
-"h!
-"h!
-#h!!#h!S#h!
-#h!
-#h!
-#h!
-$h!
-$h!0$h!F$h!T$h!f$h!n$h!
-$h!
-$h!
-$h!
-$h!
-%h!
-%h!(%h!6%h!@%h!M%h!X%h!b%h!o%h!
-%h!
-%h!
-%h!
-%h!
-&h!+&h!@&h!G&h!u&h!
-&h!
-&h!
-&h!
-'h!a'h!
-'h!*(h!D(h!I(h!T(h!a(h!
-(h!
-(h!
-(h!
-(h!,)h!8)h!R)h!{)h!
-)h!:*h!
-*h!d+h!
-+h!
-+h!
-,h!/,h!J,h!U,h!h,h!v,h!
-,h!
-,h!
-,h!
-,h!
-,h!
--h!&-h!E-h!T-h!
--h!
--h!
-.h!%.h!d.h!
-.h!
-/h!'/h!5/h!K/h!
-/h!I0h!_0h!
-0h!(1h!;1h!Y1h!l1h!
-1h!
-1h!
-1h!
-6Zy&
-j5+
-< u
-6`i
-6^i
-YY+
-@u%
-YY#
->by
-RPP
-6Zy&
-b5P
-&+D3&
-z6+
-BBR
-HHP
-t;&
-D9&
-t?&
-D=&
-RPP
-Ku(
-< t
-6Zy&
-PS&
-YYY]
-\i&
->\i
-D3&
-YY]
-^yby
-^yby
-6^y&
-Y<Ar
-<Jw
-JJR
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-PS&
-< u
-<<t
-6ji
-6hi
-< u
-<<u
-PV+
-t#RP
-YY#
-D+&
-6Zy
-D7+
-D9&
-T;&
-D=&
-T?&
-DA&
-TC&
-DE&
-ZiHu!
-6Zy&
-YY+
-DA&
-TC#
-u #
-DE&
-TG#
-DA&
-DA&
-tC&
-DE&
-DE&
-tG&
-tE&
-62 
-60 
-< r
-QRP
-D+&
-6Zy&
-PPP
-QRP
-T5;
-|";
-D+&
-QRP
-D5;
-D7;
-D+&
-<Lt
-<Mt
-<Du
-D=&
-D=&
-D=&
-D=&
-t?&
-t13
-D5;
-D7;
-D+&
-t13
-D5;
-D7;
-D+&
-D5;F
-&;D7t
- *! !;!;!;!;!;!;!;!
-!*!
-D=&
-T7+
-D+&
-t"RP
-62 
-60 
-6. 
-6, 
-6* 
-6( 
-6" 
-6  
-Nu)
-6& 
-6$ 
-VRP
-D=&
-QRP
-<<u
-RPS
-%'='
-'o'
-6Zy&
-h5t
-< u
-< t
-(V)I)
-)0)5)[)
-)`)
-)x)
-)))
-)<)
-)A)
-<!r
-<]v
-<_t
-< t
-< t
-.,/P/
-&+D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-&;D
-BBR
-999
-@! ANNNNNNNNN
-@S50
-@S20
-###########
-MEMO
-Pg xx Row xx Col yy
-    
- Picture
-h!S
-h!k
-h!-
-h!7
-h!A
-h!K
-h!U
-h!_
-h!i
-h!s
-h!H
-h!d
-h!3
-h!L
-h!Q
-h!y
-h!!
-h!@
-h!M
-h!v
-6Zy&
-YYY]
-YY]
-D=&
-D9&
-DA&
-DE&
-6Zy&
-,uK
-6Zy&
-D+&
-99999999
-h!>
-h![
-h!k
-h!2
-h!E
-h!L
-h!b
-h!q
-h!M
-D+&
-< u
-h!'
-h!Q
-h!3
-h!=
-h!~
-h!9
-h!V
-h!s
-h!(
-h!L
-h!`
-h!m
-h!z
-6Zy&
-<<u
-~2+
-PPP
-6Zy&
-tb&
-<<uH
-D=&
-T?#
-D9&
-T;#
-DA&
-TC#
-DE&
-TG#
-D+&
-.dbf
-h!:
-h!R
-h!j
-h!M
-h!(
-h!;
-h!G
-h!V
-h!h
-h!O
-h!q
-h!~
-h!#
-h!,
-h!H
-h!Q
-h!k
-6Zy&
-sp&
-| <u
-D=&
-D9&
-DA&
-DE&
-D+&
-6Zy&
-YY+
-6Zy
-}C&
-< u
->v>0u
-v> 
-x>,
->z>0u
-z> 
-|> 
-READ
-GET  
-SAY  
-TO 
-  DOUBLE
-SAY 
-xx, yy  
-t1+
-6Zy&
-6^y&
-YYP
-6Zy&
-Dt*
-Mu1
-^y+V
-MuI
-6Zy&
-6Zy&
-6^y&
-Ht+
-HP+
-6^y&
-}[;F
-Memo
-Zap 
-Record#
-Enter file name to type: 
-6^y&
-^y+F
-^y+F
-6Zy&
-6Zy&
-YY&
-=90t
-6Zy
-6Zy
-6Zy&
-);F
-)u<
-6Zy&
-6Zy&
-uF+
-YY]
-6Zy&
-6Zy&
-YY]
-&:u
-60*
-6.*
-<.u
-';F
-'J}
-68*
-66*
-)RP
-'+F
-H|>
-H|>
-tp;
-H|=
-Hu#
-'}U
-YY+
-tA#
-6Zy&
-Zy&
-&;D
-PPPPP
-'}K
-u.&
-6Zy&
-Zy&
-&;D
-PPPPP
-(+F
-Huh
->Zy&
-'&+
-*}A
-u"H&
-PPPP
-)RP
->Zy&
-&;W
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-QRPS
-tX;
-tG=
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-Zy&
-6Zy&
-6Zy&
-6Zy&
-90u
-6^y&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6^y
-6Zy&
-Ct0
-Nu;
-6Zy&
-6Zy&
-6Zy&
-QRP
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-&uE
-6Zy&
-RP+
-.T44
-.W44
-.NDX
-Not enough disk space for INDEX.
-Records do not balance (program error).
-Too many merge steps.
- Records indexed
-% indexed
-   00% indexed
-  100% indexed     
-Zap 
-YY]
-6^y&
-SRP
-QRP
-VRP
-@;F
-QRP
-SRP
-Ct&
-Nu*
-QRP
-Ct&
-Nu*
-QRP
-QRP
-QRP
-QRP
-QRP
-uJ+
-QRP
-Pm;
-YY+
-YY#
-YY#
-YY#
-YY]
-Pm;
-Pm;
-Improper data type in sub-group expression.
-Improper data type in group expression.
-Syntax error in field expression.
-Syntax error in group expression.
-Syntax error in sub-group expression.
-No room for heading.
-Page No. 
-** Subtotal **
-* Subsubtotal *
-*** Total ***
-6^y&
-6^y&
-t,+
-6^y&
-tQ*
-6^y&
-YY;
-<9t
-PPPP
-JJR
-6^y&
-< u
-6^y&
-< t
-`y]
-HHP
-^yby
-<ru
-Zy&
-Zy&
-HHP
-4&:
-YY@@P
-6^y&
-6Zy
-6Zy&
-@u%
-6Zy&
-6Zy&
-@u2
-6Zy&
-6Zy&
-6Zy&
-OFF
-Alternate
-Bell
-Carry
-Catalog
-Century
-Confirm
-Deleted
-Delimiters
-Device
-Dohistory
-Escape
-Exact
-Fields
-Fixed
-Heading
-Help
-History
-Intensity
-Menu
-Print
-Safety
-Scoreboard
-Status
-Talk
-Title
-Unique
-Alternate
-Format
-Index
-@S20
-   x
-SCREEN
-PRINT
-        
-        
-xx  
-Options
-Screen
-Keys
-Disk
-Files
-Margin
-Decimals
-Specify the dBASE III environment options.
-Choose foreground and background color or intensity.
-Define function keys.
-Choose the default disk drive.
-Enter a list of path names to search.
-Enter a file name to use for alternate output.
-Select a format file to use for full-screen commands.
-Select up to seven index files.  First file selected is the master index.
-No file is in use.  Select a database file.
-Enter the number of spaces for the left print margin.
-Enter the number of characters to use for memo field display.
-Enter the minimum number of decimals for display.
-  Press any key to continue.
-Left report margin: 
-Memo field display width:
-Decimal places: 
-Default disk drive:   
-Disk drive search path
-Master
-Display Type
-Standard Display
-    Foreground:
-    Background:
-    Intensity:
-    Reverse:
-    Underline:
-    Blink:
-    Blank:
-Enhanced Display
-Border
-    Color:
-Foreground
-Background
-Color
-Mono
-Bright
-Dim
-Mono43
-EColor25
-EColor43
-A file name consists of up to 8 letters/digits starting with a letter.
-A disk drive letter (A-D) and a colon can precede the file name, otherwise
-current drive is used.
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-tE&
-Mu3
-6Zy&
+L$ 
+L$ 
+t$ WH
+L$03
+D$ H
+D$(
+D$(H
+tZL
+tRM
+L$(
+|$(H
+D$ 
+t}H
+D$ 
+\$`H
+t$hH
+@USVWATAUAVAWH
+l$@
+\$@L
+l$`
+D$`A
+T$p3
+L$p
+T$`H
+L$p
+L$HE3
+D$`H
+D$ A
+D$HH
+L$@
+L$H
+\$@H
+t^H+
+l$XD
+T$XH
+L$@
+T$X3
+T$XH
+l$0
+D$(
+D$ 
+uUL
+D$pH
+L$@
+l$0
+D$(
+D$ 
+\$@H
+t[A
+u@I
+u8D
+l$X
+D$PL
+l$ L
+L$XA
+T$PH
+T$`H
+A_A^A]A\_^[]
+D$hH
+L$X
+T$@L
+D$PL
+L$HI
+C8I
+C0I
+D$ 
+D$`
+D$ L
+L$HL
+D$P
+T$@H
+L$X
+L$hH3
+@SUVWH
+D$@
+D$@D
+L$@
+D$8
+D$0H
+D$@H
+D$(
+D$ L
+T$@H
+X_^][
+@SUVWATAUAVAWH
+D$PM
+l$@
+D$@D
+L$@
+l$HL
+l$0D
+l$(H
+D$HH
+D$ A
+t/H
+\$HH
+t%H
+L$@
+L$H
+L$@
+d$8L
+|$0H
+D$@H
+D$(
+D$ M
+T$@H
+L$PH3
+hA_A^A]A\_^][
+@SVWATAUAVAW
+L$pM
+D$`
+\$`H
+L$`
+t$I
+L$`
+L$`
+|$h
+D$hH
+D$pH
+D$X
+D$PL
+l$H
+L$@
+T$8D
+T$0D
+\$(
+\$ H
+L$h
+d$0L
+|$(L
+t$ H
+T$hH
+L$`
+L$`
+L$`
+|$xH
+\$`D
+|$ L
+L$xH
+T$hH
+\$`H
+A_A^A]A\_^[
+L$ H
+D$@
+D$ 
+D$ 
+\$@H
+t$PH
+tYH
+t/H
+9H;
+t$8
+u`H
+uSH
+l$0
+t$8H
+l$0H
+\$@H
+t$8H
+\$@H
+\$@H
+@SUVWAVAWH
+HcC
+d$`L
+d$`Hc
+t2J
+(A_A^_^][
+|$ AVH
+\$0H
+l$8H
+t$@
+l$8H
+t$@H
+\$0
+|$HH
+ A^
+|$H2
+ A^
+\$ UVWAVAWH
+t$(H
+D$ 
+D$0
+D$0H
+L$0
+L$0
+t$(H
+D$ 
+\$0L
+@A_A^_^]
+@SUVWAVAWH
+d$`L
+d$`Hc
+t2J
+(A_A^_^][
+\$@H
+t$8H
+t$8H
+\$@H
+l$0H
+l$0H
+t$8H
+\$@H
+@SWAVH
+ Ic
+ A^_[
+t$HM
+l$@H
+|$P
+McA
+wCM
+|$PH
+l$@;X
+t$HH
+ A^_[
+l$0+Q
+"t[
+Pu@H
+l$03
+\$8H
+t$@H
+\$83
+t$@H
+@SH
+D9B
+}5E
+~0H
+@SUVWAVAWH
+t.H
+(A_A^_^][
+@SUVWH
+tVH
+tEH
+(_^][
+(_^][
+@SH
+|$0
+|$0H
+L$8
+L$8
+\$0H
+\$ WH
+rKI
+wAH
+\$HH
+\$H3
+@SH
+|NA
+w,A
+w&H
+@SH
+ eH
+~cH
+ul3
+\$0H
+\$0H
+t$ UWATAVAWH
+E/L
+d$8L
+d$0D
+d$(L
+d$ E
+y*2
+M/H3
+[@I
+sHI
+A_A^A\_]
+r/H
+N'H;
+d$8L
+d$0
+t$(H
+D$ E
+e'H
+E'H
+D$ E3
+twH
+r/H
+O'H;
+E'H
+D$ L
+A;Y
+$QE
+tBH
+tBH
+t$p
+\$pH
+9p8
+L$p
+\$p
+L$p
+\$pD
+HcS
+4KH
+t$XH
+D$PH
+t$HH
+D$@
+t$8
+t$0
+t$(
+t$ A
+\$xH
+SVWATAUAVAWH
+t$`L
+|$p
+D$d
+|LH
+t;H+
+x,H
+t$hL
+t$hH
+D$hH
+D$d
+D$p
+uBD
+t$ L
+uKD
+t$ L
+D$ 
+pLH
+t$ L
+t!L
+t$ L
+t$ L
+uDD
+t$ L
+t6H
+D$xH
+D$x
+L$x
+uGD
+t$ L
+t$pH
+D$XH
+\$P
+D$HH
+|$@
+L$8
+T$0D
+T$(D
+\$ H
+t$ L
+5V}
+=A}
+-x}
+5`}
+=x}
+t$pH
+tTH
+|$d
+L$h
+A_A^A]A\_^[
+@SVWATAUAVAWH
+t$@H
+t$`
+D$`H
+D$0
+t$(
+t$ L
+uFH
+4HH
+u$H
+ukH
+t$0
+D$(
+D$ 
+HcH
+tKH
+HcH
+9"u
+E9i
+t+M
+A;Y
+4H3
+L$`H
+D$`D
+l$XD
+l$hD
+l$HD
+/uzH
+;@uvH
+L$`
+L$`
+fff
+t$h
+t$X
+t$H
+t$H
+t$XD
+u H
+yE3
+D$ E3
+t!f
+Atk
+Dt4
+FtN
+t6D
+:uzH
+uGH
+u0H
+t$0H
+t$(H
+t$ E
+L$p
+uCH
+T$pH
+p$H
+H@H
+H4H
+uAH
+|$X
+|$h
+D$(
+t$ E3
+D$hH
+D$PH
+D$h3
+L$h
+D$ E
+D$(H
+T$ L
+HcP
+4HH
+t6H
+D$P
+D$ E
+D$(H
+T$ L
+HcP
+4HH
+t%H
+D$XH
+D$P
+D$X3
+L$X
+H8H
+I8H
+|$H
+t%H
+\$x
+t*H
+\$xL
+E+i
+T$xE
+A;y
+4HL
+u:H
+L$HH
+L$P
+D$H
+L$H
+t5H
+t/H
+T$`H
+A_A^A]A\_^[
+UWAUAVAWH
+u=H
+D;y
+x1;A
+H+E
+u=H
+yxH
+tgH
+H+E
+y(A
+"u&A
+<A"u
+t!H
+\$xH
+@A_A^A]_]
+@SUVWH
+D$p3
+l$@
+\$@H
+l$h
+D$hH
+ufH
+u:H
+L$h
+L$@
+\$@H
+D$H
+l$XH
+l$PH
+l$0
+l$(
+t$ L
+L$HD
+l$0
+l$(
+t$ L
+L$HD
+T$`H
+T$`
+T$`H
+D$`
+T$`H
+T$`H
+L$h
+T$hH
+L$pH3
+_^][
+@USVWATAVAWH
+t;H
+taA
+t'H
+fff
+t:Hc
+D;~
+$NH
+@A_A^A\_^[]
+D$p
+\$`
+D$`H
+D$pP
+D$x3
+5:R
+L$p
+L$`
+\$XH
+\$PH
+\$HH
+\$@
+\$8
+\$0
+\$(
+\$ E3
+\$`L
+uZL
+u"E3
+@USVWATAUAVAWH
+L$8I
+L$@
+t H
+u/E3
+u#E3
+u9E3
+|j3
+L$@
+A_A^A]A\_^[]
+D$P
+D$pH
+D$XA
+T$xH
+D$`
+D$d
+D$hE
+T$P3
+|$0
+D$(
+t$ E
+~=3
+D$(
+t$ E
+t$0
+\$(D
+t$ E
+t$8
+Hc@L
+@SH
+tCH
+VWAVH
+D$ 
+T$ H
+Lcu
+t/H
+\$XH
+l$`H
+0A^_^
+SUVWAVAWH
+D$ 
+T$ H
+Lcu
+t1H
+8A_A^_^][
+VWATAVAWH
+D$ 
+T$ M
+?Mcg
+Lcu
+t1H
+t/I
+\$hH
+l$pH
+0A_A^A\_^
+SVWAVH
+D$ 
 u);
-6Zy&
-6^y&
-YY#
-6^y&
-</uX
-6^y&
-Y<Du
-6Zy&
-6Zy&
-<.t
-tp;
-< u
-< ts
-<-t
-<-u/
-< u
-<-t
-< u
+u%I
+D$ 
+8A^_^[
+4PH
+xU;Y
+t2H
+t$ AVH
+ E3
+\$0
+~vH
+|$8
+|$8H
+t)H
+t_Hc
+x\H
+\$0H
+l$@H
+t$H
+ A^
+@SH
+tKH
+tCH
+\$8H
+\$8H
+\$0H
+@SH
+L$ 
+L$ 
+B(I
+O(H
+\$0H
+@SH
+KPH
+;_X
+;_Xu
+})H
+GPH
+t$8H
+\$0H
+@SH
+@SH
+D$(
+D$ 
+L$ 
+@SH
+\$0H
+L$ 
+L$ 
+@SH
+@SH
+ [H
+@SH
+ [H
+@SH
+ [H
+u.f
+ [H
+t,eH
+@SH
+u(H
+t62
+uqHc
+9PE
+f9A
+uML+
+$I;
+@SH
+@SH
+@SH
+@SH
+@SH
+t$ 
+t$ 
+tU@
+|$ 
+\$@H
+t$HH
+@VWAVH
+\$83
+ntel
+ineI
+GenuD
+u^%
+t(=`
+t!=p
+ w$H
+l$@E3
+|X3
+\$8H
+T$0
+D$0$
+ te
+u7H
+D$0$
+u%H
+s:H
+D$0$
+u/H
+D$0H
+l$@3
+A^_^
+u3HcH<
+f9T
+;csm
+\$03
+L$ 
+L$ 
+@SH
+L$@H
+D$@
+D$@H
+D$ 
+H1D$ 
+L$HH1D$ 
+D$H
+ H3
+D$ H3L$ H3
+\$0H
+\$0H
+H L
+SWH
+T$P
+|$@
+D$@H
+h_[
+H L
+SWH
+T$P
+|$@
+D$@H
+h_[
+@SUVW
+-H]
+t$A
+|$H
+tFI
+t*D
+98t
+t%A
+_^][
+H`L
+HcN
+\$0H
+t$8
+UVWAVAWH
+L$P
+HcF
+~S;k
+T$`E3
+LcK
+L$`D
+IcL
+IcL
+L$PI
+HcN
+H`H
+L$PI
+\$XH
+ A_A^_^]
+L$0t
+L$0A
+L$0
+VWATAVAWH
+\$X
+HcE
+~S;s
+T$PE3
+LcK
+L$PD
+IcL
+IcL
+\$XI
+l$`H
+ A_A^A\_^
+l$`I
+ A_A^A\_^
+@SUVWATAVH
+Hc[
+|$pE
+D;T
+D;T
+~ A
+D$,A
+|$pD
+D$,A
+8A^A\_^][
+VWATAUAVH
+\$,H
+T$ 3
+\$,H
+t$(H
+T$ A
+|$`E3
+G A
+G$E;
+|$`
+\$,H
+T$ H
+|$ H
+t$(
+\$,
+l$pA
+D$,A
+\$hI
+0A^A]A\_^
+)D$0
+)D$P
+)L$@
+)L$`
+)D$p
+D$PH
+D$`Hc
+L$XE3
+B@H
+D$(I
+B(M
+D$0I
+D$ I
+)D$0
+)D$P
+D$PH
+)L$@
+)L$`
+D$`Hc
+)D$p
+D$pL
+D$h
+@ I
+B@H
+D$(I
+B(L
+L$XE3
+L$xI
+D$0H
+D$ 
+@SVWL
+P A
+P A
+H$A
+P A
+H$;
+_^[
+@SH
+H;XXs
+XXH
+H;xXu5
+@XH
+t'H
+XXH
+\$0H
+@`H
+@hH
+@SH
+X`H
+@SH
+XhH
+@SUVWH
+T$pH
+X`H
+W8L
+D$8
+T$pH
+H`3
+D$0
+D$(H
+L$ H
+H_^][
+VWAVH
+X`H
+O8H
+T$@L
+t$ 
+H`E
+t$8H
+D$@L
+t$0H
+t$(L
+D$ H
+\$`I
+[(I
+k0I
+A^_^
+L$ SUVWATAUAVAWH
+}8M+
+t$0H
+\$8;7
+L$0I
+~qA
+>csm
+u(H
+E@M
+D$(H
+E(H
+D$ 
+] I+
+ tJ3
+t?L
+u>A
+HA_A^A]A\_^][
+\$0H
+}3H
+fA;
+fA;
+fA;
+tqH
+fE;
+t%f
+wOH
+fA;
+fA;
+fA;
+fA;
+fA;
+fA;
+wJI
+t,f;
+tjL
+tbH
+l$0H
+t$8
+t$8H
+l$0H
+\$@H
+\$@H
+@SH
+t$ WH
+X0H
+D$ H
+t"H
+T$ H
+D$ 
+L$(H
+|$(
+t$0
+csm
+\$8A
+D$@
+\$pH
+t$xH
+9csm
+A - 
+w@H
+A0H
+t7HcP
+Q8H
+A(H
+@SH
+@XH
+HcB
+HcR
+=RCC
+=MOC
+=csm
+H0H
+\$03
+x H
+t$3
+\$0H
+t?H
+(McH
+uPL
+\$ IcX
+tNE
+t6M
+\$ H
+\$ 
+@SH
+L$@I
+HcC
+L$@
+IcP
+L$@
+HcC
+L$@;|
+\$0H
+@SH
+tUHcY
+tDD
+t0L
+HcA
+<$H
+t$ E3
+t$ A
+<$H
+@SH
+tXHcY
+tGD
+t33
+@SUVWAVHcA
+r,A
+A^_^][
+A^_^][
+@SVWAVAWH
+Icp
+Hcs
+HcC
+yAA
+t;H
+t*I
+O(H
+tGI
+W(H
+McF
+sIc^
+G(H
+u*H
+tzH
+tuIc^
+tUH
+tPIc^
+t>A
+t$ 
+0A_A^_^[
+0A_A^_^[
+@SVWAVAWH
+Icp
+Hcs
+yAA
+t;H
+t*I
+O(H
+tGI
+W(H
+McF
+sIc^
+G(H
+u*H
+tzH
+tuIc^
+tUH
+tPIc^
+t>A
+t$ 
+0A_A^_^[
+0A_A^_^[
+IcX
+umH
+\$0H
+t$8H
+umH
+\$0H
+t$8H
+@SUVWAUAVAWH
+D$hM
+L$p
+D$`M
+~ D
+L$p
+D$`L
+A;_
+csm
+E - 
+L9e0
+L9` 
+M8H
+p(H
+t$h
+csm
+E - 
+L9e0
+L9`8t:
+\$`I
+csm
+E - 
+E9g
+D$(H
+|$ D
+L$pD
+D$dD;
+HcP
+L$|;
+HcT
+L$xH
+E0Hcp
+E0HcX
+~-Hc>
+E0H
+D$hL
+L$PH
+l$HH
+L$@
+L$x
+L$8
+L$|
+L$0I
+|$(H
+D$ 
+D$dL
+L$p
+\$`
+D$d
+\$`L
+L$pL
+D$dD;
+Ic_ 
+Ic_ 
+D$hH
+L$PI
+l$HL
+d$@
+D$8
+D$0
+|$(L
+d$ 
+>E9g
+v8D8
+|$8L
+D$0I
+\$(H
+|$ 
+uyL
+A_A^A]_^][
+L$hH
+@USVWATAUAVAWH
+EXL
+\$hI
+|$xI
+D$d
+IcO
+t+M
+>csm
+F - 
+N8H
+X(H
+\$h
+>csm
+u A
+F - 
+\$hM
+M0I
+>csm
+F - 
+D$(H
+|$ D
+|$`;}
+D$t;
+C E3
+LcC$
+D$pI
+M(L
+tCI
+F0Hcp
+F0HcX
+Hc>
+F0H
+t$d
+|$`L
+|$xL
+|$`A
+C I
+K$;}
+|$xL
+Hc]
+D$hL
+L$PI
+l$HH
+L$@
+L$p
+L$8
+L$t
+L$0I
+|$(H
+D$ 
+t$d
+|$`
+|$8L
+D$0I
+t$(I
+|$ 
+ugH
+MXH3
+A_A^A]A\_^[]
+L$hH
+VAUAVAWH
+=MOC
+t:=RCC
+t3H
+l$8M
+D$0I
+|$(H
+d$ 
+D$xL
+d$pA
+|$(H
+T$pM
+d$ D
+HcP
+8D;
+A;h
+D$`H
+Ic@
+Hc^
+Hc^
+@umH
+L$hM
+HcN
+D$`H
+D$P
+t$HH
+t$@
+D$8D
+|$0L
+d$(H
+L$ H
+A_A^A]^
+UVAUAVAWI
+D$hL
+D$pH
+T$xH
+tDA
+=MOC
+t:=RCC
+t3H
+D$hM
+D$pH
+d$8I
+D$0
+|$(L
+l$ 
+|$(H
+l$ E
+D$`;E
+D;f
+HcV$M
+D$hI
+tAJ
+Hc]
+Hc]
+@ueH
+L$xL
+Hc]
+D$pH
+D$P
+t$HH
+L$@
+L$h
+L$8H
+L$xD
+|$0L
+l$(H
+D$ 
+F I
+D$`
+D$`;E
+M(H3
+A_A^A]^]
+@SUWAVH
+(HcY
+Hc_
+t$PHcw
+HcM
+tTHc_
+Hc]
+t$P3
+(A^_][
+t$P
+(A^_][
+(A^_][
+@SUWAVH
+(HcY
+Hc_
+t$PHcw
+HcM
+tTHc_
+Hc]
+t$P3
+(A^_][
+t$P
+(A^_][
+(A^_][
+@SUVWAVAWH
+=csm
+t6=)
+ tr
+u7L
+F H
+u+D
+O8A
+O(L
+Hck 
+?csm
+v^H
+G0Hch
+L$8M
+L$0
+L$(H
+\$ 
+XA_A^_^][
+D$8M
+D$0H
+D$(H
+\$ 
+XA_A^_^][
+@SUVWAVAWH
+=csm
+t'=)
+{` 
+HcG
+uCL
+F H
+K(D
+L$PH
+|$P
+;csm
+{ "
+vaH
+C0Hch
+L$8M
+L$0
+L$(H
+|$ 
+A_A^_^][
+D$8M
+D$0H
+D$(H
+|$ 
+A_A^_^][
+D$@
+D$@
+@SH
+D$8H
+D$0
+D$x
+D$(H
+D$pH
+D$ 
+HcB
+A H
+@SH
+@SVWATAUAVAWH
+D$ 
+D$(H
+h(L
+l$HL
+l$x
+@ H
+D$@H
+D$PH
+D$pH
+wPH
+t$XH
+GHH
+D$`H
+_@H
+G0H
+D$8L
+w(L
+t$hH
+P H
+R(H
+D$0L9
+PpH
+L$8
+D$(H
+|$@
+D$ 
+I D
+|$ H
+\$(L
+d$0L
+l$HH
+|$PH
+t$XH
+D$`H
+t$hI
+>csm
+F - 
+h(H
+HcH
+A_A^A]A\_^[
+@SVWATAUAVAWH
+D$ 
+D$8H
+D$@
+h(L
+l$`L
+@ H
+D$XH
+D$hH
+D$xH
+wPH
+t$pH
+t$(H
+_@H
+G0H
+D$PL
+g(H
+GHH
+GhH
+D$0H
+P H
+R(H
+D$HL9wXt
+PpH
+T$@A
+L$P
+D$8H
+\$8I
+|$XD
+D$ 
+HxH
+L$(
+L$@L
+I D
+t$ H
+\$8L
+|$HL
+l$`H
+|$hH
+t$pD
+>csm
+F - 
+A_A^A]A\_^[
+A0H
+@ A
+@$I
+@(A
+$0M
+t;<
+@0H
+u1A
+@HA
+< u^A
+H0A
+@SH
+9csm
+uiA
+A - 
+B(I9A(u
+9csm
+u:A
+u3A
+w$I
+\$0H
+L$ L
+SVWATAUAVAWH
+D$0L
+HcN
+|$ 
+|$$Hc^
+t{Hc^
+Jc\0
+t`D
+Hc^
+Hc^
+Jc\0
+l$0
+|$ 
+|$(
+@A_A^A]A\_^[
+@A_A^A]A\_^[
+@SVWATAUAVAWH
+D$0I
+T$XH
+D$`
+D$xL
+@0E3
+L$hL
+HcC
+t;M
+L$h
+L$@H
+|$0
+uFI
+L$hL
+|$XH
+L$@H
+t$HL
+D$hL
+L$pI;
+T$H
+t$HH
+\$@D
+D$X
+(D$@f
+T$HH
+t$HH
+D$@H
+D$ E
+T$0H
+D$h
+D$P
+L$PE
+GHA
+D$XL
+L$x
+D$xD
+d$hH
+t$HH
+D$`
+D$0L
+L$@
+H0H
+A_A^A]A\_^[
+\$0H
+\$0H
+HcB
+t0L
+VAUH
+|$hD9:
+F0Lcp
+F0HcX
+~TIc
+Ic.
+v0H
+Ic}
+t$`
+|$h
+|$hA
+E;}
+t$(L
+d$0H
+l$@H
+\$pL
+|$ @
+|$8H
+HA]^
+@SUVWH
+~YHc~
+Hc~
+Hc|8
+(_^][
+(_^][
+uKH
+|$`I
+}6H
+L$ L
+D$(M;
+vWf
+T$(
+D$(
+H9G
+v:H
+L$ 
+L$ L
+T$(M;
+T$(
+D$(
+H9F
+L$ 
+\$@H
+t$HH
+\$@
+t$HH
+t$0H
+C0H
+C A
+C$H
+C(A
+$0L
+t?<
+C0H
+u0A
+CHA
+f< ubA
+K8A
+t$0H
+\$8H
+l$@H
+t#eH
+H;H
+H;H
+\$0H
+\$02
+@SH
+t/H
+|$0H
+=t[
+|$0
+L$0H
+T$8D
+D$@H
+T$8H
+L$0H
+T$8D
+D$@H
+L$0H
+T$8H
+T$8H
+L$0H
+T$8L
+D$@D
+L$HE
+L$@
+T$8A
+@USVWATAVAWH
+D$(E3
+d$ 
+d$IfD
+d$MD
+d$OH
+t$0H
+|$8L
+d$@A
+d$HH
+D$H
+D$XH
+L$PH
+D$0D
+d$pH
+D$hD
+d$tL
+d$xD
+|$PL
+L$`D
+tLA
+t#H
+D$@H;
+x*H;
+tMH
+D$@H;
+tHfD
+$FH
+A_A^A\_^[]
+D$@H;
+\$0H
+l$8H
+t$@H
+\$0H
+l$8H
+t$@H
+t1A
+t(A
+t"A
+UVWATAUAVAWH
+:E3
+tEA
+"v<H
+L$(E3
+d$ 
+D$0
+D$4f
+D$8p
+D$<
+D$@
+D$Df
+D$Hp
+D$Lf
+D$Pp
+D$T
+D$X
+D$\f
+D$`p
+D$dP
+D$hZ
+D$l
+D$p
+D$t 
+D$x*
+D$|@
+fA;
+fA;
+fA;
+fA;
+f;\$0s
+f;\$4
+f;\$8s
+f;\$<
+f;\$@s
+f;\$D
+f;\$Hs
+f;\$L
+f;\$Ps
+f;\$T
+f;\$Xs
+f;\$\
+f;\$`s
+f;\$d
+f;\$hs
+f;\$l
+f;\$ps
+~f;\$tr|f;\$xs
+ff;\$|rdf;
+Kf;
+rFf;
+uhH
+xtDf
+Xt>E
+tGf9
+fA;
+fA;
+fA;
+fA;
+f;\$0s
+f;\$4
+f;\$8s
+f;\$<
+f;\$@s
+f;\$D
+f;\$Hs
+f;\$L
+f;\$Ps
+f;\$T
+f;\$Xs
+f;\$\
+f;\$`s
+f;\$d
+f;\$hs
+f;\$l
+f;\$ps
+f;\$t
+f;\$xs
+jf;\$|rqf;
+Nf;
+rRf;
+fA;
+fA;
+fA;
+s>A
+tW@
+E,"
+A_A^A]A\_^]
+WAVAWH
+A4D
+t-E
+tUA
+D$(H
+D$ 
+Hc*
+HcS0
+C@f9
+K@f
+\$PH
+l$XH
+t$`H
+0A_A^_
+WAVAWH
+A4D
+t-E
+tUA
+D$(H
+D$ 
+Hc*
+HcS0
+C@f9
+K@f
+\$PH
+l$XH
+t$`H
+0A_A^_
+WAVAWH
+A4D
+t-E
+tUA
+D$(H
+D$ 
+Hc*
+HcS0
+C@f9
+K@f
+\$PH
+l$XH
+t$`H
+0A_A^_
+H@H
+H0E
+t(A
+0fA
+@@L
+HHI
+A@I
+fD+
+J0D
+A@L
+AHI
+Q@H
+A0A
+A@L
+QHI
+H@H
+H0E
+t)A
+0fA
+@@L
+HHI
+A@I
+A0H
+fD+
+J0L
+A@L
+AHI
+Q@H
+A0A
+A@L
+QHI
+@WH
+uIH
+\$8
+D$0u
+L$0
+L$0H
+\$8t
+s WH
+],A
+8H0t
+x,"t
+D$@H;F
+t$X
+],H
+\$HH
+l$PH
+x AVH
+L$(E3
+|$ E3
+5_B
+{H@
+C E
+C$H
+C$<
+S0H
+t/f
+#t$f
+0u}
+{(@
+{4@
+H9A
+@8y
+C H
+S:f
+C H
+\$@H
+l$HH
+t$PH
+|$XH
+0A^
+D$(
+x AVH
+L$(E3
+|$ E3
+{H@
+{$D
+K E
+C$<
+dfA
+S0H
+fD;
+t3fA
+#t'fA
+0u~
+{(@
+{4@
+H9A
+@8y
+C H
+C:fE
+C H
+\$@H
+l$HH
+t$PH
+|$XH
+0A^
+D$(
+A:f
+NuD
+D$(H
+D$ 
+htxf
+jtff
+lt:f
+tt(f
+8lu
+8hu
+2uPH
+4u2H
+UATAUAVAWH
+x H
+dwi
+Sw-
+owGt-
+A(A
+A(3
+u(3
+D8{8
+K:f;
+fA+
+t fF
+fA;
+k,D+kHE+
+ubE
+S H
+H9A
+D8y
+C L
+{ H
+D$ L
+uRE
+H9A
+D8y
+D8{L
+D9{H
+D8~(u
+C@H
+D9{H
+D$ L
+H9A
+D8y
+H9A
+D8y
+;sH
+D8~(u
+c@E3
+D9KHtrfD
+Lc@
+H9A
+D8I
+D;{Hu
+C E
+H9B
+u:I
+D8z
+D$ L
+CHH
+S@I
+\$`I
+[8I
+s@I
+{HI
+A_A^A]A\]
+t,H
+t#D
+Q:H
+\$0H
+t$8H
+y:at
+y:A
+y:gt
+y:Gu
+u%I
+S0L
+S0L
+C@3
+D$`H
+D$`H
+CPL
+L$HH
+L$`
+D$@
+\$8D
+T$0
+|$(H
+T$ H
+C( t}
+uwH
+K@L
+{:gt
+{:Gu}
+C( uwH
+S@H
+<0t
 <-u
-YY:F
-Hu#
-YY+
-u:&
-tX;
-tG=
-a N
-reccnt audit1 audit2 mergect
-.dbf
-.T44
-.W44
-Not enough disk space for SORT.
-Too many sort key fields.
-Not enough records to sort.
-Records do not balance (program error).
-Too many merge steps.
- Records sorted
-% Sorted
-   00% Sorted
-  100% Sorted     
-Enter list of fields to sort: 
-6Zy&
-6Zy&
-6Zy&
-Ht'
-Nu!&
-Number of data records: 
-Structure for database: 
-Date of last update   : 
-** Total **
-Field  Field Name  Type       Width    Dec
-6Zy
-6Zy
-\y&
-6Zy&
-\yu
-Zyu
-6Zy
-Zy&
-t^&;G
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy
-\y&
-6Zy&
->tz
-6tz
-RmP
-RmHP
-YY]
-YY]
-YY]
-ALTERNATE 
-DELETED   
-FIXED     
-SAFETY    
-BELL      
-DELIMITERS
-HEADING   
-SCOREBOARD
-CARRY     
-DEVICE    
-HELP      
-STATUS    
-CATALOG   
-DOHISTORY 
-HISTORY   
-STEP      
-CENTURY   
-ECHO      
-INTENSITY 
-TALK      
-CONFIRM   
-ESCAPE    
-MENU      
-TITLE     
-CONSOLE   
-EXACT     
-PRINT     
-UNIQUE    
-DEBUG     
-FIELDS    
-ON    
-OFF   
-PRINT 
-SCRN  
-Currently Selected Database: 
-Select area: 
-   Alias: 
-           Index file:  
-  Key: 
-           Memo file:   
-          Lock: 
-record 
- is locked 
-database
-memo file
-index file
-    Computer name
-    -------------
-           Format file: 
-Filter: 
-    Related into: 
-    Relation: 
-Alternate file: 
-Procedure file: 
-File search path:   
-Default disk drive: 
-Print destination:  
-Margin = 
-   Delimiters are '
-' and '
-On Keystroke:  
-This is a RunTime statement.
-On Escape:     
-On Error:      
-Programmable function keys:
- - 
-Modules loaded:
-Current work area =
-    Master index file:  
-6^y&
-YY#
-^y+
-6Zy&
-QRP
-QRP
-QRP
-6^y&
-Ct0
-6Zy&
-MtY+
-uG;F
-QRP
-Nuu&
-tVRP
-QRP
-QRP
-tb&
-t1RP
-QRP
-YY#
-      0 record(s) totalled
- Record(s) totalled
- Records generated
-6^y&
-YY#
-YY#
-YY#
-6Zy&
-Ct,
-Nu3
-QRP
-QRP
-QRP
-}5RP
-YY#
-YY#
-6Zy
-\y&
-`y+
-YY#
-D &
-D &
-t"&
-QRP
-D &
-RP&
-t"&
-t &
-<-t
-<>u$
-T &
-L"&
-.NOT.
-TRIM(
-.NOT.
-LEFT(TRIM(
-),LEN(
-))=
-.NOT.
-RIGHT(TRIM(
-),LEN(
-))=
-.NOT.
-.NOT.
-CTOD(
-Field Name 
-Operator 
-Constant/Expression 
-Connect 
---------------------
-Line Number 
-Select a field name for the filter condition.
-Select a comparison operator for the filter condition.
-Enter an expression or constant for the filter condition.
-Select a logical connector for the filter condition.
-                                                    
-Enter the line number of the query form to edit next.
-Add
-  Start:
-  End:
-Remove
-  Start:
-  End:
---------------------------------------------------------
-Enter the line number of the query form to start nesting.
-Enter the line number of the query form to stop nesting.
---------------------------------------------------------
-Enter the line number of the query form to remove left parenthesis.
-Enter the line number of the query form to remove right parenthesis.
-Display the records in the database that meet the specified query condition.
-Set Filter
-Nest
-Display
-Exit
-Save
-Abandon
-Exit and save changes.
-Exit and do not save changes.
-Out of memory for filter storage.
-Cannot generate legal filter.
-Press any key to resume query.
-Line
-Field
-Operator
-Constant/Expression
-Connect
-CREATE/MOD QUERY
-Matches
-Does not match
-Begins with
-Does not begin with
-Ends with
-Does not end with
-Contains
-Does not contain
-Is contained in
-Is not contained in
-Comes after
-Comes after or matches
-Comes before
-Comes before or matches
-=  Matches
-<> Does not match
-   Begins with
-   Does not begin with
-   Ends with
-   Does not end with
-$  Contains
-   Does not contain
-   Is contained in
-   Is not contained in
->  Comes after
->= Comes after or matches
-<  Comes before
-<= Comes before or matches
-Equals
-More than
-More than or equal
-Less than
-Less than or equal
-Not equal to
-=  Equals
->  More than
->= More than or equal
-<  Less than
-<= Less than or equal
-<> Not equal to
-Is True
-Is False
-No combination
-Combine with .AND.
-Combine with .OR.
-Combine with .AND..NOT.
-Combine with .OR..NOT.
-This field must contain a valid dBASE expression.  Press any key to continue.
-Unbalanced parentheses.
-Enter Query file name:
-No fields available. Press any key to continue.
-Can't select a Memo field. Press any key to continue.
-This field must contain a valid character expression. Press any key to continue.
-This field must contain a valid numeric expression.  Press any key to continue.
-Cannot display using an invalid filter.  Leave Display option.
-Cannot save an invalid filter.  Press any key to continue.
-Unbalanced parentheses exist.  Press any key to continue.
-Error reading database file.
-Empty database file.
-No records pass through filter.
-The query table is full.  Press any key to continue.
-This field must contain a valid date expression. Press any key to continue.
-Not Implemented
-  1
-  2
-  3
-  4
-  5
-  6
-  7
-Line
-Field
-Operator
-Constant/Expression
-Connect
-Display records in the database that meet the query condition.
-         
- .AND.
- .OR.
- .AND..NOT.
- .OR..NOT.
-   
-   
-=  
->  
->= 
-<  
-<= 
-<> 
-.NOT.
-P" 
-P"$
-P"(
-6^y&
-6DF
-6BF
-6DF
-6BF
-6Zy&
-uk+
-6Zy&
->@F
-6DF
-6BF
-6DF
-6BF
-D &
-D(&
-T*&
-D$-
-D,C
-D.&
-HHP&
-H;F
-H;F
-6DF
-6BF
-HHP&
-&;D
-R@@
-T,JJ
-H;F
-H;F
-@@P&
-HHP&
->2F
-PF=
->PF
-> F
-6DF
-6BF
->F#
-BF&
-@ &
->2F
-6DF
-6BF
->2F
-6DF
-6BF
-6F]
-D &
-tq&
-t &
-6"F
-6$F
-6&F
-6(F
-><F
-6<F
-6DF
-6BF
->PF
-T &
-PPPPPPP
-\ &:G
-HHP
-HHP
-D &
-D &
-HHP
-D &
-D"&
-t #
-HHP
-t &
-HHP
-HHP
-t &
-HHP
-HHP
-HHP
-QRP
-QRP
-HHP
-HHP
-HHP
-HHP
-D &
-HHP
-F@P
-6<F
-YYP
-HHP
-6<F
-YYP
-HHP
-BF&
-HP+
-BF&
-BF&
-BF&
-BF&
-HP+
-BF&
-6DF
-6BF
-6DF
-6BF
-6DF
-6BF
-6DF
-6BF
-6Zy&
-6HF
-6FF
-6FF&
-HHP
-HHP
-6Zy&
-&;D
-@ &
-p &
-`y+
-@ &
-BF&
-x &
-Lu=
-BF&
-!uj
-PPPPPPP
-HHP
-6^y&
-< t
-HHP
-HHP
-HHP
-QRP
-6HF
-6FF
-6LF
-H|\
-HHP
-6NF
-6LF
-6HF
-6FF
-6Zy&
-HHP
-HHP
-HHP
-6Zy&
-HHP
-<St
-<Nt
-<Et
-PPPP
-B~|
-Q@P+
-R@P+
-R@P+
-@ &
-@ &
-HHP
-HHP
-<FHP+
-<F+
-D &
-G &
-6^y
-`y&
-6Zy&
-QRP
-^y+F
-6Zy&
-6Zy&
-6Zy
-1  
-2  
-3  
-4  
-5  
-6  
-7  
-                  
-Not implemented.
-CTOD(
-Not implemented
-FOR 
- T 
- Y 
- s 
- !#
- <#
- [#
- j#
- E$
- N$
- n$
- ,%
- g%
- U&
- b&
- s&
-6tz
-6^y
-^y6
-6^y
-^y&
-6tz
-6`y
-6^y
-6^y
-^y&
-nzRP
-jzn
-lm#
-nmh
-lm<
-nmh
-nm=
-6^y
-^y6
-6nz
-6lz
-6`y
-6^y
-nm+
-tzu
-6tz
-tzYY]
-6Zy
-6Zy
-t(+
-6Zy
-6Zy&
-6Zy&
-QRP
-6^y&
-6Zy&
-QRP
-^y+F
-6Zy&
-6Zy&
-6Zy
-6Zy
-6Zy
-6Zy&
-6^y&
-^y+F
-6`y
-6^y
-6Zy
-\yu
-Zyu
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-QRP
-6Zy
-Zy&
-6^y&
-6Zy&
-< u
-6^y&
-6^y&
-6Zy&
-66`
-64`
-6^y&
-t?+
-^yby
-`y+
-6Zy
-6Zy&
-YYP
-6Zy&
-6Zy&
-Zy&
-6Zy
-6Zy
-6Zy
-YYP
-Z}p
-6Zy
-6Zy&
-YYP
-6Zy
-Z}#
-6Zy&;
-6Zy&
-YYP
-6Zy&
-PSPS
-YYP
-YYP
-Z}w
-6Zy
-6Zy&
-YYP
-6F`
-6D`
-6:`
-68`
-6Zy
-6Zy&
-6*`
-6(`
+K(@H
+,I<%w
+C:s
+\$hH
+Q:D
+A4H
+uK@
+t$0H
+D$18F(u
+{PH
+T$0H
+Lc@
+{PH
+t$@H
+K@H
+\$8H
+u4H
+D$(H
+D$ 
+ t7
+C f
+HcC H
+\$@H
+Q:H
+y@H
+t!H
+{@Hc
+K@E3
+\$0H
+t$8H
+@WH
+D$ 
+\$@H
+t$H
+[@H
+u=3
+t.H
+6E3
+\$@H
+t$HH
+G L
+W H
+\$0H
+t$8H
+WAVAWH
+H9A
+tAA
+GH+A
+\$@H
+l$HH
+t$PH
+ A_A^_
+` UAVAWH
+EHE3
+D9%
+M@M
+EPH
+D$(H
+D$ M;
+v+M
+u4D8e
+y3fD
+uZH
+D$(E3
+d$ 3
+D$(E3
+d$ 3
+D8e
+X D8e
+X$L
+\$p
+[ I
+s(I
+{0M
+c8I
+A_A^]
+@USVWATAVAWH
+d$PI
+d$`H
+d$xL
+D9%
+D$x
+D$hM
+u2H
+D$P
+D$(E3
+d$ 3
+D$|
+d$IfD
+d$MD
+d$OH
+t$0H
+\$8L
+d$@A
+d$HH
+D$H
+D$PD
+D$0D
+t/H
+D$@H;
+xZH;
+t!H
+D$@H;
+u0fD
+D$@H;
+$FH
+|$x
+D$P
+D8e
+\$|H
+L$P
+X D8e
+L$P
+A_A^A\_^[]
+E03
+t8H
+t3M
+t.H
+E8H
+D$(H
+D$ 
+D$(E3
+t$ 3
+@8u
+X @8u
+X$L
+\$p
+{ I
+D$0@8{
+L$0
+L$0H
+\$8H
+t$@H
+\$0H
+t$8H
+UWAVH
+L$pA
+D$pH
+D$H
+D$XH
+D$@
+D$`H
+D$P
+T$@I
+t9H
+T$@H
+L$HH
+D$8
+L$0M
+L$PH
+L$(H
+L$ 3
+t$pH
+|$t
+L$X
+[(I
+s0I
+A^_]
+D$(H
+E0H
+D$ 
+X$H
+L$hI
+t<H
+t0D
+L$`H
+L$ H
+\$@H
+l$HH
+t$PH
+T$hH
+D$`H
+D$ 
+8E3
+D$ 
+wR3
+u,M
+tFA
+t=H
+|$ 
+@SH
+@SH
+H$H
+H H
+u\M
+ I;
+uxM
+t$fff
+t&H
+tmH
+HL;
+u/I
+HL;
+uII
+fff
+t2H
+QL;
+u^M
+IL;
+ L;
+YL;
+t*H
+QL;
+QL;
+t%fff
+YL;
+t5H
+|$ 3
+|$ M
+t$8H
+t$8H
+\$0
+\$0
+t$8H
+fff
+Q A
+P A
+=q!
+@UVWH
+@_^]
+@_^]
+D$8
+D$(
+D$(
+D$ H
+T$(H
+D$(H
+D$0
+L$ H
+T$0
+L$ 
+D$8
+T$(H
+\$`L
+t$hA
+|$pL
+=B/
+fA;
+T$(
+T$(
+fA;
+T$(
+T$(
+t$hH
+\$`L
+|$p
+|$8
+D$ 
+@_^]
+@SH
+C H
+tDH
+\$0H
+t$8H
+t$ WH
+t|H
+D$P
+\$PH
+D$(L
+D$`H
+D$ H
+L$hH
+D$P
+\$@H
+l$HH
+t$XH
+L$ WH
+\$0H
+@SH
+u3H
+?H3
+\$`
+uK3
+u4HcH<
+f9T
+E H
+E(H
+\$`H
+@SH
+@SH
+D$ 
+D$H
+D$HH
+L$H
+L$HH
+\$0H
+\$0H
+\$0H
+l$8H
+t$@H
+98t H
+\$0H
+l$8H
+t$@H
+p AWL
+\$03
+fD99u
+f91
+fE;
+fE;
+u7A
+fD9y
+t/@
+ t$f
+|$ L
+t$(A_
+@SH
+sG3
+s9H
+v&I
+UVWAVAWH
+f9>u
+EHH
+}@L
+M@H
+D$ E3
+}H3
+}@A
+UHI
+EHH
+M@H
+D$ 
+U8H
+}8H
+U8H
+H9:t
+H98u
+}8H
+\$`
+0A_A^_^]
+@SH
+WAVAWH
+0E3
+4FH
+=t5
+tOL
+uOI
+\$PH
+l$XH
+t$`H
+0A_A^_
+|$ E3
+t;H
+\$0H
+\$@H
+l$HH
+t$PH
+D$(
+D$ 
+t>L
+t$(3
+D$ 
+t!3
+u&H9
+D$ 
+u9H
+u&H9
+L$ WH
+\$0H
+L$ WH
+\$0H
+WAVAWH
+E H
+u(H
+?D+
+\$@H
+l$HH
+t$PH
+ A_A^_
+WAVAWH
+rTH
+\$@H
+l$HH
+t$PH
+ A_A^_
+D$P
+D$XM
+S I
+M(H
+@SH
+@SH
+\$0H
+@SH
+\$0H
+?H3
+t0H
+\$0H
+\$0H
+L$ WH
+\$ H
+H93t
+\$@H
+t$HH
+D$8I
+D$@I
+@SH
+u(D
+\$0H
+t$8H
+ wGH+
+tJH
+\$0H
+t$8H
+\$03
+t$8H
+t6SH
+@SH
+w<H
+t%H
+@SH
+@SH
+@SH
+@SH
+WATAUAVAWH
+w3H
+["H
+L$(E3
+\$ 3
+Y,3
+4H#
+D$HI
+D$@
+D$8H
+\$0
+|$(H
+D$ 
+D8[(u
+C0H
+~-I
+tKI
+99u
+D8]
+|4H
+B0A
+d|-H
+|*H
+gfffffffI
+\$PI
+[0I
+k8I
+s@I
+A_A^A]A\_
+{ AVH
+D$@
+t$0
+D$(3
+T$ 
+|$@-
+L$@
+D$@L
+t$8D
+D$0
+D$(H
+D$ 
+\$`H
+l$hH
+t$pH
+|$xH
+PA^
+K VWAUAVAWH
+wHH
+Y,3
+\$`H
+l$hH
+0A_A^A]_^
+t(3
+>-H
+~;L
+t$xH
+80tWD
+gfffA
+90u
+D$ 
+D$@
+D$DE3
+|$@-D
+l$0D
+D$(H
+T$ I
+L$@
+l$(L
+L$@D
+D$ 
+\$`H
+l$hH
+t$pH
+x AVH
+|$P
+IcI
+9-u
+IcA
+80u
+|$P
+t$XA
+|$P
+\$03
+l$8H
+t$@H
+|$HH
+ A^
+s AWH
+D$@
+|$DE3
+|$@-D
+t$0
+D$(A
+L$ H
+L$@H
+D$D
+|>;
+}5D;
+L$@L
+t$(H
+D$ 
+D$@D
+t$8H
+D$0
+D$(
+D$ 
+\$`H
+l$hH
+|$pL
+t$xH
+PA_
+x AVH
+s$A
+\$@H
+l$HH
+t$PH
+|$XH
+0A^
+D$`
+D$ 
+x ATAVAWH
+urL
+u3A
+L9?|
+L9?}
+\$@H
+l$HH
+t$PH
+|$XH
+ A_A^A\
+AVH
+u5H
+Y,E3
+D$ 
+D$(
+uqI
+uZH
+t,H
+t$ A
+t=H
+D$H
+|$@
+T$8I
+t$0
+D$(L
+L$ L
+D$8I
+|$0
+D$(L
+L$ L
+D$H
+|$@
+T$8I
+t$0
+D$(L
+L$ L
+D$H
+|$@
+T$8I
+t$0
+D$(L
+L$ L
+\$`H
+t$hH
+|$pH
+PA^
+x AVH
+0E3
+D82u
+E8q(u
+u'L
+\$ L
+fD94H}aD
+~+A;
+|&A
+D$(H
+|$ 
+HcH
+D8v
+C,*
+D$(A
+|$ 
+\$@H
+l$HH
+t$PH
+|$XH
+0A^
+WAVAWH
+0E3
+fD9{
+uMH
+s;A
+D$ 
+D$$
+D$(
+T$pH
+\$PH
+l$XH
+t$`H
+0A_A^_
+@SH
+D$pH
+L$0H
+D$ 
+D$0
+L$0
+t$ WATAUAVAWH
+:E3
+D8/u
+D8o
+l$`H
+|$ H
+L$`
+toH
+L$`
+v0H
+L$`
+G,*
+D8/u
+D8o
+t$ H
+F,*
+\$hH
+l$pH
+t$xH
+0A_A^A]A\_
+AUAVAWH
+H95"
+H95
+XE3
+\$@H
+t$HH
+|$PH
+ A_A^A]
+@SH
+L$ WH
+\$0H
+L$ WH
+\$0H
+L$ WH
+\$0H
+L$ WH
+\$0H
+@UH
+E(H
+Q(H
+JBH
+U(f
+@UH
+E(H
+M L
+U(H
+\$0H
+t$8H
+\$0H
+D$ 
+@WH
+D$ 
+\$@3
+@8=
+tHH
+\$@H
+@WH
+D$ 
+\$@H
+\$@H
+x AVH
+L$ 
+f9l$b
+t$hM
+;=a
+O=Z
+tJH
+tDA
+t>A
+t+H
+s I
+{(I
+x AVH
+v-H
+8@H
+\$0H
+l$8H
+t$@H
+|$HH
+ A^
+@SH
+\$0
+fA;
+CI9
+t:f
+] H
+E I
+D$(
+D$ 
+U 8]
+\$hH
+L$@L
+L$0f
+|$0H
+T$@
+D$0
+\$8H
+@SH
+rCI
+t(H
+t$ WATAUAVAWH
+WuI
+t0D
+D$`
+L$`D
+L$`
+l$XH
+\$PH
+t$hH
+ A_A^A]A\_
+@SH
+t;H
+u"L
+@SH
+t;H
+u"L
+tQL
+T$@L
+T$8L
+D$0L
+L$(H
+L$ H
+D$(
+D$ 
+\$`H
+l$hH
+t$pH
+u&L
+tTH
+L$@
+L$8H
+L$0H
+D$(H
+D$ I
+D$(
+D$ 
+\$`H
+l$hH
+t$pH
+t3H
+u"L
+\$0H
+@SH
+t3H
+u"L
+t,H
+u"L
+L$0
+D$0
+u L
+@SH
+u2H
+D$0
+L$0
+|$0
+@SH
+\$0
+L$0
+|$0
+@SH
+@SH
+H`H
+\$0H
+UVWATAUAVAWH
+T$PL
+D$0H
+t$8H
+|$0L
+d$@
+u+L
+L$0E3
+|$0
+t$8
+9/t
+9\t
+9:t
+9:u
+9/t
+9\A
+L$`
+d$(L
+D$`L
+d$ 3
+u,L
+L$0M
+t$8H
+|$0
+t*f
+f9}
+L$0M
+T$`H
+t$8H
+|$0H
+u~3
+H;|$8t
+H;\$8u
+|$0H
+H;|$8t
+H;\$8u
+tRL
+L$HH+
+urH
+D$HO
+<.I
+<GL;
+D$P3
+A_A^A]A\_^]
+D$ 
+WATAUAVAWH
+\$`H
+l$hH
+t$pH
+0A_A^A]A\_
+L9w
+u.H97uBA
+tZH
+L+7H
+,6H
+t$ E3
+L$ WH
+toH
+t]A
+A`H
+P~H
+t^H
+A`H
+\$0H
+@SH
+L$ 
+D$(
+|$8
+L$ 
+\$0H
+D$`
+D$P
+T$P
+L$p
+D$VH
+T$V
+D$p 
+D$p
+D$0
+D$(
+D$ 
+L$pH
+D$@
+D$8H
+\$0H
+D$(
+\$ 
+L$pH
+D$@
+D$8H
+\$0H
+D$(
+\$ 
+EpL+
+{ I
+H L
+UWAVH
+A;@
+L$@
+HpI
+A`I
+A H
+D$@
+HpI
+A`I
+uTH
+D$0L
+L$$H
+D$8L
+D$0
+T$(H
+L$ 
+D$$
+D$(
+[ I
+s(I
+A^_]
+t2H
+\$0H
+t$8H
+uLH
+l$ VWATAVAWH
+D$8
+D$ 
+D$0H
+u.H
+T$ 
+|$ 
+L$&@8t$&t.@8q
+@81u
+95z
+A82t@@8r
+t:D
+w$E
+@82u
+u"H
+L$8H3
+\$@I
+[@I
+kHI
+A_A^A\_^
+u*3
+\$0H
+t$8H
+ wIH+
+tPH
+\$0H
+t$8H
+\$03
+t$8H
+wOtD
+*t2-
+tH-
+wAtx
+*tf-
+tG-c
+t@-
+D$HE
+L$@L
+D$HL
+L$@E
+t^H
+f98t
+f9;u
+\$0H
+l$8H
+t$@H
+WATAUAVAWH
+L;5
+tPH
+L;5^
+uxI
+dfE
+H9=
+fB9
+xt?fB9<xt8H
+xaI9>t\I
+I9<
+tjH
+afE
+<~I
+FH#
+\$`H
+l$hH
+t$pH
+0A_A^A]A\_
+|$ E3
+\$@H
+l$HH
+t$PH
+twH
+tGL
+D$ 
+tRH
+t0H;
+t'H
+\$0H
+t$8H
+\$0
+L$ WH
+\$0H
+D$8I
+D$@I
+t$ WATAUAVAWH
+d$xA
+t$p
+ty3
+\$@I
+[@I
+sHI
+A_A^A]A\_
+t$p
+?H3
+w:A
+s4M
+l$0I
+D$x
+D$ 
+u5H
+T$(H;
+t H
+L$x
+L$ WH
+t"H
+\$0H
+L$ VWAVH
+\$8I;
+L$ H
+D$ L
+D$@H
+D$HH
+L$PH
+T$XH
+D$ H
+D$(H
+D$0L
+L$(L
+D$@H
+T$0H
+`A^_^
+E H
+EE(H
+;+{
+~3H
+\$0H
+l$8H
+t$@H
+X$H
+\$p
+|$xH
+|$ AVH
+u>H
+u>H
+\$0H
+l$8H
+t$@H
+|$HH
+ A^
+tjH
+uFH
+t\f
+,33
+t_H
+tGE3
+HH;
+\$0H
+t$@H
+l$8H
+tJH
+HH;
+\$0H
+t$8H
+AWH
+\$@H
+t$HH
+|$PH
+0A_
+\$ ;
+|6L
+I9<
+AVH
+ Hc
+xt;
+tJH
+\$0H
+t$8H
+|$@H
+ A^
+(Hc
+x/;
+s'H
+K H;
+K(H;
+K0H;
+K8H;
+K@H;
+KHH;
+KhH;
+KpH;
+KxH;
+tfSH
+KXH;
+K`H;
+\$0H
+\$0H
+l$8H
+@UATAUAVAWH
+l$0H
+]`H
+uhH
+}pH
+E(D
+D$(
+D$ 
+46I
+w1H
+\$0H
+tOM
+t$(M
+\$ 
+M(H3
+]`H
+uhH
+}pH
+e0A_A^A]A\]
+A8A
+H9P
+tyH
+tmH
+u\H
+uBH
+{8H
+H9G
+\$0H
+l$8H
+t$@H
+t1SH
+A8A
+H9P
+\$0H
+tFH
+tAH
+9H;
+\$0H
+|$P
+|tH
+<0t
+<0t
+\$0H
+l$8H
+t$@H
+D$pE3
+D$(E3
+D$ 
+D$hD
+L$`D
+D$ 
+<9t
+?1u
+\$@H
+l$HH
+t$PH
+SUVWATAVAWH
+D$TH
+.E3
+l$P
+D$T
+)E3
+l$P
+t4I
+l$PL
+D$T
+|IH
+A9L
+t)A
+l$0H
+,4L
+L$@H
+\$8E;
+T$ A
+L$(
+T$,E
+t:H
+D$(E
+D$(3
+tAI
+ A;
+|$0
+D$ I;
+s7D
+t,L
+ E;
+\$8E
+L$@H
+|$0
+A_A^A\_^][
+UVWATAUAVAWH
+L$`L
+|$xM
+D$D
+D$`E3
+l$h
+L$`
+t$hfH
+l$H
+?A:
+L$H
+u;H
+D$H
+u`H
+l$@A
+L$XE3
+|$\3
+D$\H
+L$@A
+t$@L
+L$4
+l$4
+l$0E
+sv0E3
+tHA
+l$0E
+sv0E3
+tHA
+l$0t
+sv-E3
+tBD
+l$0H
+t?D
+L$4L
+D$<
+L$0
+ E;
+t;H
+ E;
+L$p
+|$8H
+T$PE
+u!E;
+st_E
+ A;
+T$P
+tQA
+|$8A
+L$pH
+T$PE
+t;H
+D$<L
++D$0
+D$<
+L$4L
+tmA;
+ E;
+D$8
+L$0
+ E;
+t5H
+ E;
+L$p
+|$<H
+T$PE
+u!E;
+st_E
+ A;
+T$P
+tQA
+|$<A
+L$pH
+T$PE
+t5H
+D$8L
++D$0
+D$8
+tfA
+tLE
+tGE3
+ E;
+ssm
+t$xH
+t\E3
+ E;
+ss#
+t$xD
+T$4
+umE
+toE3
+ E;
+D$@E
+|$D
+ E;
+H0D
+D$\H
+L$D
+T$XD
+l$D
+uFE
+D8l$ht
+L$`
+[PA
+A_A^A]A\_^]
+l$ E3
+\$0H
+t$8H
+B,*
+\$ ;
+t{Hc
+D$@
+|$$H
+\$HH
+t$PH
+@SH
+x-;
+PIc
+D$@
+D$8
+D$0
+D$(H
+D$ 
+\$`H
+l$hH
+t$pH
+%!q
+WAVAWH
+tK3
+\$@H
+l$HH
+t$PH
+ A_A^_
+ATAUAVAWH
+L$0A
+L$ 3
+veK
+4.I
+L$ H
+L$ 
+~-M
+t"M
+~3M
+t(M
+~3M
+t(L
+r8M
+L$ |+L;
+L$ I;
+L$ L;
+A_A^A]A\
+@UATAUAVAWH
+l$PH
+]@H
+uHH
+}PH
+Hcu`M
+uxE
+D$(
+D$ 
+w-H
+|$PH
+|$(D
+|$ 
+D$@A
+D$8I
+D$0D
+D$(L
+D$ L
+D$@E
+D$8A
+D$0I
+D$(L
+EhH
+D$ 
+w1H
+\$PH
+D$@E
+D$8A
+D$0I
+t$(L
+\$ 
+Ep3
+D$8D
+D$0A
+D$(L
+D$ L
+D$(L
+EhH
+D$ 
+]@H
+uHH
+}PH
+A_A^A]A\]
+L$P
+L$X
+D$@L
+D$8H
+D$0H
+D$(
+D$ 
+|$h
+L$P
+\$pI
+u;H
+wGH
+D$H
+D$8
+D$0H
+T$8H
+D$8H
+D$@
+L$0H
+T$@
+L$0
+D$H
+D$8H
+u%L
+|$H
+L$0
+|$(D
+t$ 
+|$H
+t$H
+D$0
+|$H
+D$0
+\$`H
+l$hH
+t$pH
+L$ WH
+\$0H
+8Lc
+x[D;
+sRA
+t/H
+D$@D
+D$PD
+D$XL
+L$PL
+D$ H
+D$ H
+T$XH
+L$H
+UVWATAUAVAWH
+A8](u
+L9}
+D$@
+l$ L
+D$ L
+t1I
+fB9
+I}1L
+L;u
+\$8H
+\$0
+D$(
+D$ E
+\$ L
+D+E
+D9u
+|$@
+D$@H
+\$ L
+T$@I
+H;u
+~%I+
+D1>
+~#H
+A_A^A]A\_^]
+|$ AVH
+ Hc
+t#I
+T$@
+D$@
+\$0H
+t$8H
+|$HH
+ A^
+VWAV
+szH
+\$@H;
+D$@
+D$0
+D$ 
+L$0H
+T$@I
+D$0
+[ I
+k0I
+A^_^
+VWAV
+\$@H;
+D$@
+D$0
+D$ 
+L$0
+T$@D
+D$0
+[ I
+k0I
+A^_^
+VWATAVAW
+L$PI;
+D$8
+D$PL+
+D$0
+D$(U
+D$P3
+D$ 
+tW3
+D$@
+D$ 
+L$@D+
+t$@;
+[0I
+k@I
+A_A^A\_^
+AUAVAWH
+L$0J
+L$0
+\$(A
+D$ 
+\$hH
+|$pL
+d$xH
+@A_A^A]
+@USVWATAUAVAWH
+u7A
+y43
+\$(H
+|$ 
+8 t
+$>3
+s>E
+fA;
+fA;
+\$ M
+B8|
+8}OA
+D$ 
+8@t
+hA_A^A]A\_^[]
+@SH
+t+H
+@SH
+L$0H
+|$0
+L$09
+L$49K
+\$8H
+\$8
+@SH
+L$8H
+D$8
+u(H
+D$8H
+L$8
+L$8
+vdH
+s#H
+tNM
+t$ 
+4fH
+T-S
+/-K
+/%u
+ot$ H
+ffffff
+ot$ H
+*ff
+ot$ H
+/-g
+\%#
+ot$ H
+Y%n
+ot$ H
+ot$ H
+fffffff
+ot$ H
+t'H;
+ot$ H
+fA#
+fA;
+fA#
+fA;
+|$ 
+t";
+t)A;
+|$ 
+fD#
+\$HH
+u%H
+K(H
+\$@H
+t$HH
+=wn
+X$H
+\$p
+|$xH
+0Hc
+D$ 
+D$ H
+D$ H
+\$@H
+l$HH
+t$PH
+x AVH
+PIc
+t6H
+D$@
+D$8
+D$0
+D$(I
+|$ 
+\$`H
+l$hH
+t$pH
+|$xH
+PA^
+t'L
+D$8
+D$8
+L$0
+D$0
+?tMA
+T$0t/=
+t =
+T$0=
+\$0A
+\$0
+@t 
+\$0
+@t,
 @u#
-t8RP
-0[&
-^yby
-JJR
-Z@P
-^yby
-6J`
-6H`
-HHP
-6Zy&
-6Zy&
-6n]
-6l]
-6Zy&
-6Zy&
-HHP
-th;
-td+
-Z}-
-dpu
-bpu
-6B`
-6@`
-HHP
-Z@P
-6r]
-6p]
-6>`
-6<`
-6.`
-6,`
-HHP
-YY+
-6~]
-6|]
-Z@P
-RPP
-6Zy&
-62`
-60`
-HHP
-6N`
-6L`
-HHP
-6J`
-6H`
-HHP
-HHP
-Z}*
-Z;F
-Z;V
-H[&
-^yby
-HHP
-Zy&
-Zy&
-HHP
-6Zy&;
-u:&;
-u3&
-6Zy&
-6Zy&
-6v]
-6t]
-6v]
-6t]
-6z]
-6x]
-6Zy&
-6^y
-6J`
-6H`
-HHP
-6r]
-6p]
-6Zy&
-6\y
-6Zy
-Z}3
-dpu
-bpu
-t1&
-Z}]
-Z}:
-V[&
-Zy&
-Zy&
-Z}!
-Zuf
-Z}P
-dpu
-bpu
-Z@P
-HHP
-HHP
-HHP
-HHP
-PPPPPPPP
-HHP
-t!RP
-< t
-<:ug
-<.t
-RECNO()
-FORMAT TO 
-TO 
-FILTER TO 
-TO 
-TO 
- INTO 
-FIELDS TO 
-TO 
-FIELDS ON 
-ON 
-view.tmp
-view.tmp
- INDEX 
- ALIAS 
-view.tmp
-view.tmp
-to 
- into 
-FORMAT TO 
-Set Up
-Relate
-Set Fields
-Options
-Exit
-Filter: 
-Format: 
-Save
-Abandon
-Select database file(s) to be represented in this view.
-Select the database that will initiate the relation.
-Select a database from which to choose fields.
-Enter a logical expression to filter the records in this view.
-Select a screen format to use with full-screen commands for this view.
-Exit and save changes.
-Exit and do not save changes.
-Select up to seven index files. The first file selected is the master index.
-Select the database file that will accept the relation.
-The master index key expression is 
-Relate the files using RECNO() or another numeric expression
-Select the fields to include in this view.  Marked fields are already selected.
-A DBF file in view is not in current directory.
-Two files must be in use in order to set a relation.
-At least one file must be in use for this operation.
-Enter view file name: 
-This view is not modifiable in full-screen view.
-No files available to form this relation.
-Full screen view allows only one continuous relation chain.
-No DBF files are present.
-  Press any key to continue.
-No Format files are present in current directory.
-Relation chain: 
-t,RP
-PPP
-t *
-Y=W
-Y=R
-up+
-Y=F
-PPP
-@P+
-RPP
-Y=L
-Y=B
-< tD
-PPP
-PPP
-PPP
-`y+
-tj+
-PPP
-O}#
-O|$
-t.<
-t*"
-RPP
-H|,
-@)F
-t!P
-u,+
-PPP
-PPP
-tq+
-VPQR
-tL&
-;6p
-H;F
-< t4
-t *
-6Zy&
-t'P
-6Zy&
-6Zy&
-6Zy&
-6^y&
-<@u9
-6^y&
-t_*
-6`y
-6^y
-6Zy&
-PPP
-6Zy&
-YY3
-PPPP
-YY;F
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-RRR
-t"+
-tF<
-YY]
-t[<
-6Zy&
-YY]
-6^y&
-D4*
-6Zy&
->bz
-READ
-dbasedit.tmp
-File too large, some data may be lost.
-Edit: 
-File is being saved.
-INSERT ON
-Abort editing? (Y/N) 
-Find?
-6^y&
-6^y&
-<?u
-6^y
-^y&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-Mu9
-Mu/
-6Zy&
-6Zy&
-6Zy&
-Nui
-<*u
-6Zy&
-YY#
-6Zy&
-6Zy&
-6Zy&
-&:G
-Dt]
-Lt/
-QRP
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-YY=
-6Zy&
-6Zy&
-6Zy&
-< u
-6^y&
-6Zy&
-6Zy&
-&;T
-&;D
-6Zy&
-6Zy&
-&;D
-&;D
-YY+
-6Zy&
-6Zy&+
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-YY+
-6Zy&
-6Zy&
-6Zy&
-6Zy&
-VRP
-6Zy&
-<rt
-t[Cu
-QRP
-QRP
-VRP
-t(=
-t#=
-<+t
-<-u
-<0r!<9w
-lt`
-<.u
-<+u
-<.u\
-<Et
-<et
-<-t
-<+u
-<"u
-<"t
-!v!v!v!
-s&+
-6Zy&
-$>$
-#F#
-a#y#y#
-CtX
-DtS
-RPV
-t$;
-<.t
-<.u9
-VRP
-<+t
-<-u/
-VSQ
-<+t
-<-u/
-VSQ
-6Zy&
-Ct/
-,V-V-
--V-
-<Ct
-<Eu
-<Eu
-<Yt
-<+t
-<-ui
-VRP
-<Kt
-<+t
-<-uB
-VRP
-<Kt
-<Et
-<St
-Et&
-SuD
-<Tt
-TABLE
-TUPLES
-VECTORS
-DATA
-BOT
-EOD
-LABEL
-COMMENT
-SIZE
-PERIODOCITY
-MAJORSTART
-MINORSTART
-TRUELENGTH
-UNITS
-DISPLAYUNITS
-ERROR
-TRUE
-FALSE
-0123456789.Ee-
-6Zy&
-6^y&
-6Zy&
-6Zy&
-6Zy&
-YY3
-D4*
-
-strings -a -n 3 DBASEINL.OVL
-
-by 
-by 
-R@P
-BBR
-<@u
-<^u
-RRP
-YY;
-QRP
- Q+
-QRP
-QRP
-HP+
-}[;F
-^yR
-`y+
-6^y&
-<*u
-<=t
-<=u
-`yu";6^yu
-< t
-6^y&
-^y+
-6`y
-6^y
-6`y
-6^y
-^y+
-6^y&
-|R;
-6^y&
-6^y&
-^y&
-6^y&
-6^y&
-6^y&
-6`y
-6^y
-YY=
-^y+
-6^y
-6`y
-6^y
-6`y
-6^y
-YY=P
-^y+
-6^y
-6`y
-6^y
-YY=P
-^y+
-6^y
-6`y
-6^yRP
-       dBASE, dBASE III PLUS and Ashton-Tate are trademarks of Ashton-Tate      
-        You may use the software and  printed materials in  the dBASE III               PLUS package under the  terms of the  Software License Agreement;               please  read it.   In summary,  Ashton-Tate grants you a paid-up,               non-transferable,  personal license to use dBASE III  PLUS on one               computer  work  station.   You  do  not become  the owner  of the               package nor do  you have  the  right  to  copy  (except permitted               backups  of  the  software)  or  alter  the  software  or printed               materials.   You are legally accountable for any violation of the               License Agreement and copyright, trademark, or trade secret law.        
-DBKBD
-DBKBDIN
-DBKBDOUT
-dbase.msg
-ALTERNATE
-BELL
-BUCKET
-CARRY
-CATALOG
-CENTURY
-COLOR
-COMMAND
-CONFIRM
-CONSOLE
-DEBUG
-DECIMALS
-DEFAULT
-DELETED
-DELIMITERS
-DEVICE
-ECHO
-ENCRYPTION
-ESCAPE
-EXACT
-EXCLUSIVE
-F10
-FUNCTION
-GETS
-HEADINGS
-HELP
-HISTORY
-INTENSITY
-MARGIN
-MAXMEM
-MEMOWIDTH
-MENUS
-MVARSIZ
-PATH
-PRINT
-PROMPT
-SAFETY
-SCOREBOARD
-STATUS
-STEP
-TALK
-TEDIT
-TYPEAHEAD
-UNIQUE
-VIEW
-config.db
-ALTERNATE 
-L& 
-L&,
-L&8
-L&>
-L&D
-L&P
-L&\
-L&b
-L&h
-L&n
-L&t
-L&z
-L&"
-L&(
-L&4
-L&:
-L&@
-L&L
-L&R
-L&X
-L&d
-L&j
-L&p
-L&|
-T'!
-T'(
-T',
-q'"
-6(4
-M(:
-M(>
-M(|
-U(>
-U(t
-U(x
-p(j
-@COMSPEC
-89:;<=>?
-COM1COM2LPT1LPT2LPT3PRN 
-@v:k
-@v:k
-HOME
-PATH
-:????????.???
-ACCEPT
-APPEND
-ASSIST
-AVERAGE
-BROWSE
-CALL
-CANCEL
-CASE
-CHANGE
-CLEAR
-CLOSE
-CONTINUE
-COPY
-COUNT
-CREATE
-DELETE
-DIR
-DIRECTORY
-DISPLAY
-EDIT
-EJECT
-ELSE
-ENDCASE
-ENDDO
-ENDIF
-ERASE
-EXIT
-EXPORT
-FIND
-GOTO
-HELP
-IMPORT
-INDEX
-INPUT
-INSERT
-JOIN
-LABEL
-LIST
-LOAD
-LOCATE
-LOGOUT
-LOOP
-MODIFY
-NOTE
-OTHERWISE
-PACK
-PRIVATE
-PROCEDURE
-PUBLIC
-QUIT
-READ
-RECALL
-REINDEX
-RELEASE
-RENAME
-REPLACE
-REPORT
-RESET
-RESTORE
-RESUME
-RETRY
-RETURN
-RUN
-SAVE
-SEEK
-SELECT
-SET
-SKIP
-SORT
-STORE
-SUM
-SUSPEND
-TEXT
-TOTAL
-TYPE
-UNLOCK
-UPDATE
-USE
-WAIT
-ZAP
-GOTO
-STORE
-0123456789ABCDEF
-T+-
-'"[
-ALTERNATE
-BELL
-CALL
-CARRY
-CATALOG
-CENTURY
-COLOR
-CONFIRM
-CONSOLE
-DATE
-DEBUG
-DECIMALS
-DEFAULT
-DELETED
-DELIMITERS
-DEVICE
-DOHISTORY
-ECHO
-ENCRYPTION
-ESCAPE
-EXACT
-EXCLUSIVE
-FIELDS
-FILTER
-FIXED
-FORMAT
-FUNCTION
-HEADINGS
-HELP
-HISTORY
-INDEX
-INTENSITY
-MARGIN
-MEMOWIDTH
-MENUS
-MESSAGE
-ODOMETER
-ORDER
-PATH
-PRINTER
-PROCEDURE
-RELATION
-SAFETY
-SCOREBOARD
-SHARED
-STATUS
-STEP
-TALK
-TITLE
-TYPEAHEAD
-UNIQUE
-VIEW
-file 
-ALL
-FOR
-NEXT
-RECORD
-REST
-WHILE
-dbf
-dbt
-ndx
-prg
-fmt
-mem
-frm
-txt
+\$8H
+\$8H
+\$8H
+|$ AVH
+t$0
+t$H
+t$0
+\$8H
+l$@H
+|$HH
+ A^
+@USVAVH
+D$8
+D$0
+MPH
+T$8A
+D$p
+EPH
+D$0H
+D$(H
+T$8H
+E`D
+L$pH
+D$ 
+E`H
+L$@
+L$03
+D$P
+L$`
+D$D
+t$X
+\$@L
+t$H
+D$`
+D$0H
+A^^[]
+@SH
+u23
+T$ H
+D$ $
+t53
+|*3
+t=A
+D$@
+D$8A
+T$0
+D$(!
+D$ 
+D$@
+D$8A
+T$0
+D$("
+D$ 
+L$xH
+D$x
+L$ WH
+\$0H
+XLc
+xxD;
+soA
+P4A
+D$`L
+D$@D
+L$xL
+D$8D
+L$0H
+T$0L
+L$xH
+D$8H
+L$p
+D$(E3
+T$ 3
+ Hc
+\$0H
+t$8H
+@SH
+u.H
+\$0D
+\$(H
+D$ 
+uhH
+D$0
+D$(
+D$ 
+D$ 
+l$X
+\$PH
+t$`H
+@t+
+D$x
+D$0
+D$(H
+D$pH
+D$ 
+|$ H
+tAH=
+t)H=
+u0H
+19H
+t0H
+A H
+E0H
+B`H
+u0H
+APH
+\$8H
+t$@H
+|$HH
+A8H
+ Ic(H
+IcX
+|$0
+t5f
+v2D
+ wu
+|$0H
+\$8H
+l$@H
+LcA<E3
+t D
+(E;
+\$0H
+HcQ<H
+:PE
+f9J
+@SUVWAVH
+Q8H
+ A^_^][
+ A^_^][
+@SUVWAVH
+Y8H
+ A^_^][
+ A^_^][
+;csm
+\$0H
+uFH
+@SUVWAVH
+Y8H
+ A^_^][
+ A^_^][
+WVH
+ffff
+v&I
+I@H;
+~ol
+ I+
+fffff
+oR 
+oZ@
+ob`
+~oL
+~oL
+~oL
+oR 
+oZ@
+ob`
+~oL
+~oL
+~oL
+fffffff
+oZ 
+ob0f
+Y f
+oJ@
+oRP
+oZ`
+obpf
+I@f
+QPf
+Y`f
+apH
+fffffff
+)Ap
+)I`
+)AP
+)I@
+)A0
+)I 
+fffffff
+={=
+ I+
+veL;
+ffffff
+fffff
+vKfffff
+A f
+A0f
+A@f
+APf
+A`f
+ApH
+u]H
+tNH
+tGH
+t/H
+@UH
+@UH
+@UH
+@UH
+t6H
+D$0H
+D$(
+D$ 
+t6H
+D$0H
+D$(
+D$ 
+SUH
+t/H
+\$0H
+D$(
+D$ 
+h][
+t6H
+D$0H
+D$(
+D$ 
+D$0H
+D$(
+D$ 
+SUH
+t6H
+D$0H
+D$(
+D$ 
+h][
+t*H
+D$(
+D$ 
+t6H
+D$0H
+D$(
+D$ 
+t6H
+D$0H
+D$(
+D$ 
+SUH
+t/H
+\$0H
+D$(
+D$ 
+h][
+t6H
+D$0H
+D$(
+D$ 
+D$0H
+D$(
+D$ 
+SUWH
+}`L
+}`H
+t6H
+D$0H
+D$(
+D$ 
+`_][
+@UH
+t*H
+D$(
+D$ 
+t6H
+D$0H
+D$(
+D$ B
+t6H
+D$0H
+D$(
+D$ B
+SUH
+t/H
+\$0H
+D$(
+D$ B
+H][
+t6H
+D$0H
+D$(
+D$ B
+D$0H
+D$(
+D$ B
+SUH
+EHH
+E@H
+t6H
+D$0H
+D$(
+D$ B
+H][
+@UH
+t*H
+D$(
+D$ B
+t6H
+D$0H
+D$(
+D$ Y
+t6H
+D$0H
+D$(
+D$ Y
+SUH
+t/H
+\$0H
+D$(
+D$ Y
+H][
+t6H
+D$0H
+D$(
+D$ Y
+D$0H
+D$(
+D$ Y
+SUWH
+}@L
+}@H
+t6H
+D$0H
+D$(
+D$ Y
+@_][
+@UH
+t*H
+D$(
+D$ Y
+@UH
+@UH
+@UH
+@UH
+@UH
+@UH
+@SUWH
+HpH
+X`H
+EHH
+XhH
+D$8
+D$0
+D$(
+D$ L
+EDH
+@_][
+@SUWH
+HpH
+X`H
+EHH
+HxH
+D$8
+D$0
+D$(
+D$ L
+EDH
+@_][
+@SUH
+tlH
+E0H
+M(H
+8csm
+uUH
+uKH
+x  
+x !
+x "
+M(H
+H H
+E0H
+E H
+(][
+@UH
+@UH
+E H
+@SUH
+uHH
+;csm
+{  
+{ !
+{ "
+MpH
+MxH
+H(H
+(][
+@UH
+M D
+@SUH
+uEH
+;csm
+{  
+{ !
+{ "
+MxH
+HxH
+(][
+@UH
+@UH
+H0H
+@UH
+@UH
+H0H
+@UH
+@UH
+8csm
+E H
+@UH
+@UH
+@UH
+@UH
+@UH
+@UH
+@UH
+MHH
+@UH
+@UH
+@UH
+@UH
+@UH
+M`H
+@UH
+M@H
+@UH
+@UH
+@UH
+=Y-
+@SH
+D$0H
+D$0H
+D$0H
+ [H
+((I
+bad allocation
+bad exception
+__based(
+__cdecl
+__stdcall
+__thiscall
+__fastcall
+__vectorcall
+__preserve_none
+__clrcall
+__eabi
+__swift_1
+__swift_2
+__swift_3
+__ptr64
+__restrict
+__unaligned
+restrict(
+ new
+ delete
+operator
+->*
+>>=
+<<=
+`vftable'
+`vbtable'
+`vcall'
+`typeof'
+`local static guard'
+`string'
+`vbase destructor'
+`vector deleting destructor'
+`default constructor closure'
+`scalar deleting destructor'
+`vector constructor iterator'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`virtual displacement map'
+`eh vector constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`copy constructor closure'
+`udt returning'
+`EH
+`RTTI
+`local vftable'
+`local vftable constructor closure'
+ new[]
+ delete[]
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`managed vector constructor iterator'
+`managed vector destructor iterator'
+`eh vector copy constructor iterator'
+`eh vector vbase copy constructor iterator'
+`dynamic initializer for '
+`dynamic atexit destructor for '
+`vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`managed vector copy constructor iterator'
+`local static thread guard'
+operator "" 
+operator co_await
+operator<=>
+ Type Descriptor'
+ Base Class Descriptor at (
+ Base Class Array'
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+`anonymous namespace'
+(null)
+CorExitProcess
+INF
+inf
+NAN
+nan
+NAN(SNAN)
+nan(snan)
+NAN(IND)
+nan(ind)
+e+000
+Sun
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+CompareStringEx
+FlsGetValue2
+LCMapStringEx
+LocaleNameToLCID
+RoInitialize
+RoUninitialize
+AppPolicyGetProcessTerminationMethod
+AppPolicyGetThreadInitializationType
+c-^
+;lD
+,Bb
+&'O
+EZ%
+qVJ
+k#c
+d8L2
+[aOni*{
+'Pc
+onI
+@2&@
+"RP(
+}]9
+ev 
+eLK(w
+Di}
+FEMh
+h0'D
+%v}
+}m?
+:@O
+owM&
+&aV
+~ $s%r
+@b;zO]
+Omm
+w;I
+G 8
+$qE}
+7>,
+jVg
+;*xh
+id&
+,Ji
+&>r
+["93
+G-w
+iu+-,
+"m^
+\lo}
+obwQ4
+&Sgw
+[R/
+?nz(
+H[=
+EJj
+0+L
+wXC
+=87M
+!@f
+q=v
+}fL
+&`@
+BAL
+N2L
+v2!L.2
+cQr
+FZ*
+X/4B
+ycg
+fvP
+t^6
+k=yI
+Bnc
+laQ
+^<V7w
+dH9
+4X<
+W&|.
+1#INF
+1#QNAN
+1#SNAN
+1#IND
+q(7
+%>b
+UUUUUU
+UUUUUU
+TUUUU
+#Ib?
+PO_
+0,C
+0wG
+pOC
+p~,
+`)Q
+PIO
+`:7
+`&|
+pFx
+0X.
+0kE
+.3i
+=imb;D
+=W>6
+<hC
+ ob
+>[^j
+>Kb|
+>:b
+=lg
+)>,
++>De
+W`@
+|'e
+1<.
+/>:
+/#>
+=nX
+11Y@
+/>58d%
+MJ$>
+>cQ6
+!>6'Y
+>jtm}S
+>77:
+)>6{1n
+Vr.>T
+&>R
++f)>0'
+d >
+c?>
+#)>
+^x8
+o2>
+Lj[;>
+J<>
+3>fvw
+;H9>&X
+*StO9>T
+.>Tu
+.(!>
+>%@
+n03>Pu
+?>d
+>>t
+v:>
+["`
+=>7
+9Ir
+X>z
+8>4
+S9>H
+5>V
+R:>
+V8>
+x.&>
+K~Je#>!
+Ix[
+>dn
+-/!>
+(>aI
+=cQ6
++M<7>
+*>f[
+o ->
+l(>>
+c(>\,
+ET5>
+;>9l
+mG4>
+?7>
+W3>
+bp(=>?g
+36,>
+;>P
+j`&
+z*>
+=GQ
+37>k
+=q)
+m"e
+~X3>
+6>T
+6>J`
+?>!T
+4<>
+8>c
+BC?>6t9^
+c:>
+B4>
+8'>0
+=1>
+3>P
+Y)>
+'._M
+=4<,
+BF>^G
+K&>.yC
+ 'L>[
+.xJ>Hf
+y\PD>!
+|b=})>
+c [1>H'
+dL?>
+j+>
+uzKs@>
+3>N;kU
+r=C
+.>E
+K>V
+kE>fvw
+M>`
+nH>
+eF>t
+L>ev
+A>pP&
+V6E>`"(5
+~7>
+M>W
+,=>B
+">}t
+'>+
+I!>
+0iN>/
++h->|
+@>%>b
+?qBJ
+?4,
+D\n
+?{>
+=l}
+JH7
+l@6 
+cj`
+?-hk
+??7
+OZQ%
+}A_
+?mu
+7Ck
+"Qj
+?d!
+?@b
+-)4d
+?:kP<
+?UUUUUU
+?L,
+?f`Y4
+0':
+%f-
+?QY^&
+?fe
+?U)#
+z8$
+?h/
+?@+
+?5'
+p"^
+?[`
+xV4
+J.g
+F@J
+?ysB
+'u_
+?$G4
+?30]
+?&H
+5VD
+?qA
+.r/
+?7zQ6$
+log10
+wmain
+D:\TakeCommand36\TCConsole\ntinit.cpp
+InitOS
+vector too long
+bad array new length
+Unknown exception
+GCTL
+.text$di
+.text$mn
+.text$mn$00
+.text$mn$21
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.gfids
+.giats
+.rdata
+.rdata$00
+.rdata$T
+.rdata$r
+.rdata$voltmd
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data
+.data$r
+.data$rs
+.bss
+.pdata
+.fptable
+.rsrc$01
+.rsrc$02
+*`<
+P4`<
+2`<
+b`<
+0r`<
+:`<
+,`<
+`>\
+,`<
+`^x
+,`<
+T`<
+hpx
+:`<
+,`<
+|`<
+d&(
+B`<
+:`<
+B`<
+B`<
+B`<
+:`<
+B`<
+B`<
+:`<
+:`<
+2`<
+:`<
+j`<
+ $&"
+ "$
+B`<
+:`<
+B`<
+B`<
+B`<
+:`<
+B`<
+B`<
+P2`<
+@r`<
+2`<
+@2`<
+P2`<
+:`<
+,`<
+,`<
+,`<
+,`<
+`<@
+`<p
+%dS
+%4R
+$h~
+%4$
+WTSRegisterSessionNotification
+WTSUnRegisterSessionNotification
+WTSAPI32.dll
+?FilenamePart@@YAPEB_WPEB_WPEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?aGlobals@@3UGLOBAL_VARIABLES@@A
+QueryIsTTY
+FmtMsgBox
+InitializeCOMSecurity
+?RegisterApplicationRestartStub@@YAJPEB_WK@Z
+?QueryCurrentDirectory@@YAHPEB_WAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@H@Z
+?ChangeDirectory@@YAHPEB_W@Z
+?GetListSize@@YAHPEA_W@Z
+?aIniFile@@3UINIFILE@@A
+?OpenXHistory@@YAPEAXXZ
+?ResetBreakHandling@@YAXXZ
+?ResetParsingFlags@@YAXXZ
+EnableSignals
+UpdateTitleAndIcon
+?ConsoleANSI@@YAHXZ
+?QueryTakeCommandIPC@@YAHPEB_WAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@H@Z
+?ShowPrompt@@YAXPEA_W@Z
+?PromptAliases@@YAHPEB_WAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?GetNextLine@@YAHPEAXAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@HPEB_WH@Z
+?StartPromptTimer@@YAXXZ
+?AddToHistory@@YAXAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@H@Z
+?Command_S@@YAHV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@H@Z
+?_timer@@YAXHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@_WJ@Z
+?LockXHistory@@YA_NXZ
+?UnlockXHistory@@YAXXZ
+?Exit_Command@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?InitializeGlobalVariables@@YAXXZ
+?_GetCurrentDirectory@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?_GetModuleFileName@@YAHPEAUHINSTANCE__@@AEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?GetLongName@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?InitializeIniFile@@YAXXZ
+?SkipWhiteSpace@@YAPEB_WPEB_W@Z
+?GetNthArgument@@YAPEB_WPEB_WH@Z
+strend
+?NTInternalHelp@@YAHPEB_W@Z
+?GetNthArgument@@YAPEB_WPEB_WHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@PEAH@Z
+?QueryIsDirectory@@YAHPEB_W@Z
+?_ctoupper@@YAHH@Z
+TCError
+?ProcessINI@@YAHPEB_W@Z
+?DefaultINI@@YAXPEB_W@Z
+?SetConsoleColorPalette@@YAXXZ
+?SaveIniData@@YAXXZ
+SetCursorSize
+?QueryCountryInfo@@YAXXZ
+?IniLine@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@PEAUINIFILE@@HHPEAPEA_W@Z
+Sscanf
+?SetColors@@YAXH@Z
+?SearchPaths@@YA?AV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@PEB_W0HPEAHPEA_W1@Z
+QueryIsConsole
+?NextArgument_S@@YAPEB_WAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@H@Z
+ErrorMsgBox
+?DefineStrings@@YAXXZ
+?SetSessionTitle@@YAXPEB_W@Z
+Qprintf
+GetKeystroke
+?InitializeREXX@@YAHXZ
+LoadAllPlugins
+?LoadLibraryFunctions@@YAHXZ
+?LoadAllCompletionScripts@@YAHXZ
+?SetExecutableFiles@@YAXXZ
+?ConsoleBreakHandler@@YAHK@Z
+StripEnclosingQuotes
+?History_Command@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?DirHistory_Command@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+RunStartupFiles
+?DirHistoryStart@@YAPEA_WXZ
+EndOfList
+?SetLastDirectory@@YAXPEB_W@Z
+?SaveDirectory@@YAXPEA_WPEB_W@Z
+?UnEscapeLine@@YAXAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?QueryIsFile@@YAHPEB_W@Z
+?StripEnclosingQuotes_S@@YAXAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?QueryIsTCMD@@YAHXZ
+?GetTerminalWindow@@YAPEAUHWND__@@XZ
+?_GetConsoleTitle@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+?QueryIsConPTY@@YAHXZ
+CPUUsage
+?InitClips@@YAXXZ
+AllocMem
+InitializeLocalGlobalLists
+?Ver_Command@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+QPuts
+?InitializeQ@@YAX_NPEB_W@Z
+?_GetComputerName@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+Printf
+?RestoreFromTray@@YAXXZ
+?SetCursorPosition@@YAXHH@Z
+?Start_Command@@YAHAEAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@@Z
+OnTCDeviceChange
+?OnTCClipboardChange@@YA_J_K_J@Z
+?GetClip@@YAXXZ
+?PowerMonitorMessage@@YAH_K_J@Z
+?LockMonitorMessage@@YAH_K_J@Z
+?APCOnResume@@YAX_K@Z
+?APCOnSuspend@@YAX_K@Z
+?CutOrDelete@@YAX_N@Z
+?CanCut@@YAHHHHH@Z
+?CanUndo@@YAHXZ
+?CanRedo@@YAHXZ
+?SetMousePositionFromTCMD@@YAXHH@Z
+?IsValidCursorPosition@@YAHHH@Z
+TakeCmd.dll
+HeapDestroy
+HeapSize
+HeapReAlloc
+HeapFree
+HeapAlloc
+GetProcessHeap
+CloseHandle
+GetModuleFileNameW
+CreateFileW
+GetFileSize
+WriteFile
+FlushFileBuffers
+SetFilePointer
+FormatMessageW
+LocalFree
+GetLocalTime
+SizeofResource
+LockResource
+LoadResource
+FindResourceW
+FindResourceExW
+WideCharToMultiByte
+GetStdHandle
+GetCommandLineW
+GetEnvironmentStringsW
+FreeEnvironmentStringsW
+GetSystemTimeAsFileTime
+WriteConsoleW
+DuplicateHandle
+GetCurrentProcess
+GetCurrentThread
+GetCurrentThreadId
+lstrlenW
+lstrcmpiW
+SetStdHandle
+SetConsoleCtrlHandler
+FreeLibrary
+LoadLibraryExW
+GetLastError
+GetModuleHandleW
+GetConsoleWindow
+GetCurrentProcessId
+SetConsoleTitleW
+GetConsoleMode
+SetConsoleMode
+Sleep
+SetEnvironmentVariableW
+SetErrorMode
+QueueUserAPC
+GetEnvironmentVariableW
+InitializeCriticalSectionEx
+DeleteCriticalSection
+KERNEL32.dll
+GetForegroundWindow
+CreateWindowExW
+DestroyWindow
+wsprintfW
+ChangeWindowMessageFilter
+IsWindowVisible
+GetWindowPlacement
+SetWindowPlacement
+FindWindowW
+IsWindow
+SendMessageW
+RegisterClassExW
+RegisterHotKey
+SetTimer
+AddClipboardFormatListener
+GetMessageW
+TranslateMessage
+DispatchMessageW
+UnregisterHotKey
+RemoveClipboardFormatListener
+ShowWindow
+SetForegroundWindow
+SetFocus
+ChangeClipboardChain
+LoadIconW
+GetWindowTextW
+GetWindowRect
+MoveWindow
+DefWindowProcW
+USER32.dll
+RegOpenKeyExW
+RegQueryValueExW
+RegCloseKey
+ADVAPI32.dll
+SHGetKnownFolderPath
+SHCreateDirectoryExW
+DuplicateIcon
+Shell_NotifyIconW
+SHELL32.dll
+CoTaskMemFree
+OleInitialize
+OleUninitialize
+ole32.dll
+CryptBinaryToStringA
+CRYPT32.dll
+IsDebuggerPresent
+OutputDebugStringW
+RaiseException
+EnterCriticalSection
+LeaveCriticalSection
+ReleaseSRWLockExclusive
+AcquireSRWLockExclusive
+WakeAllConditionVariable
+SleepConditionVariableSRW
+SetUnhandledExceptionFilter
+GetStartupInfoW
+QueryPerformanceCounter
+InitializeSListHead
+RtlLookupFunctionEntry
+RtlUnwindEx
+RtlPcToFileHeader
+SetLastError
+FlsAlloc
+FlsGetValue
+FlsSetValue
+FlsFree
+EncodePointer
+RtlCaptureContext
+RtlVirtualUnwind
+UnhandledExceptionFilter
+TerminateProcess
+IsProcessorFeaturePresent
+CreateThread
+ExitThread
+FreeLibraryAndExitThread
+GetModuleHandleExW
+ExitProcess
+GetProcAddress
+GetCommandLineA
+GetFileType
+VirtualProtect
+CompareStringW
+LCMapStringW
+FindClose
+FindFirstFileExW
+FindNextFileW
+IsValidCodePage
+GetACP
+GetOEMCP
+GetCPInfo
+MultiByteToWideChar
+GetStringTypeW
+SetFilePointerEx
+GetConsoleOutputCP
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+.?AVlogic_error@std@@
+.?AVlength_error@std@@
+.?AVbad_exception@std@@
+.?AVCAtlException@ATL@@
+.?AVCSEHException@@
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@
+.?AV?$CStringT@DV?$StrTraitATL@DV?$ChTraitsCRT@D@ATL@@@ATL@@@ATL@@
+.PEA_W
+.PEAD
+.?AVtype_info@@
+.?AVCWin32Heap@ATL@@
+.?AUIAtlMemMgr@ATL@@
+.?AVCAtlStringMgr@ATL@@
+.?AUIAtlStringMgr@ATL@@
+Y0%
+w=>
+}eT
+|_J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+}`J
+amM
+yn\
+oW7
+G9*
+KA4
+MB5
+OC7
+PF9
+RH;
+RH<
+TJ?
+ULA
+VMC
+XOE
+YQF
+YRH
+[SJ
+\VL
+^WN
+^WO
+_YR
+a[S
+a[U
+b]W
+c_X
+d`Z
+d`[
+ea]
+fc_
+gc_
+gda
+geb
+hfc
+hge
+ggd
+gfe
+gge
+jR5
+&&&
+&&&
+''(
+)))
++**
+,++
+--,
+...
+0//
+100
+222
+333
+444
+555
+677
+878
+898
+:99
+:::
+;;<
+=<=
+===
+?>>
+???
+?@@
+@AA
+AAA
+BAA
+BCB
+BCB
+BCB
+ABA
+:OE
+lT5
+'''
+(((
+))(
+)))
+***
++,,
+-,-
+...
+/0/
+100
+212
+332
+344
+565
+666
+887
+998
+999
+;:;
+;;;
+<<<
+=>=
+>>>
+???
+??@
+A@@
+AAA
+BBA
+AAB
+ABA
+ABA
+AAA
+1eM
+pW7
+'&'
+)((
+***
++**
+***
+,,,
+--,
+-.-
+/0/
+000
+221
+322
+344
+555
+666
+777
+888
+999
+:::
+;<;
+<<<
+==<
+===
+?>?
+???
+@@@
+@@@
+AAA
+AAA
+AAA
+BAA
+@AA
+)xV
+u[:
+(((
+)))
+*+*
+,+,
+,--
+,,,
+,,-
+.-.
+///
+000
+111
+322
+433
+444
+666
+777
+888
+899
+::9
+;;;
+;<;
+==<
+===
+>>>
+???
+?@?
+@@@
+@@@
+A@A
+AA@
+@@A
+A@@
+|_<
+)))
+***
++++
+,,-
+.-.
+.//
+...
+--.
+/./
+/00
+111
+222
+333
+545
+665
+666
+887
+888
+999
+:::
+;;<
+<<<
+==<
+>=>
+>>?
+?>?
+???
+?@@
+?@@
+@@@
+@?@
+?@@
+))(
+)))
++++
+,-,
+---
+//.
+000
+000
+/..
+00/
+001
+222
+333
+444
+555
+667
+778
+888
+999
+:::
+:;;
+;;;
+<<<
+===
+=>=
+>>>
+>>?
+??>
+???
+???
+???
+>>?
+7."
+)()
+***
++,,
+---
+...
+///
+101
+222
+221
+100
+001
+122
+333
+443
+545
+556
+777
+788
+988
+999
+:::
+;;;
+<;<
+=<<
+===
+===
+>>>
+>>>
+>>>
+?>?
+?>>
+>>>
+;1#
+*))
++*+
+,-,
+-.-
+../
+000
+111
+322
+333
+334
+212
+111
+222
+334
+544
+556
+666
+777
+888
+988
+:::
+:::
+::;
+<<<
+<=<
+==<
+===
+===
+=>=
+==>
+>>=
+=>=
+>4&
+*+*
+,++
++,,
+---
+./.
+000
+010
+222
+333
+444
+565
+433
+111
+323
+333
+555
+555
+666
+777
+888
+999
+:99
+:::
+:;:
+;;;
+;<<
+<<<
+<<<
+=<<
+=<<
+<==
+<<<
+C6(
++++
+,++
+,--
+...
+///
+000
+112
+233
+344
+445
+666
+677
+665
+222
+333
+444
+555
+666
+666
+777
+888
+999
+::9
+:::
+::;
+;;:
+;;;
+;;<
+;<;
+;;<
+<<<
+;;;
+/oW
+H;*
++**
+,,,
+---
+...
+0/0
+000
+122
+233
+444
+555
+666
+778
+888
+999
+434
+333
+444
+545
+655
+776
+877
+888
+899
+999
+:9:
+::9
+:::
+;:;
+;::
+:;:
+;::
+;::
+3YI
+K=-
++++
+,,,
+--.
+//.
+/0/
+111
+222
+334
+545
+666
+676
+777
+998
+999
+99:
+566
+443
+445
+555
+666
+666
+777
+878
+889
+999
+999
+9:9
+:99
+9:9
+99:
+:::
+9:9
+8?<
+N@/
++++
+,-,
+-..
+///
+000
+211
+222
+334
+545
+666
+777
+777
+899
+999
+9::
+;;;
+898
+333
+444
+445
+656
+666
+777
+777
+788
+888
+988
+988
+898
+898
+898
+888
+888
+1u\
+SC1
++++
+---
+/..
+///
+111
+122
+333
+434
+555
+666
+777
+777
+888
+999
+:::
+;;;
+<<;
+:::
+445
+434
+544
+565
+665
+666
+667
+777
+777
+887
+777
+777
+777
+777
+777
+4H@
+VG4
++++
+.-.
+///
+0//
+011
+222
+333
+444
+555
+555
+776
+888
+888
+9:9
+:::
+;:;
+<<<
+<<<
+<<<
+666
+434
+444
+444
+555
+655
+666
+666
+666
+666
+676
+766
+667
+666
+665
+3s^
+XJ6
++++
+-.-
+///
+000
+111
+222
+223
+434
+555
+666
+676
+877
+988
+999
+:::
+;;;
+<<<
+<==
+=>=
+>>>
+787
+333
+333
+444
+454
+554
+555
+555
+555
+565
+556
+655
+555
+455
+4=9
+[K8
++,,
+---
+///
+001
+111
+222
+443
+545
+656
+677
+777
+788
+988
+:9:
+;;:
+;;;
+<<;
+<<=
+===
+>>>
+>>?
+:::
+332
+333
+344
+433
+444
+444
+444
+444
+445
+444
+444
+334
+434
+2OE
+\M;
++++
+-,,
+///
+011
+121
+333
+444
+544
+655
+777
+878
+999
+999
+::9
+:::
+;;<
+<;<
+==<
+>>>
+>>>
+>??
+???
+<<<
+444
+232
+222
+233
+332
+333
+333
+333
+223
+222
+222
+223
+222
+4\N
+_P>
++*+
+,,-
+../
+000
+222
+333
+444
+555
+666
+777
+888
+999
+999
+::9
+;:;
+;;;
+<<<
+<==
+>==
+>>=
+>>>
+??>
+???
+?>>
+555
+111
+222
+211
+222
+212
+222
+212
+112
+111
+111
+011
+000
+3UI
+aTD
++++
+-,,
+./.
+000
+112
+333
+444
+655
+666
+666
+777
+888
+899
+:9:
+;::
+;;;
+<;;
+<<<
+=>=
+>==
+?>?
+??>
+???
+@@@
+@@@
+988
+110
+100
+110
+101
+111
+110
+001
+100
+00/
+//0
+///
+/./
+0E=
+bWI
++++
+---
+...
+/0/
+121
+334
+454
+555
+666
+777
+888
+888
+988
+;::
+:::
+;;;
+<<<
+<<<
+===
+>>>
+?>>
+?>>
+???
+?@?
+?@@
+@@@
+;;;
+000
+0//
+0//
+/00
+///
+///
+.//
+../
+...
+...
+.--
+---
+-42
+4kY
+b[O
++++
+--,
+-..
+///
+111
+322
+445
+566
+667
+777
+888
+899
+:99
+:::
+:::
+<<<
+<<<
+<<=
+===
+===
+==>
+>??
+???
+???
+??@
+@@?
+@@?
+>=>
+111
+...
+../
+...
+...
+..-
+.--
+.--
+---
+-,,
+,,+
++++
+*++
++94
+1oY
+d]U
++**
+,,,
+...
+00/
+212
+222
+344
+555
+666
+777
+888
+999
+:::
+;;;
+;;;
+;;;
+;;;
+<<=
+=<<
+>==
+>>>
+>>>
+>??
+???
+??@
+@??
+???
+@@@
+???
+443
+---
+---
+---
+,,,
+,,-
++,,
++,+
++++
++**
+***
+))*
+)))
+()(
+()(
+(F:
+)cM
++wZ
+${V
+!eG
+c_Z
+***
+,,,
+---
+///
+010
+232
+434
+455
+766
+887
+888
+999
+::9
+:::
+;;;
+;<<
+==<
+===
+===
+===
+=>=
+???
+?>>
+>>?
+???
+??@
+?@?
+@??
+?@?
+??@
+888
++,+
+,++
++++
++++
+**+
+***
+***
+*)*
+)))
+)((
+(((
+'((
+'''
+&&&
+&%&
+%%$
+$#$
+##"
+"#"
+!!!
+   
+db_
+***
++++
+,--
+/./
+000
+221
+333
+334
+655
+777
+888
+999
+9:9
+:::
+;;;
+<<<
+<=<
+==<
+===
+=>>
+>>>
+>??
+>>>
+>?>
+?@@
+@@@
+???
+@??
+?@?
+?@?
+?@?
+:::
+,,,
+***
+***
+))*
+)))
+)((
+)((
+(('
+''(
+'''
+&'&
+%&&
+%$%
 $$$
-bak
-lbl
-qry
-bin
-tbk
-dif
-wks
-vue
-scr
-cat
-^*/+-=<>#$
--+(
-CC>
-DNN
-DL}
-DL~
-ABS
-ACCESS
-ASC
-NCC
-BOF
-CDOW
-CHR
-CMONTH
-COL
-CTOD
-DATE
-DAY
-DBF
-DELETED
-DISKSPACE
-DOW
-DTOC
-EOF
-ERROR
-EXP
-FIELD
-FILE
-FKLABEL
-FKMAX
-FLOCK
-FOUND
-GETENV
-IIF
-*Lyz
-INKEY
-INT
-ISALPHA
-ISCOLOR
-ISLOWER
-ISUPPER
-LEFT
-CC1
-LEN
-LOCK
-LOCNDX
-LOG
-LOWER
-LTRIM
-LUPDATE
-MAX
-N98
-MESSAGE
-MIN
-N97
-MOD
-N5N
-MONTH
-NDX
-PCOL
-PROW
-READKEY
-RECCOUNT
-RECNO
-RECSIZE
-REPLICATE
-CCN
-RIGHT
-CC1
-RLOCK
-ROUND
-N5N
-ROW
-RTRIM
-SPACE
-SQRT
-STR
-CN?1?N
-STUFF
-CCNNC
-SUBSTR
-ChN?i
-TIME
-TRANSFORM
-$wC
-TRIM
-TYPE
-UPPER
-VAL
-VERSION
-C?N
-YEAR
-ABCDERXZ(!S
-99999999
-XXXX
-#9$*
-ALNXY!#9
-.+-
- 0.
- NYFT
-NYFT
-Message file error.
-Insufficient memory
- *** END RUN   dBASE III PLUS
-HELP
-Command
-Suspended
- -- 
-<A:>
-Character
-.T.
-.Y.
-.N.
-.F.
-.AND.
-.OR.
-.NOT.
-ADDITIVE
-ALIAS
-ALL
-ALTERNATE
-ASCENDING
-BEFORE
-BLANK
-BOTTOM
-CASE
-CLEAR
-COMMAND
-DATABASES
-DEFAULT
-DELIMITED
-DESCENDING
-ENDCASE
-ENDDO
-ENDIF
-ENDTEXT
-ELSE
-EXCEPT
-EXTENDED
-FAST
-FIELDS
-FILE
-FILES
-FOR
-FORM
-FORMAT
-FREEZE
-FROM
-FUNCTION
-GET
-GETS
-HEADING
-INDEX
-INDEXES
-INTO
-LABEL
-LIKE
-LOCK
-MASTER
-MEMORY
-NOEJECT
-NOFOLLOW
-OFF
-OTHERWISE
-PARAMETERS
-PICTURE
-PLAIN
-PRINTER
-PROCEDURE
-RANDOM
-RANGE
-RECORD
-REPLACE
-REPORT
-SAMPLE
-SAY
-SCREEN
-SDF
-STATUS
-STRUCTURE
-TOP
-WHILE
-WITH
-SAVE
-AMERICAN
-BRITISH
-ITALIAN
-GERMAN
-FRENCH
-ANSI
-MODULE
-KEY
-ESCAPE
-ERROR
-LPT
-USERS
-EXCLUSIVE
-TYPEAHEAD
-DIF
-WKS
-SYLK
-PFS
-VIEW
-ENVIRONMENT
-PRN
-COM
-WIDTH
-DOUBLE
-QUERY
-NOAPPEND
-TYPE
-UNIQUE
-HISTORY
-LAST
-NOMENU
-SUMMARY
-I19
-@Sxx
-LPT1:
-LPT2:
-LPT3:
-COM1:
-COM2:
-PRN:
-::O
-CDLMN
-CDLMN
-????????.???
-????????.
-TITLE
-Insufficient memory to display fields.  Press any key to continue.
-No fields of the requested type are present.  Press any key to continue.
-No files of the requested type are present.  Press any key to continue.
-No files of the requested type are cataloged.  Press any key to continue.
- Field Name           Type       Width  Decimal 
-Are you sure you want to abandon operation? [Y/N]
-Enter 'Y' or 'N'.
- am
- pm
-.fmt
-FROM ENVI 
-.vue
-assist;
-list;
-dir;
-display structure;
-display status;
-display memory;
-display;
-append;
-edit;
-F10
-dBASE III PLUS  Version 1.1 
-dBASE III PLUS Version 2.0x100 (07/24/86)
-***Program aborted.***
-***STACK/HEAP OVERFLOW***
-***Floating point stack overflow***
-4W!Z
-\);
-/Ro
-bCe
-vp>[
-bCe
-
+$##
+"##
+"""
+!! 
+ccb
+***
+,,+
+.--
+...
+000
+111
+223
+444
+666
+777
+877
+998
+999
+:;:
+;;;
+<<;
+<<<
+<<<
+===
+===
+>>>
+>??
+??>
+???
+???
+???
+???
+???
+???
+???
+???
+???
+=<=
+-..
+(()
+(((
+'((
+(''
+'''
+&'&
+&&&
+&&&
+%%%
+$%%
+$$$
+###
+"#"
+!!"
+   
+ddc
+*))
+,++
+---
+...
+/0/
+111
+221
+333
+555
+666
+887
+989
+999
+;;;
+::;
+;;;
+<<<
+<<<
+===
+>>>
+>=>
+>>>
+>>>
+???
+???
+@??
+???
+@@?
+???
+@@@
+@??
+?@@
+@??
+>>>
+111
+'&'
+''&
+&'&
+&&%
+%&%
+%%%
+$%$
+$$$
+###
+""#
+"""
+!!!
+   
+ccc
+***
++++
+,,,
+...
+///
+111
+222
+323
+444
+665
+676
+888
+999
+999
+;;;
+;;;
+<;<
+<<=
+<=<
+>==
+=>=
+>>>
+>>>
+???
+???
+???
+???
+?@?
+@?@
+@@?
+??@
+@@?
+??@
+???
+?>>
+565
+&&&
+%%%
+$$%
+%$$
+$$$
+##$
+""#
+"""
+"!!
+ ! 
+cca
+***
++++
+-,,
+--.
+...
+/00
+111
+333
+444
+566
+666
+777
+888
+:9:
+;;:
+;;;
+<;;
+<;<
+<<<
+===
+==>
+>>>
+>>>
+>>>
+>??
+?>?
+???
+???
+???
+???
+??@
+???
+???
+?>?
+???
+?>>
+:::
+(((
+$#$
+"##
+"""
+"""
+""!
+!!!
+ba_
+**)
++++
+,,-
+-..
+///
+///
+010
+211
+433
+554
+556
+777
+777
+988
+999
+::;
+;;<
+<<<
+===
+>=>
+>>>
+>>>
+>>>
+???
+>?>
+>>>
+>>?
+?@?
+???
+@@@
+??>
+>>?
+>>>
+???
+>??
+>>>
+>>>
+=<<
+***
+!!"
+!!!
+   
+b`\
+)))
+**+
++,,
+---
+./.
+0//
+111
+222
+333
+444
+455
+666
+777
+888
+989
+999
+:::
+:;;
+<<<
+==<
+===
+>>>
+>>?
+?>>
+>>>
+???
+?>>
+?>>
+>>>
+???
+???
+???
+???
+>>>
+???
+>>>
+>>>
+>>>
+>==
+/..
+b^Y
+*)*
++++
+,,,
+---
+--.
+//.
+000
+211
+222
+333
+434
+555
+666
+778
+888
+999
+::9
+;;:
+;;;
+;;;
+<<<
+<=<
+===
+>>>
+>>>
+??>
+???
+?>>
+??>
+???
+???
+???
+>>?
+??>
+>>>
+==>
+===
+=<=
+<<<
+;;;
+223
+a[U
+**)
++**
++,,
+,--
+./.
+0/0
+000
+100
+222
+333
+444
+555
+555
+666
+777
+888
+999
+9:9
+:::
+;;;
+;;;
+<;;
+<<;
+<<<
+<==
+===
+===
+==>
+>==
+>==
+=>>
+==>
+===
+===
+<<=
+<<<
+<;<
+;;;
+;;;
+;;;
+;;;
+665
+`YQ
++**
++++
++,,
+---
+...
+//.
+000
+111
+111
+222
+333
+444
+555
+666
+777
+888
+999
+989
+999
+:::
+:::
+;;<
+<<<
+<<<
+<<=
+==<
+==<
+===
+===
+===
+===
+===
+===
+==<
+=<<
+<<<
+<<<
+;;;
+:;:
+:::
+999
+888
+677
+!""
+`XL
++**
++++
+,,,
+---
+...
+...
+///
+000
+111
+222
+332
+334
+444
+555
+666
+677
+787
+889
+888
+999
+:99
+:::
+::;
+;;;
+;;;
+<;;
+;;;
+<<<
+<;<
+<<;
+<<<
+<<<
+<<<
+;;;
+;;;
+:;:
+:::
+:::
+999
+999
+999
+888
+787
+776
+(((
+_TH
+***
++++
+,,,
+--,
+-.-
+...
+///
+/00
+111
+222
+232
+333
+554
+555
+666
+666
+776
+778
+888
+899
+999
+99:
+:::
+:::
+:::
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+:::
+::;
+:::
+:9:
+999
+889
+877
+778
+777
+666
+666
+,,-
+^SE
++**
++++
+,,-
+---
+.--
+/..
+///
+000
+111
+111
+222
+333
+343
+444
+555
+555
+666
+666
+677
+778
+888
+899
+999
+999
+9::
+:::
+:::
+;::
+:;:
+:;:
+:;:
+:::
+:::
+:::
+:::
+999
+999
+888
+888
+787
+767
+666
+666
+566
+555
+444
+0//
+|T-
+^PA
++++
+,++
+-,,
+,,,
+---
+...
+/./
+//0
+111
+111
+222
+332
+jjj
+444
+555
+665
+666
+777
+777
+887
+888
+888
+888
+889
+999
+999
+999
+999
+999
+999
+999
+989
+899
+889
+888
+888
+888
+777
+777
+777
+676
+555
+555
+444
+444
+343
+112
+|T-
+\N>
++++
+,+,
+ede
+./.
+YZY
+221
+iii
+jjj
+444
+444
+555
+555
+666
+777
+767
+777
+777
+888
+988
+988
+898
+999
+999
+999
+999
+899
+999
+898
+898
+888
+888
+787
+777
+676
+666
+555
+545
+444
+444
+444
+333
+232
+112
+#""
+vO-
+ZL<
++++
+,,,
+eff
+///
+0/0
+111
+221
+122
+333
+444
+445
+555
+566
+555
+666
+666
+776
+667
+777
+787
+887
+787
+787
+888
+888
+888
+888
+888
+788
+777
+777
+767
+766
+566
+656
+666
+555
+455
+544
+433
+333
+222
+112
+222
+211
+()(
+vO-
+ZK;
+---
+---
+...
+...
+///
+>??
+hhh
+ihi
+333
+333
+343
+544
+445
+555
+655
+666
+676
+776
+777
+777
+877
+888
+777
+777
+777
+777
+777
+777
+777
+777
+777
+677
+666
+666
+556
+555
+545
+454
+444
+333
+333
+212
+112
+112
+111
+000
+---
+qI-
+YK9
+...
+...
+///
+??>
+233
+333
+433
+444
+445
+444
+555
+555
+556
+565
+666
+666
+676
+766
+777
+777
+777
+777
+777
+677
+666
+666
+677
+666
+656
+655
+555
+555
+445
+444
+444
+444
+334
+333
+222
+222
+111
+111
+00/
+/00
+///
+qI-
+WJ8
+///
+///
+///
+fff
+000
+010
+110
+212
+iii
+222
+322
+333
+333
+444
+444
+555
+444
+556
+555
+666
+666
+666
+666
+666
+666
+666
+767
+766
+666
+666
+666
+666
+666
+555
+666
+655
+444
+555
+454
+444
+333
+332
+223
+222
+122
+221
+211
+101
+111
+000
+0//
+"""
+qI-
+UH8
+000
+000
+000
+000
+000
+000
+000
+100
+111
+111
+111
+112
+122
+323
+333
+333
+333
+444
+454
+544
+555
+555
+556
+666
+666
+766
+776
+766
+776
+667
+777
+776
+667
+766
+666
+556
+656
+555
+555
+544
+444
+444
+433
+333
+223
+333
+221
+111
+221
+111
+010
+010
+000
+000
+000
+***
+kI-
+TG7
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+222
+322
+222
+333
+333
+444
+333
+444
+444
+444
+555
+555
+555
+555
+555
+566
+565
+656
+665
+656
+666
+556
+656
+555
+556
+555
+555
+545
+444
+545
+444
+444
+444
+344
+322
+333
+232
+232
+222
+111
+111
+111
+111
+111
+111
+111
+///
+kC-
+SF6
+PG=
+QH>
+QI?
+SJ?
+TK@
+ULA
+ULA
+ULB
+WND
+WOE
+XQG
+XQH
+ZRJ
+ZUM
+[UO
+\WQ
+\XS
+\XU
+\YW
+][X
+]\Z
+]]\
+]]]
+]]]
+]]]
+]]]
+]]]
+]]\
+]\Y
+]ZW
+]YU
+]XQ
+\VO
+\UL
+[SJ
+ZQH
+XPE
+XND
+VNC
+ULB
+SKA
+RI?
+QH>
+NF<
+LE<
+KD:
+IB:
+HA8
+F@8
+E>7
+C=6
+A<5
+@;4
+?:4
+=94
+<83
+<83
+;72
+eC-
+}`<
+w\8
+qV5
+kR4
+gN2
+cK/
+]F(
+eC-
+e>-
+e'Z
+qqq
+sss
+sss
+sss
+sss
+sss
+sss
+*hhhLYYYM\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M\\\M<sUq 
+kNo
+*))
+*++
+,,+
+---
+.//
+111
+322
+444
+555
+777
+999
+:::
+;;<
+===
+>>>
+?@?
+@A@
+AAA
+BBB
+BBC
+BBB
+?FB
+*+*
+,,,
+---
+,--
+///
+100
+222
+344
+555
+777
+889
+:::
+;;;
+=<<
+>>>
+>?>
+?@?
+@@A
+AAA
+AAA
+AAA
+7TF
+***
+,,,
+-..
+///
+0/0
+000
+122
+333
+555
+776
+888
+9::
+;;;
+<<;
+===
+>>>
+???
+???
+AA@
+@@A
+@@A
+4[I
++++
+---
+.//
+000
+122
+211
+212
+333
+555
+656
+777
+998
+:::
+;;;
+==<
+===
+>>?
+???
+???
+???
+???
+4[I
+,-,
+...
+///
+222
+334
+455
+344
+322
+444
+565
+777
+888
+999
+;::
+;;;
+<<<
+===
+>==
+>>>
+>>>
+>>>
+6TG
+oL!
+---
+///
+000
+121
+333
+544
+666
+767
+444
+555
+666
+887
+889
+9::
+::;
+;<;
+<<<
+<=<
+==<
+===
+==<
+:E@
+---
+///
+111
+222
+444
+566
+777
+888
+999
+666
+555
+666
+777
+999
+:99
+:::
+:;:
+<;;
+;;;
+<<;
+;<;
+;;<
+---
+///
+111
+333
+445
+666
+778
+999
+;::
+;<;
+888
+555
+667
+777
+888
+898
+:99
+:::
+:::
+:;;
+:::
+9::
+3iU
+///
+/0/
+112
+323
+444
+666
+788
+999
+:;:
+;<;
+===
+;;;
+555
+666
+776
+788
+888
+888
+889
+898
+999
+888
+7>;
+///
+111
+333
+434
+555
+776
+888
+999
+:::
+;;;
+===
+=>=
+<<=
+776
+555
+666
+677
+777
+777
+777
+777
+677
+777
+6cT
+///
+001
+322
+344
+556
+776
+888
+9:9
+;;;
+<<<
+<<<
+=>>
+>?>
+???
+888
+454
+555
+556
+666
+655
+566
+555
+555
+456
+00/
+212
+343
+444
+766
+788
+999
+99:
+;;;
+<<<
+===
+>>>
+???
+@@@
+AAA
+;;;
+433
+334
+444
+444
+344
+344
+333
+323
+264
+000
+211
+333
+444
+666
+877
+989
+:::
+;;<
+=<<
+==>
+??>
+?@?
+@@@
+@@@
+@@@
+>>=
+333
+223
+322
+222
+222
+112
+111
+111
+000
+6gX
+///
+121
+444
+656
+677
+898
+889
+;;:
+;;:
+;<<
+===
+=>>
+>>?
+@@?
+@@@
+A@@
+AAA
+@?@
+555
+001
+010
+101
+000
+0//
+///
+...
+--.
+-<6
+5t_
+///
+122
+444
+566
+766
+878
+999
+:::
+;<;
+==<
+>=>
+??>
+???
+@@@
+@@@
+AAA
+AAB
+AAA
+AAA
+777
+///
+///
+../
+...
+-..
+---
+,,,
+,++
++**
+).,
+(J<
+'[F
+'fL
+%fJ
+"\C
+ J6
+ *%
+///
+211
+444
+555
+777
+899
+9::
+;;:
+;<;
+===
+===
+>==
+>>?
+@??
+@??
+@@@
+@@A
+AAA
+AAA
+AAA
+:::
+...
+,,-
+,,-
++,+
++++
+*++
+))*
+))(
+(('
+'''
+&&%
+$$$
+$$#
+"""
+   
+///
+111
+333
+555
+777
+888
+99:
+:::
+<;;
+<=<
+=>=
+>>>
+?>>
+???
+@@@
+@@@
+AAA
+AAA
+BAA
+ABA
+AAA
+===
+-.-
+***
+***
+*))
+))(
+(((
+'''
+&&&
+%&%
+$$$
+$##
+"""
+  !
+/..
+/00
+223
+544
+667
+989
+:::
+;;;
+<<<
+<==
+>>=
+>?>
+???
+@@?
+@@@
+AAA
+AAA
+AAA
+@@@
+AAA
+AAA
+@@@
+???
+000
+(((
+(((
+'''
+&&&
+%&%
+$%%
+$#$
+#""
+!"!
+/..
+000
+222
+444
+666
+777
+999
+;;;
+<<<
+<<<
+>>>
+===
+>>?
+???
+???
+@@@
+@A@
+@@@
+@@A
+A@A
+A@A
+@A@
+A@@
+@@@
+322
+%&&
+%&&
+%%$
+$$$
+###
+"""
+!!!
+-.-
+///
+211
+343
+556
+766
+889
+:::
+<;<
+=>=
+==>
+>>>
+>??
+???
+@@@
+@@@
+@A@
+@@A
+AAA
+A@A
+AAA
+@AA
+@@@
+@@@
+?@@
+777
+%&%
+###
+"""
+!""
+...
+///
+111
+333
+545
+565
+787
+999
+;;;
+;;;
+==<
+>>>
+???
+@??
+@@?
+@@@
+A@A
+@@@
+AAA
+AAA
+@AA
+@A@
+@@@
+@@@
+@@@
+???
+;;;
+&&&
+...
+///
+011
+222
+444
+555
+767
+889
+:::
+;::
+;;;
+==<
+=>>
+???
+@@?
+@@@
+AAA
+AAA
+AAA
+A@A
+AAA
+A@@
+@@A
+@@@
+?@?
+???
+=>>
+;<<
+''(
+...
+./.
+000
+222
+333
+455
+566
+877
+999
+:::
+:;:
+;;;
+<<<
+>==
+>>>
+???
+?@?
+@??
+@@@
+@@@
+@@@
+@??
+???
+???
+>>>
+==>
+<<<
+<;;
+::;
++,,
+...
+.//
+000
+221
+333
+433
+555
+767
+788
+999
+:::
+;;:
+;;<
+<==
+===
+>>=
+>>>
+>?>
+>>=
+>??
+>>=
+?>>
+>>>
+>=>
+===
+<=<
+;<<
+;;:
+:::
+889
+000
+...
+/./
+000
+111
+232
+334
+455
+665
+888
+999
+999
+::;
+<;;
+<<;
+<==
+<==
+>==
+==>
+>>=
+=>=
+===
+<==
+===
+<<<
+;;;
+::;
+99:
+888
+888
+777
+222
+...
+///
+222
+OOO
+kkk
+787
+888
+999
+999
+:::
+;;:
+;;;
+<<<
+<<<
+<<<
+<=<
+<<<
+<<<
+;<;
+;;;
+:;:
+;::
+::9
+999
+888
+777
+677
+555
+433
+...
+.//
+222
+OOO
+lll
+777
+887
+888
+888
+999
+:::
+:::
+;::
+;:;
+;;;
+;;;
+;;;
+;;;
+;;;
+::;
+9:9
+999
+888
+888
+787
+777
+666
+544
+343
+333
+##$
+/..
+/00
+vvu
+vvv
+222
+332
+434
+555
+666
+777
+777
+778
+888
+999
+9:9
+:::
+:::
+:::
+:::
+::;
+9::
+::9
+999
+989
+888
+788
+777
+777
+667
+665
+444
+433
+222
+222
+)((
+///
+000
+110
+122
+223
+322
+334
+445
+555
+666
+666
+677
+777
+887
+888
+898
+998
+999
+9::
+999
+999
+999
+899
+889
+898
+787
+777
+777
+666
+666
+555
+444
+433
+233
+333
+122
+---
+111
+111
+111
+111
+212
+232
+343
+444
+555
+665
+555
+666
+777
+777
+887
+888
+989
+888
+998
+899
+899
+898
+888
+878
+877
+777
+777
+666
+566
+555
+545
+444
+444
+333
+221
+111
+111
+111
+}]4
+qT/
+gL*
+^E%
+W@"
+Q; 
+!vvv
+hhh
+iii
+iii
+jjj
+jjj
+jjj
+jjj
+iii
+iii
+iii
+jjj
+iii
+jjj
+jjj
+Ttc
+**+
+,--
+/00
+222
+545
+887
+:9:
+<<<
+>>>
+@@@
+AAA
+ABA
+AAA
+,,+
+.-.
+/./
+221
+444
+667
+999
+;;;
+===
+?>>
+?@?
+@@@
+@@?
+--,
+///
+222
+221
+333
+665
+888
+:::
+;;;
+===
+=>>
+>>>
+>>>
+uR$
+---
+000
+332
+665
+555
+444
+666
+988
+:::
+;;;
+<<<
+<=<
+<<<
+...
+111
+333
+666
+777
+877
+544
+666
+888
+999
+:::
+:9:
+9::
+/..
+111
+443
+676
+999
+:::
+;:;
+666
+665
+767
+778
+787
+787
+767
+5s_
+///
+221
+455
+776
+899
+:;;
+===
+===
+777
+444
+554
+555
+455
+444
+365
+111
+333
+556
+676
+998
+;;:
+<<<
+>>=
+>>?
+9:9
+212
+232
+212
+211
+110
+031
+@xh
+///
+323
+555
+788
+999
+:::
+;;;
+===
+>>>
+???
+<<;
+111
+///
+../
+...
+---
++++
+-D<
+:xd
+//.
+233
+666
+777
+999
+:::
+<<<
+===
+>>>
+>?>
+?@?
+=>=
+212
+,,+
++++
+***
+()(
+'('
+&&&
+$$$
+!""
+.-.
+122
+444
+777
+:99
+;;;
+<<=
+<<<
+>>>
+>>>
+>>>
+>?>
+?>>
+323
+(((
+(''
+&&&
+%%%
+$##
+""!
+---
+100
+323
+666
+898
+;:;
+;<;
+===
+=>=
+>>>
+>?>
+?>>
+??>
+=>=
+556
+%%&
+$##
+"""
+--,
+///
+222
+444
+777
+:99
+;;;
+=<<
+===
+>>>
+>>>
+>>>
+>>?
+>=>
+=>=
+888
+$$$
+---
+/..
+111
+333
+655
+788
+999
+:::
+<<<
+<<=
+===
+=>=
+===
+<<=
+<<;
+;;;
+777
+##"
+,,,
+...
+000
+222
+334
+655
+`__
+aaa
+::;
+:::
+;;;
+;::
+:;;
+:::
+:::
+998
+877
+656
+%$$
+,,,
+...
+lll
+888
+989
+99:
+9:9
+9:9
+989
+888
+777
+666
+444
+343
+))(
+--,
+...
+566
+676
+777
+787
+877
+887
+676
+667
+556
+655
+433
+222
+010
+,,,
+..-
+../
+YYY
+112
+\\\
+]]]
+555
+445
+665
+556
+666
+666
+556
+554
+444
+444
+333
+221
+111
+000
+...
+000
+000
+000
+110
+211
+233
+333
+444
+555
+556
+555
+555
+666
+555
+555
+444
+333
+332
+221
+010
+000
+000
+000
+u\=
+hR7
+`L3
+WC*
+LW!
+M!!
+'tQ
+'tQ
+,--
+./.
+111
+454
+778
+;:;
+<<=
+>>>
+>??
+<F?
+--.
+111
+121
+333
+666
+988
+::;
+<<<
+=<=
+:A=
+...
+223
+556
+554
+444
+565
+877
+999
+999
+889
+/./
+222
+566
+898
+888
+443
+554
+556
+666
+566
+,kF
+00/
+323
+656
+998
+;;;
+;;;
+444
+222
+322
+222
+093
+.//
+333
+665
+898
+::;
+<<=
+<<=
+444
+.//
+/..
+-..
+*B4
+---
+333
+565
+887
+:::
+<;;
+=<=
+>>>
+666
+*++
+**)
+))(
+&2*
+(hB
+,,,
+111
+444
+888
+:99
+:::
+<;;
+<==
+<==
+777
+('(
+%$%
+###
+!!!
+*)*
+0/0
+233
+555
+888
+:::
+<<<
+<<<
+<<=
+<<=
+999
+&%%
+)))
+...
+101
+443
+^^^
+`__
+898
+:9:
+;::
+::9
+999
+666
+"""
+(()
+kjk
+566
+677
+788
+777
+666
+454
+333
+!"!
+())
+333
+334
+445
+555
+455
+343
+333
+221
+000
+$$$
+)))
+sst
+ttt
+YYY
+ZZZ
+121
+323
+333
+333
+222
+222
+222
+111
+///
+...
+'''
+,,,
+///
+///
+/0/
+111
+121
+222
+223
+323
+233
+222
+221
+111
+/00
+///
+///
+...
+XE"
+#rL
+?&H
+8{V
+/B9
+CVL
+4NA
+BTL
+1A;
+41-
+///
+555
+:::
+:HA
+1/+
+---
+222
+777
+3NA
+V}k
+ fD
+ eB
+,($
+)))
+...
+223
+->7
+($ 
+%$%
+***
+,--
+HHH
+$$$
+'''
+()(
+'?3
+jjj
+111
+#""
+!</
+C@=
+&&&
+OMK
+|||
+www
+www
+PA<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><assemblyIdentity version="34.0.0.0" processorArchitecture="amd64" name="JPSoftware.TCC" type="win32"></assemblyIdentity><description>TCC command processor</description><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="amd64" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity></dependentAssembly></dependency><file name="textpipeengine64.dll" hashalg="SHA1"><comClass clsid="{DD9FA850-DB00-49B4-9D7E-DD9C7024B1FF}" tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" description="TPscriptInterface Object"></comClass><comClass clsid="{8963604B-C6AA-4F9D-9CB1-ED8186BE7371}" tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" description="Application Object"></comClass><comClass clsid="{A0C8B926-E320-4E53-9666-9F06D836D218}" tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" description="FilterWindow Object"></comClass><typelib tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" version="9.9" helpdir="" flags="HASDISKIMAGE"></typelib></file><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><ms_asmv1:comInterfaceExternalProxyStub xmlns:ms_asmv1="urn:schemas-microsoft-com:asm.v1" name="ITPscriptInterface" iid="{452D7706-0F29-49F2-A575-08DED1531003}" tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"></ms_asmv1:comInterfaceExternalProxyStub><ms_asmv1:comInterfaceExternalProxyStub xmlns:ms_asmv1="urn:schemas-microsoft-com:asm.v1" name="ITPscriptInterfaceEvents" iid="{25858565-0831-47A5-8638-631EBDF1EDC4}" tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"></ms_asmv1:comInterfaceExternalProxyStub><ms_asmv1:comInterfaceExternalProxyStub xmlns:ms_asmv1="urn:schemas-microsoft-com:asm.v1" name="IApplication" iid="{8D0BB189-B663-4036-9152-A0C324510F2D}" tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"></ms_asmv1:comInterfaceExternalProxyStub><ms_asmv1:comInterfaceExternalProxyStub xmlns:ms_asmv1="urn:schemas-microsoft-com:asm.v1" name="IFilterWindow" iid="{2145A51F-9DDB-41CA-B9B5-1EE100CD3811}" tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"></ms_asmv1:comInterfaceExternalProxyStub><ms_asmv1:comInterfaceExternalProxyStub xmlns:ms_asmv1="urn:schemas-microsoft-com:asm.v1" name="IFilterWindowEvents" iid="{46E80E57-1A98-48C3-82ED-FA7274140C9C}" tlbid="{6ACB1114-0116-4898-AA41-AFCAB86745FD}" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"></ms_asmv1:comInterfaceExternalProxyStub><application xmlns="urn:schemas-microsoft-com:asm.v3"><ms_asmv3:windowsSettings xmlns:ms_asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:ws2="http://schemas.microsoft.com/SMI/2016/WindowsSettings" xmlns="http://schemas.microsoft.com/SMI/2020/WindowsSettings"><ws2:longPathAware>true</ws2:longPathAware><heapType>SegmentHeap</heapType></ms_asmv3:windowsSettings></application><ms_compatibility:compatibility xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" xmlns="urn:schemas-microsoft-com:compatibility.v1"><ms_compatibility:application xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1"><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></ms_compatibility:supportedOS></ms_compatibility:application></ms_compatibility:compatibility></assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+'[0
+N0L0
+010
+>s9
+e~%
+0V1
+GB1
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+210322000000Z
+360321235959Z0T1
+GB1
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R360
+ye3
+FFlCx@
+j}a
+1xR:
+`q6
+^5hu9
+$4R
+MS>
+Lnc
+~`D
+S;k
+Lv\
+Yo[
+H/(@Bp 6
+D0B0@
+:http://crl.sectigo.com/SectigoPublicCodeSigningRootR46.crl0{
+o0m0F
+:http://crt.sectigo.com/SectigoPublicCodeSigningRootR46.p7c0#
+http://ocsp.sectigo.com0
+wc6n{
+uDa
+d9<
+F]9
+1`GT
+z}e
+84mC
+=&Z<
+<z7
+ts7!:o
+^J&
+Rgl
+uCp
+n0PPd}
+V,5
+V<Y
+4{L
+(?9
+0T1
+GB1
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R360
+260116000000Z
+270116235959Z0F1
+US1
+Maryland1
+Rex Conn1
+Rex Conn0
+`)a
+-|}
+D_\
+v]^
+`c&:
+R2Z
+4}4!`
+>^x
+v _
+}<!
+VYA
+/^x
+aov
+>TI
+U(P
+C0A05
+0%0#
+https://sectigo.com/CPS0
+B0@0>
+8http://crl.sectigo.com/SectigoPublicCodeSigningCAR36.crl0y
+m0k0D
+8http://crt.sectigo.com/SectigoPublicCodeSigningCAR36.crt0#
+http://ocsp.sectigo.com0
+5;=
+@>g 
+Qi=
+IOLWB
+b_@
+%^S
+n0P
+sHA/
+N7wv
+"ax
+ML4
+{pH
+zj"
+5`NT
+0h0T1
+GB1
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R36
+ C8
+bz)
+y?v
+AX%
+jgU
+{V^z
+=,(
+A0q
+9s6
+imzh
+()hql
+|lBa
+*#`+
+n#R
+xy7b
+oc!h
+41,
+y:h
+5?1:
+f'r
+$GR
+]:uu
+NdSk
+g0e
+010
+PIk
+20260820141133Z
+th0
+0i1
+US1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+250604000000Z
+360903235959Z0c1
+US1
+DigiCert, Inc.1;09
+2DigiCert SHA256 RSA4096 Timestamp Responder 2025 10
+B0c2
+pl|
+<tM
+7!O$
+[dz
+OQiK
+p%w+q4
+pYe
+oe(
+'nK
+pRj-
+kz,
+uUY
+e7t 
+3C!x
+IDN
+u.OX
+7!!
+oSJ
+http://ocsp.digicert.com0]
+Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+X0V0T
+Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+c@r!
+&D7
+u?0
+r&fR{a|
+e*[
+\Q?%
+(lC'
+PQ)
+n6|
+%5wB
+2`u
+}IP
+'qU
+%CNh
+UdO
+..=
+.@C"
+0b1
+US1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+250507000000Z
+380114235959Z0i1
+US1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+Fht
+2lB
+P]&G
+"9<x:
+|4^o
+q)5U
+h`i<
+}2g
+s<3
+;bO
+f]J
+J3f
+TxF4
+k cS
+oSJ
+q]dL
+.g?
+k0i0$
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+<0:08
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+vq0
+Lci
+wa8
+|u5
+1tI
+SJS
+]4M
+Dwj|
+:U|r*C
+o84s[
+a:m1&
+0e1
+US1
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+US1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+YUr
+js2
+t;mq
+c)-
+4@_
+fWW
+s*n
+|!L
+u]xf
+:1D
+$\F
+v=Y]Bv
+izH
+p,A`
+vb~
+T)%
+RQGt
+|Lu?c
+ Qko
+q]dL
+.g?
+1-Q
+m0k0$
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+>0<0:
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+C\U
+iT"
+Jz/-
+w'D
+5FjiT
+wZ\T
+o#-
+~qj#k"
+T-'~
+0}0i1
+US1
+DigiCert, Inc.1A0?
+8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+th0
+260820141133Z0+
+-0k
+hyR0
+A~0/
+ Sw
+0>m-9
+/1(0&0$0"
+toZ
+"G|
+~YX
+wDX
+'UjE
+5*Vo
+n4N
+tg_
+Ssa
+4O*i
+%v9
+0min_
+HTUm=
+[Z%
+?;8
