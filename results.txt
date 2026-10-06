@@ -1,0 +1,3668 @@
+f "
+f &
+f *
+f .
+f 2
+f 6
+f :
+f >
+f B
+f F
+f J
+f N
+f R
+f V
+f Z
+f ^
+f b
+f f
+f j
+f n
+f r
+f v
+f z
+f ~
+f "
+f &
+f *
+f .
+f 2
+f 6
+f :
+f >
+f B
+f F
+f J
+f N
+f R
+f V
+f Z
+f ^
+f b
+f x
+f h
+@u:
+6^y
+`y+
+e+0
+PP+
+b #
+6.F
+6,F
+6b+
+6>F
+6<F
+6b+
+PPP
+66F
+64F
+DPP
+3"#
+6b+
+62F
+60F
+F!#
+62F
+60F
+62F
+60F
+e+N
+6:F
+68F
+6b+
+PP+
+PP+
+6>F
+6<F
+6b+
+t+P
+PPP
+6>F
+6<F
+6b+
+62F
+60F
+6b+
+PPP
+6>F
+6<F
+6b+
+t-+
+PPP
+6>F
+6<F
+6b+
+JJR
+6^y
+<:t
+6^y
+6b+
+6^y
+`y&
+(>P
+>`+
+6f+
+>^+
+6f+
+6,?
+6b+
+6b+
+6^y
+`y&
+>TF
+>XF
+6^y
+`y&
+6^y
+>\+
+6r+&:
+6f+
+6:?
+68?
+t(*
+YY;F
+4'&
+:@@P
+6|++
+6z+
+4&:
+HHP
+HHP
+PPPPPP
+>~+
+6Zy&
+6Zy&
+YY=P
+6j+
+H;F
+6X+
+>X+
+QSR
+4'&
+6^y
+6n+
+|++
+z+@PR
+6z+
+<#t
+<#u1&
+< t
+6x+
+6v+
+6b+P
+<]u
+H|)
+HHP
+6x+
+6v+
+@@P
+BBR
+6^y
+<:t
+6x+
+6v+
+6b+
+@@P
+6^y
+`y&
+CtI
+Dtd
+VRP
+<Dt
+<Cu
+Nu*P
+6x+
+6v+
+6b+
+6x+
+6v+
+6b+
+Nu0
+@@P
+t:Kt
+<:u
+0PP
+DPP
+>d+Lt
+6Z+
+d+*
+6b+
+6VF
+6TF
+6FF
+6DF
+d+<Ct
+<Du
+6Z+
+d+*
+d+*
+6^y
+`y&
+d+<Ct
+<Du
+6Z+
+d+*
+d+*
+6^y
+`y&
+PPPPPP
+6b+
+6v+&
+d+&
+t<KuY
+<:u
+e+*
+PPPP
+6b+
+6JF
+6HF
+6NF
+6LF
+6f+
+6RF
+6PF
+@u"
+6f+
+6h+
+6f+
+6b+
+b++
+<.t
+<.t
+AY]
+6^F
+6\F
+HHP
+HHP
+USE
+SET FORMAT TO
+SET FILTER TO FILE
+SET CATALOG TO
+SET VIEW TO
+QUIT
+CREATE
+CREATE SCREEN
+CREATE VIEW
+CREATE QUERY
+CREATE REPORT
+CREATE LABEL
+APPEND
+EDIT
+DISPLAY
+BROWSE
+REPLACE
+DELETE
+RECALL
+PACK
+SEEK
+LOCATE
+CONTINUE
+SKIP
+GOTO
+LIST
+DISPLAY
+REPORT FORM
+LABEL FORM
+SUM
+AVERAGE
+COUNT
+INDEX ON
+SORT
+COPY TO
+MODIFY STRUCTURE
+MODIFY SCREEN
+MODIFY VIEW
+MODIFY QUERY
+MODIFY REPORT
+MODIFY LABEL
+SET DEFAULT TO
+COPY FILE
+DIR
+RENAME
+ERASE
+DISPLAY STRUCTURE
+IMPORT FROM
+EXPORT TO
+INDEX
+###########
+TO PRINT
+TO PRINT
+TO PRINT
+FIELDS
+TO PRINT
+TYPE PFS
+TYPE PFS
+.AND.
+.OR.
+CATALOG.CAT
+TOP
+BOTTOM
+RECORD
+9999999999
+PATH
+ALL
+NEXT
+9999999999
+RECORD
+9999999999
+REST
+FOR
+WHILE
+assist.hlp
+@S25
+####################
+99999999
+9999999999
+CTOD('
+WITH
+WITH
+Set Up
+Create
+Update
+Position
+Retrieve
+Organize
+Modify
+Tools
+Database file
+Format for Screen
+Query
+Catalog
+View
+Quit dBASE III PLUS
+Database file
+Format
+View
+Query
+Report
+Label
+Append
+Edit
+Display
+Browse
+Replace
+Delete
+Recall
+Pack
+Seek
+Locate
+Continue
+Skip
+Goto Record
+List
+Display
+Report
+Label
+Sum
+Average
+Count
+Index
+Sort
+Copy
+Database file
+Format
+View
+Query
+Report
+Label
+Set drive
+Copy file
+Directory
+Rename
+Erase
+List structure
+Import
+Export
+Select a database file.
+Select a screen design for updating with APPEND and EDIT.
+Select a query file to filter records in this database file.
+Select a catalog from which to choose files.
+Select a view to use.
+Finish this session of ASSIST and QUIT dBASE III PLUS.
+Create a database file structure.
+Create a screen design.
+Create a view file.
+Create a query to access specified records in this database file.
+Create a report layout.
+Create a label format.
+Add new records to the bottom of this database file.
+Edit the contents of this database file, one record at a time.
+Display the contents of this database file.
+Edit the contents of this database file, several records at a time.
+Update the individual fields of this database file.
+Mark specified records for deletion.
+Restore specified records marked for deletion.
+Permanently erase records marked for deletion.
+Search for an index key that matches the specified expression.
+Search for the first record meeting a specified condition.
+Search for next record meeting the LOCATE condition.
+Position the file pointer by skipping records.
+Move the file pointer to a specific record number.
+List the contents of this database file to the screen or printer.
+Display the contents of this database file.
+Display this database file using an existing report layout.
+Display this database file using an existing label format.
+Display the totals of the specified numeric fields.
+Display the averages of specified numeric fields.
+Display the record count of this database file.
+Create an index file to access records in a specified order.
+Create a sorted database file.
+Copy records from one database file to another.
+Change the structure of this database file.
+Change the structure of an existing screen design.
+Change the structure of an existing view file.
+Change the structure of an existing query file.
+Change the structure of an existing report layout.
+Change the structure of an existing label format.
+Change the default disk drive.
+Duplicate the contents of an existing file to create a new file.
+Display the contents of a disk directory.
+Rename an existing file.
+Remove an existing file from the disk directory.
+Display the structure of this database file.
+Import a PFS file into dBASE III PLUS.
+Export a dBASE III PLUS file to a PFS file.
+No more conditions
+Combine with .AND.
+Combine with .OR.
+.dbf
+.ndx
+.fmt
+.lbl
+.frm
+.txt
+.vue
+.qry
+.scr
+Database Files
+Index Files
+Format Files
+Label Files
+Report Files
+Text Files
+View Files
+Query Files
+Screen Files
+All Files
+Equal To
+Less Than or Equal To
+Less Than
+Greater Than
+Greater Than or Equal To
+Not Equal To
+Master
+TOP
+BOTTOM
+RECORD
+Position the file pointer to the top of the file.
+Position the file pointer to the bottom of the file.
+Position the file pointer to a specific record.
+Default scope
+ALL
+NEXT
+RECORD
+REST
+Process all records.
+Process a specified number of records beginning with the current record.
+Process a specific record.
+Process all records beginning with the current record.
+Process the default number of records.  Default for this operation is ALL.
+Process the default number of records.  Default for this operation is NEXT 1.
+Execute the command
+Specify scope
+Construct a field list
+Build a search condition
+Build a scope condition
+Perform the command displayed above the status bar.
+Select a range of records to process.
+Specify which fields to include in this retrieval.
+Specify the conditional limits of this command with a FOR clause.
+Specify the conditional limits of the scope with a WHILE clause.
+Is the file indexed? [Y/N]
+Direct the output to the printer? [Y/N]
+Do you want exclusive use of this file? [Y/N]
+Enter a numeric value:
+Enter a character string (without quotes):
+Enter a date value:
+Enter an index key expression:
+Enter an expression:
+Enter the name of the file:
+Enter a number or a numeric expression:
+Enter a date or a date expression:
+Enter a string or a character expression:
+Enter '.T.', '.F.', or a logical expression:
+Enter a new catalog name:
+Specify whether the database file is indexed or not.
+Specify whether the output is to be printed or not.
+Enter a constant for comparison.
+Create an index file to access records in a specified order.
+Specify a file name.
+Select a logical connector.
+Select a disk drive to search.
+Select a file type.
+Select a comparison operator.
+Select up to seven index files.  The first file selected is the master index.
+Select a logical operator for the FOR clause.
+Select a logical operator for the WHILE clause.
+Press any key to continue work in ASSIST.
+The HELP file is not available.
+Error in the HELP system.
+Command: 
+The index key can be any character, numeric, or
+date expression involving one or more fields in
+the database file.  It is usually a single field.
+Enter a file name (consisting of up to 8
+letters or digits) followed by a period and
+a file name extension (consisting of up to 3
+letters or digits.)
+6Zy&
+6Zy&
+6Zy&
+&;T
+&;D
+6Zy&
+<\t
+<:u
+6^y&
+QRP
+QRP
+6Zy
+&;D
+Zy&
+6Zy&
+6Zy&
+PPPP
+6Zy&
+6Zy&
+JJR
+t$+
+6Zy&
+6Zy&
+6Zy&
+HHP
+JJR
+6Zy&
+6Zy&
+6Zy&
+YY]
+HHP
+PPPP
+6Zy&
+6Zy&
+P,&
+X0*
+SQR
+6Zy&
+6Zy&
+6Zy&
+P,&
+X0*
+SQR
+6Zy&
+6Zy&
+QHPR
+HHP
+6Zy&;D
+HHP
+6Zy&
+6Zy&
+t.RP
+YY#
+6Zy&
+YY#
+}6+
+YY#
+6Zy&
+6Zy&
+tWRP
+YY#
+YY#
+6Zy&
+@Sxx
+Go to end of the file.
+Go to the beginning of the file.
+Enter number of fields on the left that are to remain stationary during a pan.
+Go to a specified record number in the file.
+Enter a single field name to edit.
+Enter a string to search for in the index file.
+Change number of columns to lock to: 
+Enter search string: 
+Enter new record number:
+Enter field name to freeze: 
+View and edit fields.
+Add new records.
+Find
+ ===> Add new records? (Y/N) 
+&;D?u
+&;D=u
+&;DAu
+&;DCu
+&;DEu
+&;DGu
+@I"
+< t
+HHP
+@@P
+HHP
+&;D=
+D=H
+HHP
+8 u
+6`y
+YYP
+HHP
+HHP
+PPPPPPP
+HHP
+6^y&
+KtZ
+D?#
+err1
+Bad action
+Predefined size:
+Label width:
+Label height:
+Left margin:
+Lines between labels:
+Spaces between labels:
+Labels across page:
+Select a standard label size: (Width x Height by Number across).
+Enter the number of characters in the label width.
+Enter the number of lines in the label height.
+Enter the number of spaces for the left margin.
+Enter the number of blank lines between labels.
+Enter the number of blank spaces between labels.
+Enter the number of labels across the page.
+Label contents 1:
+Enter a field/expression list to be displayed on the indicated label line.
+Save
+Abandon
+Exit and save changes.
+Exit and do not save changes.
+Options
+Contents
+Exit
+Insufficient dynamic memory for contents window.  Press any key to continue.
+This must be a valid dBASE expression.  Press any key to continue.
+Warning -- label body is empty.
+Memo and logical fields are not allowed here.  Press any key to continue.
+Maximum print width of 250 characters exceeded.  Press any key to continue.
+3 1/2 x 15/16 by 1
+3 1/2 x 15/16 by 2
+3 1/2 x 15/16 by 3
+4 x 1 7/16 by 1
+3 2/10 x 11/12 by 3 (Cheshire)
+L!"
+L!&
+L!*
+L!.
+L!2
+L!6
+L!:
+L!>
+L!B
+L!F
+L!J
+L!N
+L!R
+L!V
+LuC
+<Tu
+< u
+Mt<
+@@P
+QRP
+A}1
+6Zy&
+6Zy&
+YY#
+|6&
+|6&
+|6&
+x6&;W
+t<&;
+u7&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&;D
+|6&
+|6&;D
+|6&
+|6&
+|6&
+|6&
+|6&
+6Zy&
+6Zy&
+MtP&
+tP&
+&;w
+RPQ
+6Zy&
+6^y&
+<@uL
+6^y&
+6`y
+6^y
+6Zy&
+>bz
+&;w
+RPQ
+VRP
+Dx*
+Ty*
+Dz*
+6Zy&
+6^y&
+<@t
+~6&
+|6&
+|6&
+|6&
+x6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+|6&
+6^y&
+6`y
+6^y
+6Zy&
+6^y&
+6`y
+6^y
+6^y&
+^y&
+6Zy&
+6`y
+6^y
+6Zy&
+6Zy&
+@t>
+`y+
+ t"
+6z:
+6x:
+6~:
+6|:
+6Zy&
+6z:
+6x:
+ t]
+@tw
+6z:
+6x:
+6~:
+6|:
+Zy&
+6Zy&
+ tK
+@tK
+6z:
+6x:
+t#+
+`y+
+6Zy&
+6Zy&
+6Zy&
+`y+
+`y+
+CuV
+< t
+< t@
+< u
+TABLE
+TUPLES
+VECTORS
+DATA
+BOT
+EOD
+LABEL
+COMMENT
+SIZE
+PERIODOCITY
+MAJORSTART
+MINORSTART
+TRUELENGTH
+UNITS
+DISPLAYUNITS
+ERROR
+TRUE
+FALSE
+0,1
+0,0
+-1,0
+1,0
+-1,0
+1,0
+0,1
+0,0
+ID;PDB3
+F;DG0G10
+B;Y
+TYPE 3
+TREAD
+READ
+-1,0
+EOD
+W;N1;A1 1
+      0
+ bytes copied
+May need to copy 
+ to properly use 
+Enter destination file name for copy: 
+Enter file name to copy from: 
+Format files must be in row major order to be exported.
+Too many pages in format file.
+Too many @ commands on one page of format file.
+PFS does not allow row numbers higher than 20.
+>d(
+:(u
+>Z(
+u;#
+6F(
+6F(
+6F(
+6H(
+>\(Y
+6J(
+6N(
+>](Y
+>^(Yt
+6L(
+6P(
+b(;
+Z(~
+>(&
+b(;
+Z(~
+>(&
+b(;
+>(&
+b(;
+Z(~
+>(&
+b(;
+Z(~
+>(&
+h(u0
+HHP
+HHP
+>\(Yu
+_($
+_($
+_($
+6H(
+}C+
+PPPP
+HHP
+HHP
+>(&
+6H(+
+PPP
+6H(V
+\(3
+6J(
+6L(
+6N(
+6P(
+>](Yu
+>^(Yu
+6J(+
+PPP
+6L(+
+PPP
+6N(+
+PPP
+6P(+
+PPP
+6N(V
+6J(V
+6P(V
+6L(V
+6b(
+YYP
+b(}"
+>(&
+n(t
+b(;
+b(;
+j(t
+R(+
+V(+
+>(&+
+b(;
+Z(~
+}G+
+PPPP
+HHP
+HHP
+b(;
+j(u$
+>(&
+Z(@;
+b(u
+6h5&
+6>(
+6b(
+b(}
+>(&
+n(t
+>f(
+b(;
+Z(~
+6>(
+>f(
+6>(
+6b(
+>f(
+b(;
+b(|
+>(&
+>f(
+>b(
+HHP
+b(}
+>(&
+n(t
+YYP
+HHP
+JJR
+PPPPP
+HHP
+HHP
+$tX
+B(&
+}6<;u
+>f(
+>l(
+>f(
+>J(
+>L(
+6:5&
+6:5&
+6:5&
+6:5&
+6:5&
+6:5&
+6h5&
+b(;
+B(&
+VRP
+6h5&
+6h5&
+t([+
+u(;
+Z(u!
+t(&
+Z(H
+6Z(
+t(&
+Z(}Z=
+>(&
+B(&
+u)3
+< t
+B(&
+B(&
+6B(&
+6B(&
+B(&
+<;u
+6>(
+6Z(
+6n(
+6^y&
+6F(
+6F(
+6F(
+PPP
+PPP
+B(&
+B(&
+B(&
+@p;F
+&)@p
+6B(&
+R(+
+X(R
+6R(+
+6V(+
+6X(
+tL<;tH
+(m)
+(w)w)w)w)w)w)w)&)r)3(
+YYP
+YYP
+Not implemented.
+Not implemented.
+Not implemented.
+NOT IMPLEMENTED.
+Int 3 error
+yyyymmdd
+Page title
+Page width (positions)
+Left margin
+Right margin
+Lines per page
+Double space report
+Page eject before printing
+Page eject after printing
+Plain page
+Enter up to four lines of text to be displayed at the top of each report page.
+Enter the number of characters in the report width.
+Enter the number of spaces for the left margin.
+Enter the number of spaces for the right margin.
+Enter the number of lines to display on each page.
+Choose whether or not to double space the report.
+Choose whether or not the printer will form-feed before the report is printed.
+Choose whether or not the printer will form-feed after the report is printed.
+Choose whether or not the report will contain page numbers and system date.
+Group on expression
+Group heading
+Summary report only
+Page eject after group
+Sub-group on expression
+Sub-group heading
+Enter a field or expression on which to break for the first level of subtotals.
+Enter text to display at the beginning of each group.
+Choose whether or not to omit detail lines.
+Choose whether or not the printer will form-feed after each group.
+Enter a field or expression on which to break for the second level of subtotals.
+Enter text to be displayed at the beginning of each sub-group.
+Contents
+Heading
+Width
+Decimal places
+Total this column
+Enter a field or expression to display in the indicated report column.
+Enter up to four lines of text to display above the indicated column.
+Enter the number of characters for the column width.
+Enter the number of decimal places to display for this column.
+Choose whether or not to total this column.
+Step to any column immediately by selecting the column expression.
+Save
+Abandon
+Exit and save changes.
+Exit and do not save changes.
+Options
+Groups
+Columns
+Locate
+Exit
+No columns defined.
+Report Format
+Exceeded report print width.  Press any key to continue.
+Invalid column number.  Press any key to continue.
+This field must contain a valid dBASE expression.  Press any key to continue.
+Can't have sub-groups without groups.  Press any key to continue.
+This string must not contain any semicolons.  Press any key to continue.
+Too many characters in REPORT.
+Excess header lines lost.
+Insert impossible.
+** WARNING ** Report form empty.
+Unknown SCEDIT() return code:  
+Can't go to a higher column.  Press any key to continue.
+Can't go to a lower column.  Press any key to continue.
+Page width too small or margins too large.  Press any key to continue.
+Report is too narrow for defined columns.  Press any key to continue.
+6^y&
+6^y&
+6^y
+^y&
+6^y&
+< t
+<:t
+6^y&
+.ta
+:t/
+6^y
+^y&
+6^y
+^y&
+6^y
+^y&
+6^y
+^y&
+t$6
+>Tj
+YY+
+????????
+????????
+????????
+.DBF
+   ?
+Not a dBASE III PLUS file.
+not readable        
+dBASE 2.4 database  
+ bytes remaining on drive.
+ bytes in 
+ files.
+Database Files    # Records    Last Update     Size
+6Zy
+<.t
+t!Hu
+6Zy
+6`y
+6^y
+6Zy&
+6~|
+6Zy&
+6Zy&
+YY+
+< t
+6^y
+`y&
+6Zy&
+6^y
+`y&
+5u@
+6^y&
+6Zy&
+QRP
+6^y
+`y&
+6~|
+QRP
+>by
+6~|
+6~|
+6~|
+6Zy&
+YY#
+6Zy&
+6~|
+HHP
+YYP
+YYP
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+byY
+YY#
+DR;
+DP=
+BRP
+6Zy&
+6Zy&
+>ix
+YY#
+6Zy&
+8:u
+}Y=
+8.u
+YY#
+`y+
+6\y
+6Zy
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+PS&
+t(*
+YY;F
+6`y
+6^y
+6`y
+6^y
+6^y
+`y&
+6~|
+YY#
+6~|
+6~|
+YY#
+RPP
+@;F
+< t
+CATALOG.CAT
+CATALOG.  
+PATH
+FILE_NAME
+ALIAS
+TYPE
+TITLE
+CODE
+TAG
+PATH
+Enter title for file 
+Item already exists in file catalog
+File not CATALOGed since SET CATALOG was OFF when the active database was USEd.
+Create new file catalog? (Y/N) 
+Select a REPORT form.
+Select a LABEL form.
+Select a DATABASE from the list.
+Select the Master INDEX that database order.
+Select FILE CATALOG file.
+Select FILE CATALOG file.
+Select a FORMAT file.
+Select a VIEW file.
+Select a file from the catalog.
+No report forms in catalog file for current database
+No label forms in catalog file for current database
+File catalog is empty
+No index files for current database in the file catalog
+No file catalogs in system catalog
+ does not exist.  Deleted from catalog
+No format files in the catalog for the current database.
+No view files in the catalog for the current database.
+No files of the indicated type are in the catalog.
+File catalog selection menu
+Master
+Select index file(s) to be used with the chosen file.
+t2Hu
+6^y&
+6^y&
+^y&
+!uM
+u1+
+< u
+<`ul
+|B=
+QSRP
+< u
+JJR
+H;F
+_tv
+\u&
+/u 
+HHP
+< u
+< uD
+< u
+< t
+help.dbs
+Command not recognized!
+HELP text not found.  Press any key to continue.
+ENTER >
+6^y&
+<.t
+<.u
+<ar
+<jv
+<Ar
+<Jw
+`u;
+~Q)F
+D &
+D &
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+PS&
+YY]
+DJ&
+D &
+DJ&
+\ &
+t4&
+&;W
+&;G
+}I+
+D &
+&+T
+&+D
+YYY]
+&+T
+&+D
+YYY]
+D$&
+@=P
+DJ&
+DJ&
+D &
+w &
+QRP
+<:u
+< u
+<:u
+t&+
+< u
+D$&
+D$&
+QRP
+6Zy&
+6Zy&
+6Zy&
+&;D
+&;DF
+6Zy&
+6Zy&
+6Zy&
+HH&
+<~|g
+TYPE 3
+READ
+ SAY 
+ GET 
+FIELD
+6Zy&
+6^y&
+YY#
+YYP
+QRP
+6Zy
+\y&
+6^y&
+D?&
+DE&
+lG&
+DA&+DE
+&;D=}<
+&;D=}
+D=+
+&;D=}2
+D?&
+&;DGu
+&;D=|
+6^y&
+&;D=}:
+Label contents must be Character type.
+Total label width exceeds maximum allowable size.
+Syntax error in contents expression.
+Do you want more samples? (Y/N) 
+Y<.u
+6`y
+6^y
+<@u
+Nu]
+QRP
+priv  
+pub   
+(hidden)  
+ variables defined,    
+ bytes used
+ variables available,  
+ bytes available
+Mu=
+Mu2
+6Zy&
+6Zy&
+&+D
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+&:G
+Dt]
+Lt/
+QRP
+6Zy&
+<Mt
+<Du
+&:D
+&:D
+&:D
+C !
+E $
+E (
+E 0
+E 4
+E <
+E @
+N "
+N &
+N *
+N .
+N 2
+N 6
+N :
+N 8
+N v
+N "
+N &
+N *
+6^y&
+6|'
+6z'
+6|'
+6z'
+.u"
+<ar
+<jv-
+<Ar
+<Jv"
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy
+6Zy
+6^y
+`y&
+6Zy&
+%&:D
+6Zy&
+6Zy&
+<Mu
+6^y
+`y&
+YY#
+6^y&
+< t
+YY#
+%RP
+Nu#&
+YY#
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+PS&
+6Zy&
+6x'
+6v'
+HHP
+6Zy&
+6Zy&
+6p%
+6p%
+6p%
+6H'
+6F'+
+6j%
+PPPP
+PPPP
+PPPP
+PPPP
+>r%
+YY#
+HHP
+6h%
+6h%
+HHP
+< uU
+t%H;
+p%u+
+p%#
+6f%
+Nt*
+t"=
+!wK
+HHP
+YY<
+YY+
+t%HP+
+p%YY
+6X'
+6V'
+t%;
+p%~
+>t%
+>p%
+6p%
+l%#
+p%u
+p%;
+p%;
+t%t
+6p%
+n%H;
+p%u
+n%;
+p%=
+>j%
+t%+
+p%;
+t%u
+>j%
+6p%
+t<#
+YY#
+6L'
+6J'
+6P'
+6N'
+p%#
+6p%
+6l'
+6j'
+HHP
+6Zy&
+>pm
+6Zy
+>pm
+6Zy&
+>pm
+6Zy
+6Zy&
+6Zy&
+6Zy&
+%&+G
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+QHPR
+HHP
+6&*
+6$*+
+x%IIQ
+6&*
+6$*+
+x%JJR
+6&*
+6$*
+x%JR
+x%HP
+n%}:;
+t%}4
+t%|
+QR@P
+$PS&
+6h%
+<Ct
+QRP
+>t%
+p%~$
+6p%
+t%;
+p%t
+6p%
+p%@P
+6p%
+HHP
+p%;
+t%}T
+P0*
+t%;
+p%t
+6p%
+>t%
+HHP
+< t
+6h%
+j%~
+6h%
+YY]
+6^y
+j%~
+6h%
+Nt#
+!PS
+6^y
+>v%
+v%|
+t';
+p%t
+t%|
+t%=
+>l%
+n%;
+t%t
+l%|
+n%}
+p%+
+>l%
+p%;
+l%|
+p%3
+l%;F
+v%H
+n%]
+@! ANNNNNNNNN
+?   
+.DBT file cannot be opened.
+Empty structure will not be saved.
+Field type must be C, N, D, L or M.
+Field name is already in use.
+Illegal data length
+Illegal Character data length
+Illegal field type
+Illegal field name
+Illegal Decimal length
+Illegal Numeric data length
+Maximum number of fields already reached.
+Maximum record length exceeded.
+Bytes remaining:
+Database records will be APPENDED from backup fields of the same name only!!
+Database records will be COPIED from backup for all fields.
+Fields defined: 
+Enter field number: 
+Go to a specific field name in the file structure.
+Go to the last field in the file structure.
+Go to the first field in the file structure.
+Go to a specific field number in the file structure.
+Please wait ...
+Press SPACE to change the field type.
+Toggle cursor menu.
+-- detected on field 
+Enter the name of the new file: 
+Enter the field name.
+Enter the field width.
+Enter the number of decimal places.
+Should data be COPIED from backup for all fields? (Y/N) 
+Field Name  Type     Width  Dec
+Field: 
+Field names begin with a letter and may contain letters, digits and underscores
+Types are Character, Numeric, Date, Logical or Memo.
+Decimal widths are 0 to 15 and must be at least 2 less than the field width.
+Character fields are 1 to 254 positions wide.
+Numeric fields are 1 to 19 digits wide, including the decimal point and sign.
+Character fields contain character information of a specified length.
+Date fields have the form mm/dd/yy unless otherwise specified.
+Logical fields have a value of either T or F.
+Memo fields contain character information of varying lengths.
+Numeric fields contain signed numbers that may be either integer or decimal.
+CharacterNumeric  Date     Logical  Memo     
+YY=
+\+&
+w/&
+6Y#
+3Y]
+6Zy&
+<<tW
+6Zy
+&;T;u
+&;D9t,
+t;&
+D=&
+t?&
+ua&
+DE&
+tU&
+DA&
+tI&
+tC&
+tG&
+YY]
+YY]
+t+3
+D5;F
+D7;F
+D+&
+HHP
+uD3
+NN3
+D+&
+D+&
+T-&
+t/&
+D+&
+D/&
+D/&
+T1&
+t+&
+D/&
+D=&
+t?&
+D9&
+T;#
+Y=S
+D9&
+D9&
+D9&
+t:*
+Y=S
+6Zy&
+6Zy&
+6Zy&
+t&&
+6Zy&
+6Zy&
+>pm
+6Zy
+>pm
+6Zy&
+>pm
+6Zy
+6Zy&
+6Zy&
+ &+G
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy
+<:t
+<\u
+t?*
+YY;F
+<0r
+<9w
+<[t2
+?[t
+R@@P
+?[t*
+6Zy&
+Zy&
+&:D
+&:D
+&:D
+YY]
+HHP
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+  FUNCTION 
+  PICTURE 
+  RANGE 
+CTOD('
+xxxxxxxx 
+FindFld Failure -- Field not in list
+Sxx
+<NewField>
+Enter screen file name:
+Character
+Numeric
+Date
+Logical
+Memo
+Width
+Decimal
+Type
+Field
+Screen field definition blackboard
+Set Up
+Modify
+Options
+Exit
+Select database, screen page, environmental options or load fields.
+Select database field or memory screen variable to edit.
+Specify screen generation options.
+Save screen file or quit without any save.
+Select a database file to use in defining screen format.
+Create a new database file while defining screen format.
+Select fields to load onto the blackboard.
+Toggle between Edit/GET and Display/SAY.
+Enter a field to place on the screen.
+Choose a data type for this field.
+Enter the width for this field.
+Enter the number of decimal places for this field.
+Enter a picture function for editing or displaying this field.
+Enter a picture template for editing or displaying this field.
+Enter the maximum and minimum values allowed for this field.
+Generate a text file image of the blackboard.
+Draw a single line window or line on the blackboard
+Draw a double line window or line on the blackboard
+Exit and save changes.
+Exit and do not save changes.
+ Picture value:
+ Function value:
+Enter name for new Database file:
+Enter name for new Database field:
+  Press any key to continue.
+Field name already in use.
+Maximum number of fields already reached.
+Do you wish to also delete field from database? [Y/N]
+No fields are available.
+Character Display Symbols
+ A    Any character
+ L    Any character
+ N    Any character
+ X    Any character
+ Y    Any character
+ #    Any character
+ 9    Any character
+ !    Convert to uppercase
+other Overwrite data unless
+      @R function is used
+Character Input Symbols
+ A    Any alpha character
+ L    Allow T, F, Y, or N
+ N    Alpha and digits
+ X    Any character
+ Y    Allow Y, or N
+ #    Allow digits, spaces,
+      signs, and periods
+ 9    Allow digits and signs
+ !    Convert to uppercase
+other Overwrite data unless
+      @R function is used
+Number Display Symbols
+ 9    Any digits and signs
+ #    Any digits, spaces,
+      and signs
+ $    Display instead of
+      leading zero
+ *    Display instead of
+      leading zero
+ .    Specify decimal point
+      location
+ ,    Display if number is
+      large enough
+other Inserted into display
+Number Input Symbols
+ 9    Any digits and signs
+ #    Any digits, spaces and
+      signs
+ .    Specify decimal point
+      location
+ ,    Display if number is
+      large enough
+other Inserted into display
+Logical Display Symbols
+ L    Allow T, F, Y, or N
+ Y    Allow Y, or N
+Logical Input Symbols
+ L    Allow T, F, Y, or N
+ Y    Allow Y, or N
+other Inserted into display
+Date Display Symbols
+ A    Any character
+ L    Any character
+ X    Any character
+ #    Any character
+ 9    Any character
+Date Input Symbols
+ None
+Character Input Functions
+!   convert to uppercase
+A   display only alpha chars
+D   American mm/dd/yy date
+E   European dd/mm/yy date
+S   horizontal scrolling
+R   insert <other> char
+    don't overwrite it
+Character Display Functions
+!   convert to uppercase
+A   display only alpha chars
+D   American mm/dd/yy date
+E   European dd/mm/yy date
+R   insert <other> char
+    don't overwrite it
+Number Input Functions
+B   left justify value
+D   American mm/dd/yy date
+E   European dd/mm/yy date
+Z   display no value for
+    a zero value
+Number Display Functions
+(   enclose negative value
+    in parentheses
+B   left justify value
+C   display after positive
+    numbers a CR
+D   American mm/dd/yy date
+E   European dd/mm/yy date
+X   display after negative
+    numbers a DB
+Z   display no value for
+    a zero value
+Logical Functions
+R   insert <other> char
+    don't overwrite it
+Date Functions
+D   American mm/dd/yy date
+E   European dd/mm/yy date
+ Select Database File
+ Create New Database File
+ Load Fields
+ Field Name 
+ Action : Display/SAY
+ Action : Edit/GET
+ Type   : Character
+ Type   : Numeric
+ Type   : Date
+ Type   : Logical
+ Type   : Memo
+Screen Field Definition 
+ Action:  Display/SAY
+ Source:             
+ Content:            
+ Type:             
+ Width:      
+ Decimal:    
+Picture Function:
+Picture Template:
+Range:
+Generate text file image
+Draw a window or line
+ Single bar
+ Double bar
+ Save
+ Abandon
+Input Range
+ Lower Limit:
+ Upper Limit:
+Field definitions for Screen : 
+Page  Row  Col  Data Base    Field 
+     Type
+  Width  Dec
+Content of page 
+h!,
+h!4
+h!#
+h!U
+h!^
+h!K
+h!a
+h!}
+h!a
+h!K
+h!f
+h!=
+h!*
+h!5
+h!:
+h!O
+h!T
+h!o
+h!=
+h!B
+h!R
+h!e
+h!x
+h!}
+h!.
+h!I
+h!N
+h!p
+h!6
+h!w
+h!q
+h!,
+h!C
+h!]
+h!s
+h!Z
+h!,
+h!V
+h!i
+h!~
+h!H
+h!Z
+h!m
+h!6
+h!>
+h!D
+h!X
+h!)
+h!6
+h!Y
+h!7
+h!U
+h!L
+h!a
+h!o
+h!*
+h!X
+h!8 h!
+ h!
+!h!
+"h!
+"h!l"h!
+"h!
+"h!
+#h!!#h!S#h!
+#h!
+#h!
+#h!
+$h!
+$h!0$h!F$h!T$h!f$h!n$h!
+$h!
+$h!
+$h!
+$h!
+%h!
+%h!(%h!6%h!@%h!M%h!X%h!b%h!o%h!
+%h!
+%h!
+%h!
+%h!
+&h!+&h!@&h!G&h!u&h!
+&h!
+&h!
+&h!
+'h!a'h!
+'h!*(h!D(h!I(h!T(h!a(h!
+(h!
+(h!
+(h!
+(h!,)h!8)h!R)h!{)h!
+)h!:*h!
+*h!d+h!
++h!
++h!
+,h!/,h!J,h!U,h!h,h!v,h!
+,h!
+,h!
+,h!
+,h!
+,h!
+-h!&-h!E-h!T-h!
+-h!
+-h!
+.h!%.h!d.h!
+.h!
+/h!'/h!5/h!K/h!
+/h!I0h!_0h!
+0h!(1h!;1h!Y1h!l1h!
+1h!
+1h!
+1h!
+6Zy&
+j5+
+< u
+6`i
+6^i
+YY+
+@u%
+YY#
+>by
+RPP
+6Zy&
+b5P
+&+D3&
+z6+
+BBR
+HHP
+t;&
+D9&
+t?&
+D=&
+RPP
+Ku(
+< t
+6Zy&
+PS&
+YYY]
+\i&
+>\i
+D3&
+YY]
+^yby
+^yby
+6^y&
+Y<Ar
+<Jw
+JJR
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+PS&
+< u
+<<t
+6ji
+6hi
+< u
+<<u
+PV+
+t#RP
+YY#
+D+&
+6Zy
+D7+
+D9&
+T;&
+D=&
+T?&
+DA&
+TC&
+DE&
+ZiHu!
+6Zy&
+YY+
+DA&
+TC#
+u #
+DE&
+TG#
+DA&
+DA&
+tC&
+DE&
+DE&
+tG&
+tE&
+62 
+60 
+< r
+QRP
+D+&
+6Zy&
+PPP
+QRP
+T5;
+|";
+D+&
+QRP
+D5;
+D7;
+D+&
+<Lt
+<Mt
+<Du
+D=&
+D=&
+D=&
+D=&
+t?&
+t13
+D5;
+D7;
+D+&
+t13
+D5;
+D7;
+D+&
+D5;F
+&;D7t
+ *! !;!;!;!;!;!;!;!
+!*!
+D=&
+T7+
+D+&
+t"RP
+62 
+60 
+6. 
+6, 
+6* 
+6( 
+6" 
+6  
+Nu)
+6& 
+6$ 
+VRP
+D=&
+QRP
+<<u
+RPS
+%'='
+'o'
+6Zy&
+h5t
+< u
+< t
+(V)I)
+)0)5)[)
+)`)
+)x)
+)))
+)<)
+)A)
+<!r
+<]v
+<_t
+< t
+< t
+.,/P/
+&+D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+&;D
+BBR
+999
+@! ANNNNNNNNN
+@S50
+@S20
+###########
+MEMO
+Pg xx Row xx Col yy
+    
+ Picture
+h!S
+h!k
+h!-
+h!7
+h!A
+h!K
+h!U
+h!_
+h!i
+h!s
+h!H
+h!d
+h!3
+h!L
+h!Q
+h!y
+h!!
+h!@
+h!M
+h!v
+6Zy&
+YYY]
+YY]
+D=&
+D9&
+DA&
+DE&
+6Zy&
+,uK
+6Zy&
+D+&
+99999999
+h!>
+h![
+h!k
+h!2
+h!E
+h!L
+h!b
+h!q
+h!M
+D+&
+< u
+h!'
+h!Q
+h!3
+h!=
+h!~
+h!9
+h!V
+h!s
+h!(
+h!L
+h!`
+h!m
+h!z
+6Zy&
+<<u
+~2+
+PPP
+6Zy&
+tb&
+<<uH
+D=&
+T?#
+D9&
+T;#
+DA&
+TC#
+DE&
+TG#
+D+&
+.dbf
+h!:
+h!R
+h!j
+h!M
+h!(
+h!;
+h!G
+h!V
+h!h
+h!O
+h!q
+h!~
+h!#
+h!,
+h!H
+h!Q
+h!k
+6Zy&
+sp&
+| <u
+D=&
+D9&
+DA&
+DE&
+D+&
+6Zy&
+YY+
+6Zy
+}C&
+< u
+>v>0u
+v> 
+x>,
+>z>0u
+z> 
+|> 
+READ
+GET  
+SAY  
+TO 
+  DOUBLE
+SAY 
+xx, yy  
+t1+
+6Zy&
+6^y&
+YYP
+6Zy&
+Dt*
+Mu1
+^y+V
+MuI
+6Zy&
+6Zy&
+6^y&
+Ht+
+HP+
+6^y&
+}[;F
+Memo
+Zap 
+Record#
+Enter file name to type: 
+6^y&
+^y+F
+^y+F
+6Zy&
+6Zy&
+YY&
+=90t
+6Zy
+6Zy
+6Zy&
+);F
+)u<
+6Zy&
+6Zy&
+uF+
+YY]
+6Zy&
+6Zy&
+YY]
+&:u
+60*
+6.*
+<.u
+';F
+'J}
+68*
+66*
+)RP
+'+F
+H|>
+H|>
+tp;
+H|=
+Hu#
+'}U
+YY+
+tA#
+6Zy&
+Zy&
+&;D
+PPPPP
+'}K
+u.&
+6Zy&
+Zy&
+&;D
+PPPPP
+(+F
+Huh
+>Zy&
+'&+
+*}A
+u"H&
+PPPP
+)RP
+>Zy&
+&;W
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+QRPS
+tX;
+tG=
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+Zy&
+6Zy&
+6Zy&
+6Zy&
+90u
+6^y&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6^y
+6Zy&
+Ct0
+Nu;
+6Zy&
+6Zy&
+6Zy&
+QRP
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+&uE
+6Zy&
+RP+
+.T44
+.W44
+.NDX
+Not enough disk space for INDEX.
+Records do not balance (program error).
+Too many merge steps.
+ Records indexed
+% indexed
+   00% indexed
+  100% indexed     
+Zap 
+YY]
+6^y&
+SRP
+QRP
+VRP
+@;F
+QRP
+SRP
+Ct&
+Nu*
+QRP
+Ct&
+Nu*
+QRP
+QRP
+QRP
+QRP
+QRP
+uJ+
+QRP
+Pm;
+YY+
+YY#
+YY#
+YY#
+YY]
+Pm;
+Pm;
+Improper data type in sub-group expression.
+Improper data type in group expression.
+Syntax error in field expression.
+Syntax error in group expression.
+Syntax error in sub-group expression.
+No room for heading.
+Page No. 
+** Subtotal **
+* Subsubtotal *
+*** Total ***
+6^y&
+6^y&
+t,+
+6^y&
+tQ*
+6^y&
+YY;
+<9t
+PPPP
+JJR
+6^y&
+< u
+6^y&
+< t
+`y]
+HHP
+^yby
+<ru
+Zy&
+Zy&
+HHP
+4&:
+YY@@P
+6^y&
+6Zy
+6Zy&
+@u%
+6Zy&
+6Zy&
+@u2
+6Zy&
+6Zy&
+6Zy&
+OFF
+Alternate
+Bell
+Carry
+Catalog
+Century
+Confirm
+Deleted
+Delimiters
+Device
+Dohistory
+Escape
+Exact
+Fields
+Fixed
+Heading
+Help
+History
+Intensity
+Menu
+Print
+Safety
+Scoreboard
+Status
+Talk
+Title
+Unique
+Alternate
+Format
+Index
+@S20
+   x
+SCREEN
+PRINT
+        
+        
+xx  
+Options
+Screen
+Keys
+Disk
+Files
+Margin
+Decimals
+Specify the dBASE III environment options.
+Choose foreground and background color or intensity.
+Define function keys.
+Choose the default disk drive.
+Enter a list of path names to search.
+Enter a file name to use for alternate output.
+Select a format file to use for full-screen commands.
+Select up to seven index files.  First file selected is the master index.
+No file is in use.  Select a database file.
+Enter the number of spaces for the left print margin.
+Enter the number of characters to use for memo field display.
+Enter the minimum number of decimals for display.
+  Press any key to continue.
+Left report margin: 
+Memo field display width:
+Decimal places: 
+Default disk drive:   
+Disk drive search path
+Master
+Display Type
+Standard Display
+    Foreground:
+    Background:
+    Intensity:
+    Reverse:
+    Underline:
+    Blink:
+    Blank:
+Enhanced Display
+Border
+    Color:
+Foreground
+Background
+Color
+Mono
+Bright
+Dim
+Mono43
+EColor25
+EColor43
+A file name consists of up to 8 letters/digits starting with a letter.
+A disk drive letter (A-D) and a colon can precede the file name, otherwise
+current drive is used.
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+tE&
+Mu3
+6Zy&
+u);
+6Zy&
+6^y&
+YY#
+6^y&
+</uX
+6^y&
+Y<Du
+6Zy&
+6Zy&
+<.t
+tp;
+< u
+< ts
+<-t
+<-u/
+< u
+<-t
+< u
+<-u
+YY:F
+Hu#
+YY+
+u:&
+tX;
+tG=
+a N
+reccnt audit1 audit2 mergect
+.dbf
+.T44
+.W44
+Not enough disk space for SORT.
+Too many sort key fields.
+Not enough records to sort.
+Records do not balance (program error).
+Too many merge steps.
+ Records sorted
+% Sorted
+   00% Sorted
+  100% Sorted     
+Enter list of fields to sort: 
+6Zy&
+6Zy&
+6Zy&
+Ht'
+Nu!&
+Number of data records: 
+Structure for database: 
+Date of last update   : 
+** Total **
+Field  Field Name  Type       Width    Dec
+6Zy
+6Zy
+\y&
+6Zy&
+\yu
+Zyu
+6Zy
+Zy&
+t^&;G
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy
+\y&
+6Zy&
+>tz
+6tz
+RmP
+RmHP
+YY]
+YY]
+YY]
+ALTERNATE 
+DELETED   
+FIXED     
+SAFETY    
+BELL      
+DELIMITERS
+HEADING   
+SCOREBOARD
+CARRY     
+DEVICE    
+HELP      
+STATUS    
+CATALOG   
+DOHISTORY 
+HISTORY   
+STEP      
+CENTURY   
+ECHO      
+INTENSITY 
+TALK      
+CONFIRM   
+ESCAPE    
+MENU      
+TITLE     
+CONSOLE   
+EXACT     
+PRINT     
+UNIQUE    
+DEBUG     
+FIELDS    
+ON    
+OFF   
+PRINT 
+SCRN  
+Currently Selected Database: 
+Select area: 
+   Alias: 
+           Index file:  
+  Key: 
+           Memo file:   
+          Lock: 
+record 
+ is locked 
+database
+memo file
+index file
+    Computer name
+    -------------
+           Format file: 
+Filter: 
+    Related into: 
+    Relation: 
+Alternate file: 
+Procedure file: 
+File search path:   
+Default disk drive: 
+Print destination:  
+Margin = 
+   Delimiters are '
+' and '
+On Keystroke:  
+This is a RunTime statement.
+On Escape:     
+On Error:      
+Programmable function keys:
+ - 
+Modules loaded:
+Current work area =
+    Master index file:  
+6^y&
+YY#
+^y+
+6Zy&
+QRP
+QRP
+QRP
+6^y&
+Ct0
+6Zy&
+MtY+
+uG;F
+QRP
+Nuu&
+tVRP
+QRP
+QRP
+tb&
+t1RP
+QRP
+YY#
+      0 record(s) totalled
+ Record(s) totalled
+ Records generated
+6^y&
+YY#
+YY#
+YY#
+6Zy&
+Ct,
+Nu3
+QRP
+QRP
+QRP
+}5RP
+YY#
+YY#
+6Zy
+\y&
+`y+
+YY#
+D &
+D &
+t"&
+QRP
+D &
+RP&
+t"&
+t &
+<-t
+<>u$
+T &
+L"&
+.NOT.
+TRIM(
+.NOT.
+LEFT(TRIM(
+),LEN(
+))=
+.NOT.
+RIGHT(TRIM(
+),LEN(
+))=
+.NOT.
+.NOT.
+CTOD(
+Field Name 
+Operator 
+Constant/Expression 
+Connect 
+--------------------
+Line Number 
+Select a field name for the filter condition.
+Select a comparison operator for the filter condition.
+Enter an expression or constant for the filter condition.
+Select a logical connector for the filter condition.
+                                                    
+Enter the line number of the query form to edit next.
+Add
+  Start:
+  End:
+Remove
+  Start:
+  End:
+--------------------------------------------------------
+Enter the line number of the query form to start nesting.
+Enter the line number of the query form to stop nesting.
+--------------------------------------------------------
+Enter the line number of the query form to remove left parenthesis.
+Enter the line number of the query form to remove right parenthesis.
+Display the records in the database that meet the specified query condition.
+Set Filter
+Nest
+Display
+Exit
+Save
+Abandon
+Exit and save changes.
+Exit and do not save changes.
+Out of memory for filter storage.
+Cannot generate legal filter.
+Press any key to resume query.
+Line
+Field
+Operator
+Constant/Expression
+Connect
+CREATE/MOD QUERY
+Matches
+Does not match
+Begins with
+Does not begin with
+Ends with
+Does not end with
+Contains
+Does not contain
+Is contained in
+Is not contained in
+Comes after
+Comes after or matches
+Comes before
+Comes before or matches
+=  Matches
+<> Does not match
+   Begins with
+   Does not begin with
+   Ends with
+   Does not end with
+$  Contains
+   Does not contain
+   Is contained in
+   Is not contained in
+>  Comes after
+>= Comes after or matches
+<  Comes before
+<= Comes before or matches
+Equals
+More than
+More than or equal
+Less than
+Less than or equal
+Not equal to
+=  Equals
+>  More than
+>= More than or equal
+<  Less than
+<= Less than or equal
+<> Not equal to
+Is True
+Is False
+No combination
+Combine with .AND.
+Combine with .OR.
+Combine with .AND..NOT.
+Combine with .OR..NOT.
+This field must contain a valid dBASE expression.  Press any key to continue.
+Unbalanced parentheses.
+Enter Query file name:
+No fields available. Press any key to continue.
+Can't select a Memo field. Press any key to continue.
+This field must contain a valid character expression. Press any key to continue.
+This field must contain a valid numeric expression.  Press any key to continue.
+Cannot display using an invalid filter.  Leave Display option.
+Cannot save an invalid filter.  Press any key to continue.
+Unbalanced parentheses exist.  Press any key to continue.
+Error reading database file.
+Empty database file.
+No records pass through filter.
+The query table is full.  Press any key to continue.
+This field must contain a valid date expression. Press any key to continue.
+Not Implemented
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+Line
+Field
+Operator
+Constant/Expression
+Connect
+Display records in the database that meet the query condition.
+         
+ .AND.
+ .OR.
+ .AND..NOT.
+ .OR..NOT.
+   
+   
+=  
+>  
+>= 
+<  
+<= 
+<> 
+.NOT.
+P" 
+P"$
+P"(
+6^y&
+6DF
+6BF
+6DF
+6BF
+6Zy&
+uk+
+6Zy&
+>@F
+6DF
+6BF
+6DF
+6BF
+D &
+D(&
+T*&
+D$-
+D,C
+D.&
+HHP&
+H;F
+H;F
+6DF
+6BF
+HHP&
+&;D
+R@@
+T,JJ
+H;F
+H;F
+@@P&
+HHP&
+>2F
+PF=
+>PF
+> F
+6DF
+6BF
+>F#
+BF&
+@ &
+>2F
+6DF
+6BF
+>2F
+6DF
+6BF
+6F]
+D &
+tq&
+t &
+6"F
+6$F
+6&F
+6(F
+><F
+6<F
+6DF
+6BF
+>PF
+T &
+PPPPPPP
+\ &:G
+HHP
+HHP
+D &
+D &
+HHP
+D &
+D"&
+t #
+HHP
+t &
+HHP
+HHP
+t &
+HHP
+HHP
+HHP
+QRP
+QRP
+HHP
+HHP
+HHP
+HHP
+D &
+HHP
+F@P
+6<F
+YYP
+HHP
+6<F
+YYP
+HHP
+BF&
+HP+
+BF&
+BF&
+BF&
+BF&
+HP+
+BF&
+6DF
+6BF
+6DF
+6BF
+6DF
+6BF
+6DF
+6BF
+6Zy&
+6HF
+6FF
+6FF&
+HHP
+HHP
+6Zy&
+&;D
+@ &
+p &
+`y+
+@ &
+BF&
+x &
+Lu=
+BF&
+!uj
+PPPPPPP
+HHP
+6^y&
+< t
+HHP
+HHP
+HHP
+QRP
+6HF
+6FF
+6LF
+H|\
+HHP
+6NF
+6LF
+6HF
+6FF
+6Zy&
+HHP
+HHP
+HHP
+6Zy&
+HHP
+<St
+<Nt
+<Et
+PPPP
+B~|
+Q@P+
+R@P+
+R@P+
+@ &
+@ &
+HHP
+HHP
+<FHP+
+<F+
+D &
+G &
+6^y
+`y&
+6Zy&
+QRP
+^y+F
+6Zy&
+6Zy&
+6Zy
+1  
+2  
+3  
+4  
+5  
+6  
+7  
+                  
+Not implemented.
+CTOD(
+Not implemented
+FOR 
+ T 
+ Y 
+ s 
+ !#
+ <#
+ [#
+ j#
+ E$
+ N$
+ n$
+ ,%
+ g%
+ U&
+ b&
+ s&
+6tz
+6^y
+^y6
+6^y
+^y&
+6tz
+6`y
+6^y
+6^y
+^y&
+nzRP
+jzn
+lm#
+nmh
+lm<
+nmh
+nm=
+6^y
+^y6
+6nz
+6lz
+6`y
+6^y
+nm+
+tzu
+6tz
+tzYY]
+6Zy
+6Zy
+t(+
+6Zy
+6Zy&
+6Zy&
+QRP
+6^y&
+6Zy&
+QRP
+^y+F
+6Zy&
+6Zy&
+6Zy
+6Zy
+6Zy
+6Zy&
+6^y&
+^y+F
+6`y
+6^y
+6Zy
+\yu
+Zyu
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+QRP
+6Zy
+Zy&
+6^y&
+6Zy&
+< u
+6^y&
+6^y&
+6Zy&
+66`
+64`
+6^y&
+t?+
+^yby
+`y+
+6Zy
+6Zy&
+YYP
+6Zy&
+6Zy&
+Zy&
+6Zy
+6Zy
+6Zy
+YYP
+Z}p
+6Zy
+6Zy&
+YYP
+6Zy
+Z}#
+6Zy&;
+6Zy&
+YYP
+6Zy&
+PSPS
+YYP
+YYP
+Z}w
+6Zy
+6Zy&
+YYP
+6F`
+6D`
+6:`
+68`
+6Zy
+6Zy&
+6*`
+6(`
+@u#
+t8RP
+0[&
+^yby
+JJR
+Z@P
+^yby
+6J`
+6H`
+HHP
+6Zy&
+6Zy&
+6n]
+6l]
+6Zy&
+6Zy&
+HHP
+th;
+td+
+Z}-
+dpu
+bpu
+6B`
+6@`
+HHP
+Z@P
+6r]
+6p]
+6>`
+6<`
+6.`
+6,`
+HHP
+YY+
+6~]
+6|]
+Z@P
+RPP
+6Zy&
+62`
+60`
+HHP
+6N`
+6L`
+HHP
+6J`
+6H`
+HHP
+HHP
+Z}*
+Z;F
+Z;V
+H[&
+^yby
+HHP
+Zy&
+Zy&
+HHP
+6Zy&;
+u:&;
+u3&
+6Zy&
+6Zy&
+6v]
+6t]
+6v]
+6t]
+6z]
+6x]
+6Zy&
+6^y
+6J`
+6H`
+HHP
+6r]
+6p]
+6Zy&
+6\y
+6Zy
+Z}3
+dpu
+bpu
+t1&
+Z}]
+Z}:
+V[&
+Zy&
+Zy&
+Z}!
+Zuf
+Z}P
+dpu
+bpu
+Z@P
+HHP
+HHP
+HHP
+HHP
+PPPPPPPP
+HHP
+t!RP
+< t
+<:ug
+<.t
+RECNO()
+FORMAT TO 
+TO 
+FILTER TO 
+TO 
+TO 
+ INTO 
+FIELDS TO 
+TO 
+FIELDS ON 
+ON 
+view.tmp
+view.tmp
+ INDEX 
+ ALIAS 
+view.tmp
+view.tmp
+to 
+ into 
+FORMAT TO 
+Set Up
+Relate
+Set Fields
+Options
+Exit
+Filter: 
+Format: 
+Save
+Abandon
+Select database file(s) to be represented in this view.
+Select the database that will initiate the relation.
+Select a database from which to choose fields.
+Enter a logical expression to filter the records in this view.
+Select a screen format to use with full-screen commands for this view.
+Exit and save changes.
+Exit and do not save changes.
+Select up to seven index files. The first file selected is the master index.
+Select the database file that will accept the relation.
+The master index key expression is 
+Relate the files using RECNO() or another numeric expression
+Select the fields to include in this view.  Marked fields are already selected.
+A DBF file in view is not in current directory.
+Two files must be in use in order to set a relation.
+At least one file must be in use for this operation.
+Enter view file name: 
+This view is not modifiable in full-screen view.
+No files available to form this relation.
+Full screen view allows only one continuous relation chain.
+No DBF files are present.
+  Press any key to continue.
+No Format files are present in current directory.
+Relation chain: 
+t,RP
+PPP
+t *
+Y=W
+Y=R
+up+
+Y=F
+PPP
+@P+
+RPP
+Y=L
+Y=B
+< tD
+PPP
+PPP
+PPP
+`y+
+tj+
+PPP
+O}#
+O|$
+t.<
+t*"
+RPP
+H|,
+@)F
+t!P
+u,+
+PPP
+PPP
+tq+
+VPQR
+tL&
+;6p
+H;F
+< t4
+t *
+6Zy&
+t'P
+6Zy&
+6Zy&
+6Zy&
+6^y&
+<@u9
+6^y&
+t_*
+6`y
+6^y
+6Zy&
+PPP
+6Zy&
+YY3
+PPPP
+YY;F
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+RRR
+t"+
+tF<
+YY]
+t[<
+6Zy&
+YY]
+6^y&
+D4*
+6Zy&
+>bz
+READ
+dbasedit.tmp
+File too large, some data may be lost.
+Edit: 
+File is being saved.
+INSERT ON
+Abort editing? (Y/N) 
+Find?
+6^y&
+6^y&
+<?u
+6^y
+^y&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+Mu9
+Mu/
+6Zy&
+6Zy&
+6Zy&
+Nui
+<*u
+6Zy&
+YY#
+6Zy&
+6Zy&
+6Zy&
+&:G
+Dt]
+Lt/
+QRP
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+YY=
+6Zy&
+6Zy&
+6Zy&
+< u
+6^y&
+6Zy&
+6Zy&
+&;T
+&;D
+6Zy&
+6Zy&
+&;D
+&;D
+YY+
+6Zy&
+6Zy&+
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+YY+
+6Zy&
+6Zy&
+6Zy&
+6Zy&
+VRP
+6Zy&
+<rt
+t[Cu
+QRP
+QRP
+VRP
+t(=
+t#=
+<+t
+<-u
+<0r!<9w
+lt`
+<.u
+<+u
+<.u\
+<Et
+<et
+<-t
+<+u
+<"u
+<"t
+!v!v!v!
+s&+
+6Zy&
+$>$
+#F#
+a#y#y#
+CtX
+DtS
+RPV
+t$;
+<.t
+<.u9
+VRP
+<+t
+<-u/
+VSQ
+<+t
+<-u/
+VSQ
+6Zy&
+Ct/
+,V-V-
+-V-
+<Ct
+<Eu
+<Eu
+<Yt
+<+t
+<-ui
+VRP
+<Kt
+<+t
+<-uB
+VRP
+<Kt
+<Et
+<St
+Et&
+SuD
+<Tt
+TABLE
+TUPLES
+VECTORS
+DATA
+BOT
+EOD
+LABEL
+COMMENT
+SIZE
+PERIODOCITY
+MAJORSTART
+MINORSTART
+TRUELENGTH
+UNITS
+DISPLAYUNITS
+ERROR
+TRUE
+FALSE
+0123456789.Ee-
+6Zy&
+6^y&
+6Zy&
+6Zy&
+6Zy&
+YY3
+D4*
